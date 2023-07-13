@@ -1,0 +1,3 @@
+Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/topic_test/src/talker -DCMAKE_INSTALL_PREFIX=/home/lx/ros/topic_test/install/talker
+Invoked command in '/home/lx/ros/topic_test/build/talker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/topic_test/src/talker -DCMAKE_INSTALL_PREFIX=/home/lx/ros/topic_test/install/talker
+Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12

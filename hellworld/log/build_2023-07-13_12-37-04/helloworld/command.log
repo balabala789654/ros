@@ -1,0 +1,6 @@
+Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/helloworld -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/helloworld
+Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/helloworld -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/helloworld
+Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/helloworld -- -j12 -l12
+Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/helloworld -- -j12 -l12
+Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/hellworld/build/helloworld
+Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/hellworld/build/helloworld

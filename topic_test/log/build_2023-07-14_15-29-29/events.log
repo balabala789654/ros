@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (listener) JobQueued: {'identifier': 'listener', 'dependencies': OrderedDict()}
+[0.000229] (talker) JobQueued: {'identifier': 'talker', 'dependencies': OrderedDict()}
+[0.000459] (listener) JobStarted: {'identifier': 'listener'}
+[0.005042] (talker) JobStarted: {'identifier': 'talker'}
+[0.009094] (listener) JobProgress: {'identifier': 'listener', 'progress': 'cmake'}
+[0.009466] (listener) JobProgress: {'identifier': 'listener', 'progress': 'build'}
+[0.009919] (listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros/topic_test/build/listener', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros/topic_test/build/listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1131'), ('SYSTEMD_EXEC_PID', '1875'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2450'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:18428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1723,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '6b21bf627217456cae9d015400a00722'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R97571'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c4ee2e9-3c20-485a-b1fe-9d9a9ffab488'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros/topic_test/build/listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.011985] (talker) JobProgress: {'identifier': 'talker', 'progress': 'cmake'}
+[0.012377] (talker) JobProgress: {'identifier': 'talker', 'progress': 'build'}
+[0.012643] (talker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros/topic_test/build/talker', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros/topic_test/build/talker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1131'), ('SYSTEMD_EXEC_PID', '1875'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2450'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:18428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1723,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '6b21bf627217456cae9d015400a00722'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R97571'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c4ee2e9-3c20-485a-b1fe-9d9a9ffab488'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros/topic_test/build/talker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035703] (listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.044408] (talker) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[0.046115] (listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.050631] (talker) CommandEnded: {'returncode': 0}
+[0.063517] (talker) JobProgress: {'identifier': 'talker', 'progress': 'install'}
+[0.069289] (talker) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros/topic_test/build/talker'], 'cwd': '/home/lx/ros/topic_test/build/talker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1131'), ('SYSTEMD_EXEC_PID', '1875'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2450'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:18428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1723,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '6b21bf627217456cae9d015400a00722'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R97571'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c4ee2e9-3c20-485a-b1fe-9d9a9ffab488'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros/topic_test/build/talker'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.073742] (talker) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.074098] (talker) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.074349] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/ament_index/resource_index/package_run_dependencies/talker\n'}
+[0.074477] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/ament_index/resource_index/parent_prefix_path/talker\n'}
+[0.074577] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/ament_prefix_path.sh\n'}
+[0.074690] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/ament_prefix_path.dsv\n'}
+[0.074794] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/path.sh\n'}
+[0.074904] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/path.dsv\n'}
+[0.074972] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.bash\n'}
+[0.075075] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.sh\n'}
+[0.075177] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.zsh\n'}
+[0.075278] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.dsv\n'}
+[0.075358] (talker) StdoutLine: {'line': b'-- Symlinking: /home/lx/ros/topic_test/install/talker/share/talker/package.dsv\n'}
+[0.080423] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/ament_index/resource_index/packages/talker\n'}
+[0.080600] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/cmake/talkerConfig.cmake\n'}
+[0.080728] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/cmake/talkerConfig-version.cmake\n'}
+[0.080841] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/package.xml\n'}
+[0.080968] (talker) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/lib/talker/talker\n'}
+[0.082108] (talker) CommandEnded: {'returncode': 0}
+[0.098988] (-) TimerEvent: {}
+[0.113532] (talker) JobEnded: {'identifier': 'talker', 'rc': 0}
+[0.199115] (-) TimerEvent: {}
+[0.299375] (-) TimerEvent: {}
+[0.399640] (-) TimerEvent: {}
+[0.499965] (-) TimerEvent: {}
+[0.600355] (-) TimerEvent: {}
+[0.700621] (-) TimerEvent: {}
+[0.800846] (-) TimerEvent: {}
+[0.901081] (-) TimerEvent: {}
+[1.001362] (-) TimerEvent: {}
+[1.101601] (-) TimerEvent: {}
+[1.201849] (-) TimerEvent: {}
+[1.302124] (-) TimerEvent: {}
+[1.402389] (-) TimerEvent: {}
+[1.502655] (-) TimerEvent: {}
+[1.602955] (-) TimerEvent: {}
+[1.703238] (-) TimerEvent: {}
+[1.803497] (-) TimerEvent: {}
+[1.903760] (-) TimerEvent: {}
+[2.004079] (-) TimerEvent: {}
+[2.104430] (-) TimerEvent: {}
+[2.204676] (-) TimerEvent: {}
+[2.304922] (-) TimerEvent: {}
+[2.405195] (-) TimerEvent: {}
+[2.505484] (-) TimerEvent: {}
+[2.605787] (-) TimerEvent: {}
+[2.706013] (-) TimerEvent: {}
+[2.806273] (-) TimerEvent: {}
+[2.906529] (-) TimerEvent: {}
+[3.006785] (-) TimerEvent: {}
+[3.107040] (-) TimerEvent: {}
+[3.207299] (-) TimerEvent: {}
+[3.307553] (-) TimerEvent: {}
+[3.407811] (-) TimerEvent: {}
+[3.508068] (-) TimerEvent: {}
+[3.608325] (-) TimerEvent: {}
+[3.708618] (-) TimerEvent: {}
+[3.808842] (-) TimerEvent: {}
+[3.909064] (-) TimerEvent: {}
+[4.009320] (-) TimerEvent: {}
+[4.109579] (-) TimerEvent: {}
+[4.209837] (-) TimerEvent: {}
+[4.310094] (-) TimerEvent: {}
+[4.410353] (-) TimerEvent: {}
+[4.510615] (-) TimerEvent: {}
+[4.610874] (-) TimerEvent: {}
+[4.711138] (-) TimerEvent: {}
+[4.811401] (-) TimerEvent: {}
+[4.911661] (-) TimerEvent: {}
+[5.011929] (-) TimerEvent: {}
+[5.112184] (-) TimerEvent: {}
+[5.212438] (-) TimerEvent: {}
+[5.312668] (-) TimerEvent: {}
+[5.412923] (-) TimerEvent: {}
+[5.513177] (-) TimerEvent: {}
+[5.613434] (-) TimerEvent: {}
+[5.713690] (-) TimerEvent: {}
+[5.813943] (-) TimerEvent: {}
+[5.914200] (-) TimerEvent: {}
+[6.014458] (-) TimerEvent: {}
+[6.114715] (-) TimerEvent: {}
+[6.214971] (-) TimerEvent: {}
+[6.315225] (-) TimerEvent: {}
+[6.415443] (-) TimerEvent: {}
+[6.515689] (-) TimerEvent: {}
+[6.615951] (-) TimerEvent: {}
+[6.716206] (-) TimerEvent: {}
+[6.816461] (-) TimerEvent: {}
+[6.916723] (-) TimerEvent: {}
+[7.016938] (-) TimerEvent: {}
+[7.117188] (-) TimerEvent: {}
+[7.217437] (-) TimerEvent: {}
+[7.317690] (-) TimerEvent: {}
+[7.417942] (-) TimerEvent: {}
+[7.518194] (-) TimerEvent: {}
+[7.618441] (-) TimerEvent: {}
+[7.718690] (-) TimerEvent: {}
+[7.818936] (-) TimerEvent: {}
+[7.919188] (-) TimerEvent: {}
+[8.019440] (-) TimerEvent: {}
+[8.119692] (-) TimerEvent: {}
+[8.219947] (-) TimerEvent: {}
+[8.320211] (-) TimerEvent: {}
+[8.420461] (-) TimerEvent: {}
+[8.520685] (-) TimerEvent: {}
+[8.620905] (-) TimerEvent: {}
+[8.721160] (-) TimerEvent: {}
+[8.821416] (-) TimerEvent: {}
+[8.921666] (-) TimerEvent: {}
+[9.021921] (-) TimerEvent: {}
+[9.122181] (-) TimerEvent: {}
+[9.222434] (-) TimerEvent: {}
+[9.322690] (-) TimerEvent: {}
+[9.422980] (-) TimerEvent: {}
+[9.523229] (-) TimerEvent: {}
+[9.623564] (-) TimerEvent: {}
+[9.723831] (-) TimerEvent: {}
+[9.824121] (-) TimerEvent: {}
+[9.924377] (-) TimerEvent: {}
+[10.024669] (-) TimerEvent: {}
+[10.124929] (-) TimerEvent: {}
+[10.225189] (-) TimerEvent: {}
+[10.325452] (-) TimerEvent: {}
+[10.425721] (-) TimerEvent: {}
+[10.526003] (-) TimerEvent: {}
+[10.626263] (-) TimerEvent: {}
+[10.726531] (-) TimerEvent: {}
+[10.826817] (-) TimerEvent: {}
+[10.927097] (-) TimerEvent: {}
+[10.981628] (listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[11.027227] (-) TimerEvent: {}
+[11.127525] (-) TimerEvent: {}
+[11.152753] (listener) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[11.160461] (listener) CommandEnded: {'returncode': 0}
+[11.177907] (listener) JobProgress: {'identifier': 'listener', 'progress': 'install'}
+[11.177993] (listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros/topic_test/build/listener'], 'cwd': '/home/lx/ros/topic_test/build/listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1131'), ('SYSTEMD_EXEC_PID', '1875'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2450'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:18428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1723,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '6b21bf627217456cae9d015400a00722'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R97571'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c4ee2e9-3c20-485a-b1fe-9d9a9ffab488'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros/topic_test/build/listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.182156] (listener) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[11.182547] (listener) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.182711] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/package_run_dependencies/listener\n'}
+[11.182819] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/parent_prefix_path/listener\n'}
+[11.182940] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/ament_prefix_path.sh\n'}
+[11.183051] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/ament_prefix_path.dsv\n'}
+[11.183168] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/path.sh\n'}
+[11.183322] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/path.dsv\n'}
+[11.183419] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.bash\n'}
+[11.183525] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.sh\n'}
+[11.183631] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.zsh\n'}
+[11.183734] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.dsv\n'}
+[11.183819] (listener) StdoutLine: {'line': b'-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/package.dsv\n'}
+[11.188846] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/packages/listener\n'}
+[11.189130] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/cmake/listenerConfig.cmake\n'}
+[11.189252] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/cmake/listenerConfig-version.cmake\n'}
+[11.189405] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/package.xml\n'}
+[11.189579] (listener) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/lib/listener/listener\n'}
+[11.190826] (listener) CommandEnded: {'returncode': 0}
+[11.218297] (listener) JobEnded: {'identifier': 'listener', 'rc': 0}
+[11.218881] (-) EventReactorShutdown: {}

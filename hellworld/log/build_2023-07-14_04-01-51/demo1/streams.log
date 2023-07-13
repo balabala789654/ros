@@ -1,0 +1,16 @@
+[0.012s] Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/demo1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/demo1
+[0.035s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.170s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.178s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.344s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.487s] -- Configuring done
+[0.490s] -- Generating done
+[0.491s] -- Build files have been written to: /home/lx/ros/hellworld/build/demo1
+[0.497s] Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/demo1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/demo1
+[0.498s] Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12
+[0.521s] Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12

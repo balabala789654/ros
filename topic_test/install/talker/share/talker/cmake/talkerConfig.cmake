@@ -1,0 +1,1 @@
+/home/lx/ros/topic_test/build/talker/ament_cmake_core/talkerConfig.cmake

@@ -1,0 +1,186 @@
+[0.276s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--event-handlers', 'console_cohesion+', '--base-paths', '/home/lx/ros/hellworld', '--cmake-args', '-DCMAKE_BUILD_TYPE=RelWithDebInfo']
+[0.276s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=['console_cohesion+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/lx/ros/hellworld'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f720a23d7b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f720aa47160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f720aa47160>>)
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lx/ros/hellworld'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/build) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/build) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/install) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/install) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/install) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/log) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/log) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/log) ignored
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/build) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/build) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/demo1) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lx/ros/hellworld/src/demo1' with type 'ros.cmake' and name 'demo1'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/helloworld) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lx/ros/hellworld/src/helloworld' with type 'ros.ament_cmake' and name 'helloworld'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/install) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/hellworld/src/log) ignored
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'demo1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'demo1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros/hellworld/build/demo1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros/hellworld/install/demo1', 'merge_install': False, 'path': '/home/lx/ros/hellworld/src/demo1', 'symlink_install': True, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'helloworld' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'helloworld' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros/hellworld/build/helloworld', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros/hellworld/install/helloworld', 'merge_install': False, 'path': '/home/lx/ros/hellworld/src/helloworld', 'symlink_install': True, 'test_result_base': None}
+[0.397s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.400s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/lx/ros/hellworld/src/demo1' with build type 'cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros/hellworld/src/demo1'
+[0.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros/hellworld/src/helloworld' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros/hellworld/src/helloworld'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/demo1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/demo1
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/helloworld -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/helloworld
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/demo1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/demo1
+[1.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12
+[1.496s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'demo1' because it has no 'install' target
+[1.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo1)
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/demo1' for CMake module files
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/demo1' for CMake config files
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/demo1/bin'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/demo1/lib/pkgconfig/demo1.pc'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/demo1/lib/python3.10/site-packages'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/demo1/bin'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/demo1/share/demo1/package.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros/hellworld/install/demo1/share/demo1/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/demo1/share/demo1/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/demo1/share/demo1/package.bash'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/demo1/share/demo1/package.zsh'
+[1.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros/hellworld/install/demo1/share/colcon-core/packages/demo1)
+[1.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/helloworld -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/helloworld
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/helloworld -- -j12 -l12
+[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/helloworld -- -j12 -l12
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/hellworld/build/helloworld
+[1.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(helloworld)
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld' for CMake module files
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/hellworld/build/helloworld
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld' for CMake config files
+[1.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('helloworld', 'cmake_prefix_path')
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros/hellworld/install/helloworld/share/helloworld/hook/cmake_prefix_path.ps1'
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros/hellworld/install/helloworld/share/helloworld/hook/cmake_prefix_path.dsv'
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros/hellworld/install/helloworld/share/helloworld/hook/cmake_prefix_path.sh'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/bin'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/lib/pkgconfig/helloworld.pc'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/lib/python3.10/site-packages'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/bin'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.dsv'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.sh'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.bash'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.zsh'
+[1.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros/hellworld/install/helloworld/share/colcon-core/packages/helloworld)
+[1.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(helloworld)
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld' for CMake module files
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld' for CMake config files
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('helloworld', 'cmake_prefix_path')
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros/hellworld/install/helloworld/share/helloworld/hook/cmake_prefix_path.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros/hellworld/install/helloworld/share/helloworld/hook/cmake_prefix_path.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros/hellworld/install/helloworld/share/helloworld/hook/cmake_prefix_path.sh'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/bin'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/lib/pkgconfig/helloworld.pc'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/lib/python3.10/site-packages'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/hellworld/install/helloworld/bin'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.sh'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.bash'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.zsh'
+[1.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros/hellworld/install/helloworld/share/colcon-core/packages/helloworld)
+[1.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.706s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.711s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.711s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.731s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.732s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/hellworld/install/local_setup.ps1'
+[1.733s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lx/ros/hellworld/install/_local_setup_util_ps1.py'
+[1.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/hellworld/install/setup.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/hellworld/install/local_setup.sh'
+[1.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lx/ros/hellworld/install/_local_setup_util_sh.py'
+[1.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/hellworld/install/setup.sh'
+[1.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/hellworld/install/local_setup.bash'
+[1.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/hellworld/install/setup.bash'
+[1.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/hellworld/install/local_setup.zsh'
+[1.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/hellworld/install/setup.zsh'

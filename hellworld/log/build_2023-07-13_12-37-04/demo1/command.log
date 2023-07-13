@@ -1,0 +1,4 @@
+Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/demo1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/demo1
+Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros/hellworld/src/demo1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lx/ros/hellworld/install/demo1
+Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12
+Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12

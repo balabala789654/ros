@@ -1,0 +1,14 @@
+# - Config file for the demo1 package
+# It defines the following variables
+#  demo1_INCLUDE_DIRS - include directories for FooBar
+#  demo1_LIBRARIES    - libraries to link against
+#  demo1_EXECUTABLE   - the bar executable
+
+set(demo1_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+
+# Our library dependencies (contains definitions for IMPORTED targets)
+include("${demo1_DIR}/export_demo1.cmake")
+
+# These are IMPORTED targets created by demo1Targets.cmake
+
+

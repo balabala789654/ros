@@ -1,0 +1,2 @@
+[0.013s] Invoking command in '/home/lx/ros/hellworld/build/demo1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12
+[0.040s] Invoked command in '/home/lx/ros/hellworld/build/demo1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/demo1 -- -j12 -l12

@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/helloworld -- -j12 -l12
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o[0m
+[3.076s] [100%] [32m[1mLinking CXX executable helloworld[0m
+[3.149s] [100%] Built target helloworld
+[3.156s] Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/hellworld/build/helloworld -- -j12 -l12
+[3.174s] Invoking command in '/home/lx/ros/hellworld/build/helloworld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/hellworld/build/helloworld
+[3.178s] -- Install configuration: "RelWithDebInfo"
+[3.178s] -- Execute custom install script
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/ament_prefix_path.sh
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/path.sh
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/path.dsv
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.bash
+[3.179s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.sh
+[3.180s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.zsh
+[3.180s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.dsv
+[3.180s] -- Symlinking: /home/lx/ros/hellworld/install/helloworld/share/helloworld/package.dsv
+[3.185s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/ament_index/resource_index/packages/helloworld
+[3.185s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake
+[3.185s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake
+[3.185s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/share/helloworld/package.xml
+[3.185s] -- Up-to-date symlink: /home/lx/ros/hellworld/install/helloworld/lib/helloworld/helloworld
+[3.188s] Invoked command in '/home/lx/ros/hellworld/build/helloworld' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/hellworld/build/helloworld

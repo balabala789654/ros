@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[6.103s] [100%] [32m[1mLinking CXX executable talker[0m
+[6.224s] [100%] Built target talker
+[6.232s] Invoked command in '/home/lx/ros/topic_test/build/talker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12
+[6.246s] Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/topic_test/build/talker
+[6.251s] -- Install configuration: "RelWithDebInfo"
+[6.251s] -- Execute custom install script
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/ament_index/resource_index/package_run_dependencies/talker
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/ament_index/resource_index/parent_prefix_path/talker
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/ament_prefix_path.sh
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/ament_prefix_path.dsv
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/path.sh
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/environment/path.dsv
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.bash
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.sh
+[6.252s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.zsh
+[6.253s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/local_setup.dsv
+[6.253s] -- Symlinking: /home/lx/ros/topic_test/install/talker/share/talker/package.dsv
+[6.259s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/ament_index/resource_index/packages/talker
+[6.259s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/cmake/talkerConfig.cmake
+[6.259s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/cmake/talkerConfig-version.cmake
+[6.259s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/share/talker/package.xml
+[6.259s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/talker/lib/talker/talker
+[6.260s] Invoked command in '/home/lx/ros/topic_test/build/talker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/topic_test/build/talker

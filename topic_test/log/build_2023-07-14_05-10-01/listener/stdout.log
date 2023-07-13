@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[100%] Built target listener
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/package_run_dependencies/listener
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/parent_prefix_path/listener
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/environment/ament_prefix_path.sh
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/environment/path.sh
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/environment/path.dsv
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.bash
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.sh
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.zsh
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.dsv
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/package.dsv
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/packages/listener
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/cmake/listenerConfig.cmake
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/cmake/listenerConfig-version.cmake
+-- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/package.xml
+-- Symlinking: /home/lx/ros/topic_test/install/listener/lib/listener/listener

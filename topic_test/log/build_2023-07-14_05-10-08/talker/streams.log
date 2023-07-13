@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.192s] [01m[K/home/lx/ros/topic_test/src/talker/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[0.193s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.193s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.193s] compilation terminated.
+[0.194s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76：CMakeFiles/talker.dir/src/talker.cpp.o] 错误 1
+[0.195s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/talker.dir/all] 错误 2
+[0.195s] gmake: *** [Makefile:146：all] 错误 2
+[0.197s] Invoked command in '/home/lx/ros/topic_test/build/talker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12

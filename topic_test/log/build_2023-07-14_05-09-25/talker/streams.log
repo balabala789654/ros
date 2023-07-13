@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/topic_test/src/talker -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/topic_test/install/talker
+[0.071s] -- The C compiler identification is GNU 11.3.0
+[0.129s] -- The CXX compiler identification is GNU 11.3.0
+[0.135s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.391s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.466s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.509s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.694s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.728s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Looking for pthread.h
+[0.790s] -- Looking for pthread.h - found
+[0.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.841s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.842s] -- Found Threads: TRUE  
+[0.980s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.045s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.045s] -- Configured cppcheck include dirs: 
+[1.045s] -- Configured cppcheck exclude dirs and/or files: 
+[1.045s] -- Added test 'lint_cmake' to check CMake code style
+[1.046s] -- Added test 'uncrustify' to check C / C++ code style
+[1.046s] -- Configured uncrustify additional arguments: 
+[1.046s] -- Added test 'xmllint' to check XML markup files
+[1.048s] -- Configuring done
+[1.054s] -- Generating done
+[1.056s] -- Build files have been written to: /home/lx/ros/topic_test/build/talker
+[1.064s] Invoked command in '/home/lx/ros/topic_test/build/talker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/topic_test/src/talker -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/topic_test/install/talker
+[1.065s] Invoking command in '/home/lx/ros/topic_test/build/talker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12
+[1.098s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[1.256s] [01m[K/home/lx/ros/topic_test/src/talker/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/string.hpp: 没有那个文件或目录
+[1.256s]     2 | #include [01;31m[K"std_msgs/string.hpp"[m[K
+[1.256s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.256s] compilation terminated.
+[1.258s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76：CMakeFiles/talker.dir/src/talker.cpp.o] 错误 1
+[1.258s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/talker.dir/all] 错误 2
+[1.258s] gmake: *** [Makefile:146：all] 错误 2
+[1.261s] Invoked command in '/home/lx/ros/topic_test/build/talker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/talker -- -j12 -l12

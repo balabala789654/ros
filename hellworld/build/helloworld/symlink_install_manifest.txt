@@ -1,0 +1,16 @@
+/home/lx/ros/hellworld/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld
+/home/lx/ros/hellworld/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/ament_prefix_path.sh
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/path.sh
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/environment/path.dsv
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.bash
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.sh
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.zsh
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/local_setup.dsv
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.dsv
+/home/lx/ros/hellworld/install/helloworld/share/ament_index/resource_index/packages/helloworld
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake
+/home/lx/ros/hellworld/install/helloworld/share/helloworld/package.xml
+/home/lx/ros/hellworld/install/helloworld/lib/helloworld/helloworld

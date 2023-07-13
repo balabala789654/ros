@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/lx/ros/topic_test/build/listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/listener -- -j12 -l12
+[0.047s] [100%] Built target listener
+[0.054s] Invoked command in '/home/lx/ros/topic_test/build/listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/listener -- -j12 -l12
+[0.073s] Invoking command in '/home/lx/ros/topic_test/build/listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/topic_test/build/listener
+[0.077s] -- Install configuration: "RelWithDebInfo"
+[0.077s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/package_run_dependencies/listener
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/parent_prefix_path/listener
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/ament_prefix_path.sh
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/ament_prefix_path.dsv
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/path.sh
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/environment/path.dsv
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.bash
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.sh
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.zsh
+[0.078s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/local_setup.dsv
+[0.078s] -- Symlinking: /home/lx/ros/topic_test/install/listener/share/listener/package.dsv
+[0.084s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/ament_index/resource_index/packages/listener
+[0.084s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/cmake/listenerConfig.cmake
+[0.084s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/cmake/listenerConfig-version.cmake
+[0.084s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/share/listener/package.xml
+[0.084s] -- Up-to-date symlink: /home/lx/ros/topic_test/install/listener/lib/listener/listener
+[0.086s] Invoked command in '/home/lx/ros/topic_test/build/listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/topic_test/build/listener

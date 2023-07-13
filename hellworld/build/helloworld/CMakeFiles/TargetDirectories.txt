@@ -1,0 +1,10 @@
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/uninstall.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/helloworld_uninstall.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/helloworld.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/test.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/edit_cache.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/rebuild_cache.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/list_install_components.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/install.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/install/local.dir
+/home/lx/ros/hellworld/build/helloworld/CMakeFiles/install/strip.dir
