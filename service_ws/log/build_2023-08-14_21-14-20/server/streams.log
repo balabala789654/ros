@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server_1.cpp.o[0m
+[2.262s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[2.262s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.262s]     4 | int main([01;35m[Kint argc[m[K, char const *argv[])
+[2.262s]       |          [01;35m[K~~~~^~~~[m[K
+[2.262s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:4:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.262s]     4 | int main(int argc, [01;35m[Kchar const *argv[][m[K)
+[2.262s]       |                    [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[3.127s] [100%] [32m[1mLinking CXX executable server[0m
+[3.265s] [100%] Built target server
+[3.279s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[3.300s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/server
+[3.308s] -- Install configuration: "RelWithDebInfo"
+[3.308s] -- Execute custom install script
+[3.308s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/package_run_dependencies/server
+[3.317s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/parent_prefix_path/server
+[3.324s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.sh
+[3.331s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.dsv
+[3.338s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/path.sh
+[3.344s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/path.dsv
+[3.350s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.bash
+[3.356s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.sh
+[3.362s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.zsh
+[3.367s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.dsv
+[3.373s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.dsv
+[3.379s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/packages/server
+[3.385s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig.cmake
+[3.391s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig-version.cmake
+[3.396s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.xml
+[3.403s] -- Symlinking: /home/lx/ros/service_ws/install/server/lib/server/server
+[3.413s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/server

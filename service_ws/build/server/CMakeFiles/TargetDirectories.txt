@@ -1,0 +1,10 @@
+/home/lx/ros/service_ws/build/server/CMakeFiles/uninstall.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/server_uninstall.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/server.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/test.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/edit_cache.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/rebuild_cache.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/list_install_components.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/install.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/install/local.dir
+/home/lx/ros/service_ws/build/server/CMakeFiles/install/strip.dir

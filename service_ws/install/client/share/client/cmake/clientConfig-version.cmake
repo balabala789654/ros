@@ -1,0 +1,1 @@
+/home/lx/ros/service_ws/build/client/ament_cmake_core/clientConfig-version.cmake

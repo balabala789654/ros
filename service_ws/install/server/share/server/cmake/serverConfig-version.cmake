@@ -1,0 +1,1 @@
+/home/lx/ros/service_ws/build/server/ament_cmake_core/serverConfig-version.cmake

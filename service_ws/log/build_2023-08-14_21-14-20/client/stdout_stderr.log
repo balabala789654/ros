@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[100%] Built target client
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/package_run_dependencies/client
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/parent_prefix_path/client
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.sh
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/environment/path.sh
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/environment/path.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/local_setup.bash
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/local_setup.sh
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/local_setup.zsh
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/local_setup.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/package.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/packages/client
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig.cmake
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig-version.cmake
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/package.xml
+-- Symlinking: /home/lx/ros/service_ws/install/client/lib/client/client

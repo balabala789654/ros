@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server_1.cpp.o[0m
+[01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:4:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | int main([01;35m[Kint argc[m[K, char const *argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:4:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | int main(int argc, [01;35m[Kchar const *argv[][m[K)
+      |                    [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/package_run_dependencies/server
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/parent_prefix_path/server
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.sh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/path.sh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/path.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.bash
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.sh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.zsh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/packages/server
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig.cmake
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig-version.cmake
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.xml
+-- Symlinking: /home/lx/ros/service_ws/install/server/lib/server/server

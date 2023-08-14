@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server_1.cpp.o[0m
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/package_run_dependencies/server
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/parent_prefix_path/server
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.sh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/path.sh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/environment/path.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.bash
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.sh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.zsh
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/local_setup.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/packages/server
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig.cmake
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig-version.cmake
+-- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.xml
+-- Symlinking: /home/lx/ros/service_ws/install/server/lib/server/server

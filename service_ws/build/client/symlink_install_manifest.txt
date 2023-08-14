@@ -1,0 +1,16 @@
+/home/lx/ros/service_ws/install/client/share/ament_index/resource_index/package_run_dependencies/client
+/home/lx/ros/service_ws/install/client/share/ament_index/resource_index/parent_prefix_path/client
+/home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.sh
+/home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.dsv
+/home/lx/ros/service_ws/install/client/share/client/environment/path.sh
+/home/lx/ros/service_ws/install/client/share/client/environment/path.dsv
+/home/lx/ros/service_ws/install/client/share/client/local_setup.bash
+/home/lx/ros/service_ws/install/client/share/client/local_setup.sh
+/home/lx/ros/service_ws/install/client/share/client/local_setup.zsh
+/home/lx/ros/service_ws/install/client/share/client/local_setup.dsv
+/home/lx/ros/service_ws/install/client/share/client/package.dsv
+/home/lx/ros/service_ws/install/client/share/ament_index/resource_index/packages/client
+/home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig.cmake
+/home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig-version.cmake
+/home/lx/ros/service_ws/install/client/share/client/package.xml
+/home/lx/ros/service_ws/install/client/lib/client/client

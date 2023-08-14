@@ -1,0 +1,145 @@
+[0.265s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--event-handlers', 'console_cohesion+', '--base-paths', '/home/lx/ros/service_ws', '--cmake-args', '-DCMAKE_BUILD_TYPE=RelWithDebInfo']
+[0.265s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=['console_cohesion+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/lx/ros/service_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb4a07c97e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb4a10174f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb4a10174f0>>)
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.293s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lx/ros/service_ws'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/build) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/build) ignored
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/install) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/install) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/log) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/log) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/client) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lx/ros/service_ws/src/client' with type 'ros.ament_cmake' and name 'client'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros/service_ws/src/server) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lx/ros/service_ws/src/server' with type 'ros.ament_cmake' and name 'server'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.330s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lx/ros/service_ws/install
+[0.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lx/ros/topic_test/install
+[0.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros/service_ws/build/client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros/service_ws/install/client', 'merge_install': False, 'path': '/home/lx/ros/service_ws/src/client', 'symlink_install': True, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros/service_ws/build/server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros/service_ws/install/server', 'merge_install': False, 'path': '/home/lx/ros/service_ws/src/server', 'symlink_install': True, 'test_result_base': None}
+[0.382s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.385s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros/service_ws/src/client' with build type 'ament_cmake'
+[0.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros/service_ws/src/client'
+[0.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros/service_ws/src/server' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros/service_ws/src/server'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/client -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/client
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/server -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/server
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/service_ws/build/client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/client -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/client
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/client -- -j12 -l12
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/server -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/server
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros/service_ws/build/server' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(server)
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/service_ws/install/server' for CMake module files
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/service_ws/install/server' for CMake config files
+[1.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('server', 'cmake_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros/service_ws/install/server/share/server/hook/cmake_prefix_path.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros/service_ws/install/server/share/server/hook/cmake_prefix_path.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros/service_ws/install/server/share/server/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/service_ws/install/server/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/service_ws/install/server/lib/pkgconfig/server.pc'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/service_ws/install/server/lib/python3.10/site-packages'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros/service_ws/install/server/bin'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/service_ws/install/server/share/server/package.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros/service_ws/install/server/share/server/package.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/service_ws/install/server/share/server/package.sh'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/service_ws/install/server/share/server/package.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros/service_ws/install/server/share/server/package.zsh'
+[1.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros/service_ws/install/server/share/colcon-core/packages/server)
+[4.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.284s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.289s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.298s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/service_ws/install/local_setup.ps1'
+[4.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lx/ros/service_ws/install/_local_setup_util_ps1.py'
+[4.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/service_ws/install/setup.ps1'
+[4.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/service_ws/install/local_setup.sh'
+[4.303s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lx/ros/service_ws/install/_local_setup_util_sh.py'
+[4.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/service_ws/install/setup.sh'
+[4.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/service_ws/install/local_setup.bash'
+[4.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/service_ws/install/setup.bash'
+[4.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros/service_ws/install/local_setup.zsh'
+[4.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros/service_ws/install/setup.zsh'
