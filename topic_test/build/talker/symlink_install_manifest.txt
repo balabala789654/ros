@@ -14,3 +14,4 @@
 /home/lx/ros/topic_test/install/talker/share/talker/cmake/talkerConfig-version.cmake
 /home/lx/ros/topic_test/install/talker/share/talker/package.xml
 /home/lx/ros/topic_test/install/talker/lib/talker/talker
+/home/lx/ros/topic_test/install/talker/lib/talker/talker_2

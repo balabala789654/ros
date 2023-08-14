@@ -25,9 +25,14 @@ endif()
 ament_package()
 
 add_executable(talker src/talker.cpp)
+add_executable(talker_2 src/talker_2.cpp)
+
 ament_target_dependencies(talker rclcpp std_msgs)
+ament_target_dependencies(talker_2 rclcpp std_msgs)
+
 
 install(TARGETS
   talker
+  talker_2
   DESTINATION lib/${PROJECT_NAME}
 )

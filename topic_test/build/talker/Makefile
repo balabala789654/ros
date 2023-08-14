@@ -210,6 +210,19 @@ talker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
 .PHONY : talker/fast
 
+#=============================================================================
+# Target rules for targets named talker_2
+
+# Build rule for target.
+talker_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker_2
+.PHONY : talker_2
+
+# fast build rule for target.
+talker_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker_2.dir/build.make CMakeFiles/talker_2.dir/build
+.PHONY : talker_2/fast
+
 src/talker.o: src/talker.cpp.o
 .PHONY : src/talker.o
 
@@ -234,6 +247,30 @@ src/talker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/talker.cpp.s
 .PHONY : src/talker.cpp.s
 
+src/talker_2.o: src/talker_2.cpp.o
+.PHONY : src/talker_2.o
+
+# target to build an object file
+src/talker_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker_2.dir/build.make CMakeFiles/talker_2.dir/src/talker_2.cpp.o
+.PHONY : src/talker_2.cpp.o
+
+src/talker_2.i: src/talker_2.cpp.i
+.PHONY : src/talker_2.i
+
+# target to preprocess a source file
+src/talker_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker_2.dir/build.make CMakeFiles/talker_2.dir/src/talker_2.cpp.i
+.PHONY : src/talker_2.cpp.i
+
+src/talker_2.s: src/talker_2.cpp.s
+.PHONY : src/talker_2.s
+
+# target to generate assembly for a file
+src/talker_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker_2.dir/build.make CMakeFiles/talker_2.dir/src/talker_2.cpp.s
+.PHONY : src/talker_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... talker_uninstall"
 	@echo "... uninstall"
 	@echo "... talker"
+	@echo "... talker_2"
 	@echo "... src/talker.o"
 	@echo "... src/talker.i"
 	@echo "... src/talker.s"
+	@echo "... src/talker_2.o"
+	@echo "... src/talker_2.i"
+	@echo "... src/talker_2.s"
 .PHONY : help
 
 

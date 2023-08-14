@@ -1,0 +1,4 @@
+Invoking command in '/home/lx/ros/topic_test/build/listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/listener -- -j12 -l12
+Invoked command in '/home/lx/ros/topic_test/build/listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/topic_test/build/listener -- -j12 -l12
+Invoking command in '/home/lx/ros/topic_test/build/listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/topic_test/build/listener
+Invoked command in '/home/lx/ros/topic_test/build/listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/topic_test/build/listener

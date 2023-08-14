@@ -352,5 +352,5 @@ ament_cmake_symlink_install_files("/home/lx/ros/topic_test/src/talker" FILES "/h
 # install(FILES "/home/lx/ros/topic_test/src/talker/package.xml" "DESTINATION" "share/talker")
 ament_cmake_symlink_install_files("/home/lx/ros/topic_test/src/talker" FILES "/home/lx/ros/topic_test/src/talker/package.xml" "DESTINATION" "share/talker")
 
-# install("TARGETS" "talker" "DESTINATION" "lib/talker")
+# install("TARGETS" "talker" "talker_2" "DESTINATION" "lib/talker")
 include("/home/lx/ros/topic_test/build/talker/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
