@@ -1,1 +1,1 @@
-/home/lx/ros/service_ws/install/client:/home/lx/ros/topic_test/install/talker:/home/lx/ros/topic_test/install/listener:/opt/ros/humble
+/home/lx/ros/service_ws/install/server:/home/lx/ros/service_ws/install/client:/home/lx/ros/topic_test/install/talker:/home/lx/ros/topic_test/install/listener:/opt/ros/humble

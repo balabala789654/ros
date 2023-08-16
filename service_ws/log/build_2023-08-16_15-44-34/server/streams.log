@@ -1,0 +1,99 @@
+[0.010s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/server -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/server
+[0.022s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.078s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.144s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.181s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.184s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.518s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.641s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.696s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.696s] -- Configured cppcheck include dirs: 
+[0.696s] -- Configured cppcheck exclude dirs and/or files: 
+[0.696s] -- Added test 'lint_cmake' to check CMake code style
+[0.696s] -- Added test 'uncrustify' to check C / C++ code style
+[0.696s] -- Configured uncrustify additional arguments: 
+[0.697s] -- Added test 'xmllint' to check XML markup files
+[0.698s] -- Configuring done
+[0.708s] -- Generating done
+[0.710s] -- Build files have been written to: /home/lx/ros/service_ws/build/server
+[0.722s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/server -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/server
+[0.723s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.762s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server_1.cpp.o[0m
+[2.859s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.860s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.860s]                  from [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:1[m[K:
+[2.860s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:[m[K In member function ‘[01m[Kvoid server::server_handle(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[2.860s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:16:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.860s]    16 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"request %d %d"[m[K, [32m[Krequest->a[m[K, request->b);
+[2.860s]       |                                             [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~[m[K
+[2.860s]       |                                                                       [32m[K|[m[K
+[2.860s]       |                                                                       [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[2.860s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:16:55:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.860s]    16 |             RCLCPP_INFO(this->get_logger(), "request [01;36m[K%d[m[K %d", request->a, request->b);
+[2.860s]       |                                                      [01;36m[K~^[m[K
+[2.861s]       |                                                       [01;36m[K|[m[K
+[2.861s]       |                                                       [01;36m[Kint[m[K
+[2.861s]       |                                                      [32m[K%ld[m[K
+[2.861s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.861s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.861s]                  from [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:1[m[K:
+[2.861s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:16:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.861s]    16 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"request %d %d"[m[K, request->a, [32m[Krequest->b[m[K);
+[2.861s]       |                                             [01;35m[K^~~~~~~~~~~~~~~[m[K              [32m[K~~~~~~~~~~[m[K
+[2.861s]       |                                                                                   [32m[K|[m[K
+[2.862s]       |                                                                                   [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}[m[K
+[2.862s] [01m[K/home/lx/ros/service_ws/src/server/src/server_1.cpp:16:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.862s]    16 |             RCLCPP_INFO(this->get_logger(), "request %d [01;36m[K%d[m[K", request->a, request->b);
+[2.862s]       |                                                         [01;36m[K~^[m[K
+[2.862s]       |                                                          [01;36m[K|[m[K
+[2.862s]       |                                                          [01;36m[Kint[m[K
+[2.862s]       |                                                         [32m[K%ld[m[K
+[4.823s] [100%] [32m[1mLinking CXX executable server[0m
+[4.923s] [100%] Built target server
+[4.930s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[4.944s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/server
+[4.949s] -- Install configuration: "RelWithDebInfo"
+[4.949s] -- Execute custom install script
+[4.949s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/package_run_dependencies/server
+[4.949s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/parent_prefix_path/server
+[4.950s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.sh
+[4.950s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.dsv
+[4.950s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/path.sh
+[4.950s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/path.dsv
+[4.950s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.bash
+[4.950s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.sh
+[4.951s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.zsh
+[4.951s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.dsv
+[4.951s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.dsv
+[4.956s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/packages/server
+[4.956s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig.cmake
+[4.957s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig-version.cmake
+[4.957s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/package.xml
+[4.957s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/lib/server/server
+[4.960s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/server

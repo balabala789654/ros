@@ -1,0 +1,6 @@
+Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/client -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/client
+Invoked command in '/home/lx/ros/service_ws/build/client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros/service_ws/src/client -DCMAKE_INSTALL_PREFIX=/home/lx/ros/service_ws/install/client
+Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/client -- -j12 -l12
+Invoked command in '/home/lx/ros/service_ws/build/client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/client -- -j12 -l12
+Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/client
+Invoked command in '/home/lx/ros/service_ws/build/client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/client

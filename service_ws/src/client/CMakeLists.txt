@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -26,7 +27,7 @@ ament_package()
 
 add_executable(client src/client_1.cpp)
 
-ament_target_dependencies(client rclcpp std_msgs)
+ament_target_dependencies(client rclcpp std_msgs example_interfaces)
 
 install(TARGETS
   client
