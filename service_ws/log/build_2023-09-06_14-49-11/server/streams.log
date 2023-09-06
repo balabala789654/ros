@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server_1.cpp.o[0m
+[4.341s] [100%] [32m[1mLinking CXX executable server[0m
+[4.439s] [100%] Built target server
+[4.454s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/server -- -j12 -l12
+[4.475s] Invoking command in '/home/lx/ros/service_ws/build/server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/server
+[4.481s] -- Install configuration: "RelWithDebInfo"
+[4.482s] -- Execute custom install script
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/package_run_dependencies/server
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/parent_prefix_path/server
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.sh
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/ament_prefix_path.dsv
+[4.483s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/path.sh
+[4.483s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/environment/path.dsv
+[4.483s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.bash
+[4.483s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.sh
+[4.483s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.zsh
+[4.483s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/local_setup.dsv
+[4.483s] -- Symlinking: /home/lx/ros/service_ws/install/server/share/server/package.dsv
+[4.489s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/ament_index/resource_index/packages/server
+[4.489s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig.cmake
+[4.489s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/cmake/serverConfig-version.cmake
+[4.490s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/share/server/package.xml
+[4.490s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/server/lib/server/server
+[4.492s] Invoked command in '/home/lx/ros/service_ws/build/server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/server

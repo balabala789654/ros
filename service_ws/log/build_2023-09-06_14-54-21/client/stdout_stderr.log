@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_1.cpp.o[0m
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:49:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kb[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   49 |     int a, [01;35m[Kb[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ka[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   49 |     int [01;35m[Ka[m[K, b;
+      |         [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/package_run_dependencies/client
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/parent_prefix_path/client
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/path.sh
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/path.dsv
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.bash
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.sh
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.zsh
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.dsv
+-- Symlinking: /home/lx/ros/service_ws/install/client/share/client/package.dsv
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/packages/client
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig.cmake
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig-version.cmake
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/package.xml
+-- Up-to-date symlink: /home/lx/ros/service_ws/install/client/lib/client/client

@@ -1,0 +1,9 @@
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:53:29:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Ka[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+   53 |         node->send_request([01;35m[Ka++[m[K, b+=a);
+      |                            [01;35m[K~^~[m[K
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:53:29:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Ka[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:53:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kb[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   53 |         [01;35m[Knode->send_request(a++, b+=a)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:53:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ka[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]

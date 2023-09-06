@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/client -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client_1.cpp.o[0m
+[4.099s] [01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.099s] [01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:49:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kb[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[4.099s]    49 |     int a, [01;35m[Kb[m[K;
+[4.099s]       |            [01;35m[K^[m[K
+[4.099s] [01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ka[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[4.100s]    49 |     int [01;35m[Ka[m[K, b;
+[4.100s]       |         [01;35m[K^[m[K
+[4.354s] [100%] [32m[1mLinking CXX executable client[0m
+[4.451s] [100%] Built target client
+[4.459s] Invoked command in '/home/lx/ros/service_ws/build/client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros/service_ws/build/client -- -j12 -l12
+[4.473s] Invoking command in '/home/lx/ros/service_ws/build/client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/client
+[4.480s] -- Install configuration: "RelWithDebInfo"
+[4.482s] -- Execute custom install script
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/package_run_dependencies/client
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/parent_prefix_path/client
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.sh
+[4.482s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/ament_prefix_path.dsv
+[4.484s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/path.sh
+[4.485s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/environment/path.dsv
+[4.485s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.bash
+[4.485s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.sh
+[4.486s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.zsh
+[4.486s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/local_setup.dsv
+[4.486s] -- Symlinking: /home/lx/ros/service_ws/install/client/share/client/package.dsv
+[4.492s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/ament_index/resource_index/packages/client
+[4.492s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig.cmake
+[4.492s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/cmake/clientConfig-version.cmake
+[4.492s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/share/client/package.xml
+[4.492s] -- Up-to-date symlink: /home/lx/ros/service_ws/install/client/lib/client/client
+[4.495s] Invoked command in '/home/lx/ros/service_ws/build/client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros/service_ws/build/client

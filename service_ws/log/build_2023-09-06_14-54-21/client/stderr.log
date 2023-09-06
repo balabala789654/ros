@@ -1,0 +1,7 @@
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:49:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kb[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   49 |     int a, [01;35m[Kb[m[K;
+      |            [01;35m[K^[m[K
+[01m[K/home/lx/ros/service_ws/src/client/src/client_1.cpp:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ka[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   49 |     int [01;35m[Ka[m[K, b;
+      |         [01;35m[K^[m[K
