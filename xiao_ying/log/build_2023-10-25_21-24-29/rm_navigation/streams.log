@@ -1,0 +1,70 @@
+[0.074s] Invoking command in '/home/lx/ros2/xiao_ying/build/rm_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/xiao_ying/src/rm_navigation -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/xiao_ying/install/rm_navigation
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.203s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.344s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.351s] -- Detecting CXX compile features - done
+[0.354s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.676s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.832s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.955s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.955s] -- Added test 'lint_cmake' to check CMake code style
+[0.956s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.957s] -- Added test 'xmllint' to check XML markup files
+[0.957s] -- Configuring done
+[0.960s] -- Generating done
+[0.960s] -- Build files have been written to: /home/lx/ros2/xiao_ying/build/rm_navigation
+[0.964s] Invoked command in '/home/lx/ros2/xiao_ying/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/xiao_ying/src/rm_navigation -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/xiao_ying/install/rm_navigation
+[0.966s] Invoking command in '/home/lx/ros2/xiao_ying/build/rm_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/xiao_ying/build/rm_navigation -- -j12 -l12
+[1.008s] Invoked command in '/home/lx/ros2/xiao_ying/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/xiao_ying/build/rm_navigation -- -j12 -l12
+[1.039s] Invoking command in '/home/lx/ros2/xiao_ying/build/rm_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/xiao_ying/build/rm_navigation
+[1.049s] -- Install configuration: ""
+[1.049s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/params
+[1.049s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/params/mapper_params_online_async.yaml
+[1.049s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/params/nav2_params.yaml
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/bringup_launch.py
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/slam_launch.py
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/online_async_launch.py
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/bringup_no_amcl_launch.py
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/localization_launch.py
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/rviz_launch.py
+[1.050s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/launch/navigation_launch.py
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1694007542.yaml
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1694007542.pgm
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_o.yaml
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1694438103.yaml
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1694438103.pgm
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1695900691.yaml
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1693979014.pgm
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map.pgm
+[1.051s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1695900691.pgm
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1693985699.pgm
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1694431716.pgm
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/ssdsad.yaml
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map_1694431716.yaml
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/map/map.yaml
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/ament_index/resource_index/package_run_dependencies/rm_navigation
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/ament_index/resource_index/parent_prefix_path/rm_navigation
+[1.052s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/environment/ament_prefix_path.sh
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/environment/ament_prefix_path.dsv
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/environment/path.sh
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/environment/path.dsv
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/local_setup.bash
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/local_setup.sh
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/local_setup.zsh
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/local_setup.dsv
+[1.053s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/package.dsv
+[1.054s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/ament_index/resource_index/packages/rm_navigation
+[1.054s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/cmake/rm_navigationConfig.cmake
+[1.054s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/cmake/rm_navigationConfig-version.cmake
+[1.054s] -- Installing: /home/lx/ros2/xiao_ying/install/rm_navigation/share/rm_navigation/package.xml
+[1.056s] Invoked command in '/home/lx/ros2/xiao_ying/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/xiao_ying/build/rm_navigation

@@ -1,0 +1,2 @@
+Invoking command in '/home/lx/ros2/gezebo_ws/build/venue': /usr/bin/cmake /home/lx/ros2/gezebo_ws/src/venue -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/gezebo_ws/install/venue
+Invoked command in '/home/lx/ros2/gezebo_ws/build/venue' returned '1': /usr/bin/cmake /home/lx/ros2/gezebo_ws/src/venue -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/gezebo_ws/install/venue

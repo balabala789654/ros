@@ -1,0 +1,54 @@
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/time.hpp:9[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/common/time.cpp:7[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/typedefs.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+    9 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/time.hpp:9[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/math.hpp:9[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/common/math.cpp:8[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/typedefs.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+    9 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:104：CMakeFiles/icp_localization.dir/src/common/math.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:118：CMakeFiles/icp_localization.dir/src/common/time.cpp.o] 错误 1
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/helpers.hpp:10[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/helpers.cpp:8[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/typedefs.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+    9 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:132：CMakeFiles/icp_localization.dir/src/helpers.cpp.o] 错误 1
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/time.hpp:9[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/transform/RigidTransform.hpp:26[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/transform/FrameTracker.hpp:16[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/transform/FrameTracker.cpp:8[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/typedefs.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+    9 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:160：CMakeFiles/icp_localization.dir/src/transform/FrameTracker.cpp.o] 错误 1
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/ICPlocalization.cpp:7[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+   13 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:76：CMakeFiles/icp_localization.dir/src/ICPlocalization.cpp.o] 错误 1
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/time.hpp:9[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/RangeDataAccumulator.hpp:11[m[K,
+                 from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/RangeDataAccumulator.cpp:8[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/common/typedefs.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+    9 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:90：CMakeFiles/icp_localization.dir/src/RangeDataAccumulator.cpp.o] 错误 1
+In file included from [01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/src/localizer_node.cpp:7[m[K:
+[01m[K/home/lx/ros2/xiao_ying/src/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kpointmatcher/PointMatcher.h: 没有那个文件或目录
+   13 | #include [01;31m[K"pointmatcher/PointMatcher.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:146：CMakeFiles/icp_localization.dir/src/localizer_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/icp_localization.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

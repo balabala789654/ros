@@ -1,0 +1,32 @@
+[0.825s] Invoking command in '/home/lx/ros2/demo1/build/turtlebot3_teleop': PYTHONPATH=/home/lx/ros2/demo1/build/turtlebot3_teleop/prefix_override:/home/lx/ros2/demo1/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lx/ros2/demo1/build/turtlebot3_teleop/build --no-deps install_data
+[1.052s] running develop
+[1.052s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.052s]   warnings.warn(
+[1.053s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.053s]   warnings.warn(
+[1.100s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.100s]   warnings.warn(
+[1.100s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.100s]   warnings.warn(
+[1.188s] running egg_info
+[1.188s] creating turtlebot3_teleop.egg-info
+[1.188s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.188s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.189s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.189s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.189s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.189s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.190s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.190s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.191s] running build_ext
+[1.191s] Creating /home/lx/ros2/demo1/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.192s] Installing teleop_keyboard script to /home/lx/ros2/demo1/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.192s] 
+[1.192s] Installed /home/lx/ros2/demo1/build/turtlebot3_teleop
+[1.192s] running install_data
+[1.192s] creating /home/lx/ros2/demo1/install/turtlebot3_teleop/share/ament_index
+[1.192s] creating /home/lx/ros2/demo1/install/turtlebot3_teleop/share/ament_index/resource_index
+[1.192s] creating /home/lx/ros2/demo1/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.192s] copying resource/turtlebot3_teleop -> /home/lx/ros2/demo1/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.192s] copying package.xml -> /home/lx/ros2/demo1/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.214s] Invoked command in '/home/lx/ros2/demo1/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/lx/ros2/demo1/build/turtlebot3_teleop/prefix_override:/home/lx/ros2/demo1/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lx/ros2/demo1/build/turtlebot3_teleop/build --no-deps install_data

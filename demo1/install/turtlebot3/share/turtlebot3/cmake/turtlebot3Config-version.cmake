@@ -1,0 +1,1 @@
+/home/lx/ros2/demo1/build/turtlebot3/ament_cmake_core/turtlebot3Config-version.cmake

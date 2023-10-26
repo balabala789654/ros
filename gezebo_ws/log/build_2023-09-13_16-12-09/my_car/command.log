@@ -1,0 +1,6 @@
+Invoking command in '/home/lx/ros2/gezebo_ws/build/my_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/gezebo_ws/src/my_car -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/gezebo_ws/install/my_car
+Invoked command in '/home/lx/ros2/gezebo_ws/build/my_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/gezebo_ws/src/my_car -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/gezebo_ws/install/my_car
+Invoking command in '/home/lx/ros2/gezebo_ws/build/my_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/gezebo_ws/build/my_car -- -j12 -l12
+Invoked command in '/home/lx/ros2/gezebo_ws/build/my_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/gezebo_ws/build/my_car -- -j12 -l12
+Invoking command in '/home/lx/ros2/gezebo_ws/build/my_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/gezebo_ws/build/my_car
+Invoked command in '/home/lx/ros2/gezebo_ws/build/my_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/gezebo_ws/build/my_car

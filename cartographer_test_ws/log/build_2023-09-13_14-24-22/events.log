@@ -1,0 +1,759 @@
+[0.000000] (-) TimerEvent: {}
+[0.000314] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict()}
+[0.000348] (cartographer_ros) JobStarted: {'identifier': 'cartographer_ros'}
+[0.007490] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'cmake'}
+[0.007678] (cartographer_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/lx/ros2/cartographer_test_ws/src/cartographer_ros', '-DCMAKE_INSTALL_PREFIX=/home/lx/ros2/cartographer_test_ws/install/cartographer_ros'], 'cwd': '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1856'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6788'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:34291'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1660,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', '34b85fbecf2c487b8b306686a106f83a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4359A2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba5b7710-1824-4397-a236-6ae17385dd3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099894] (-) TimerEvent: {}
+[0.198960] (cartographer_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199950] (-) TimerEvent: {}
+[0.265798] (cartographer_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.272632] (cartographer_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300047] (-) TimerEvent: {}
+[0.319220] (cartographer_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.325159] (cartographer_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.400180] (-) TimerEvent: {}
+[0.412731] (cartographer_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.413395] (cartographer_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.416204] (cartographer_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.472424] (cartographer_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.478466] (cartographer_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.478686] (cartographer_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.479030] (cartographer_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.482692] (cartographer_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500272] (-) TimerEvent: {}
+[0.600521] (-) TimerEvent: {}
+[0.615069] (cartographer_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700632] (-) TimerEvent: {}
+[0.736980] (cartographer_ros) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.765361] (cartographer_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.769390] (cartographer_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.776878] (cartographer_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.797310] (cartographer_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800692] (-) TimerEvent: {}
+[0.825419] (cartographer_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.850767] (cartographer_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900826] (-) TimerEvent: {}
+[0.923857] (cartographer_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.924007] (cartographer_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.972071] (cartographer_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.972971] (cartographer_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.981718] (cartographer_ros) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[0.984475] (cartographer_ros) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[0.984937] (cartographer_ros) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[0.985221] (cartographer_ros) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[0.991849] (cartographer_ros) StdoutLine: {'line': b'-- Found cartographer_ros_msgs: 2.0.9000 (/opt/ros/humble/share/cartographer_ros_msgs/cmake)\n'}
+[1.000917] (-) TimerEvent: {}
+[1.101116] (-) TimerEvent: {}
+[1.190311] (cartographer_ros) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.197586] (cartographer_ros) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.201181] (-) TimerEvent: {}
+[1.215179] (cartographer_ros) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.215285] (cartographer_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.232427] (cartographer_ros) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.235598] (cartographer_ros) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.236260] (cartographer_ros) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.236622] (cartographer_ros) StdoutLine: {'line': b'-- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  \n'}
+[1.238312] (cartographer_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.301280] (-) TimerEvent: {}
+[1.316931] (cartographer_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.386044] (cartographer_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.390377] (cartographer_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401382] (-) TimerEvent: {}
+[1.482687] (cartographer_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.501572] (-) TimerEvent: {}
+[1.504155] (cartographer_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.538868] (cartographer_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.601666] (-) TimerEvent: {}
+[1.701900] (-) TimerEvent: {}
+[1.802132] (-) TimerEvent: {}
+[1.902361] (-) TimerEvent: {}
+[1.981702] (cartographer_ros) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.6 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[2.002461] (-) TimerEvent: {}
+[2.034320] (cartographer_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.046619] (cartographer_ros) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[2.102593] (-) TimerEvent: {}
+[2.202843] (-) TimerEvent: {}
+[2.303085] (-) TimerEvent: {}
+[2.403527] (-) TimerEvent: {}
+[2.459162] (cartographer_ros) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.467760] (cartographer_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.503618] (-) TimerEvent: {}
+[2.603824] (-) TimerEvent: {}
+[2.704056] (-) TimerEvent: {}
+[2.804280] (-) TimerEvent: {}
+[2.904507] (-) TimerEvent: {}
+[3.004734] (-) TimerEvent: {}
+[3.104941] (-) TimerEvent: {}
+[3.205185] (-) TimerEvent: {}
+[3.305412] (-) TimerEvent: {}
+[3.372099] (cartographer_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.405614] (-) TimerEvent: {}
+[3.505861] (-) TimerEvent: {}
+[3.522546] (cartographer_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[3.524250] (cartographer_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/lx/ros2/cartographer_test_ws/build/cartographer_ros\n'}
+[3.534496] (cartographer_ros) CommandEnded: {'returncode': 0}
+[3.534969] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'build'}
+[3.535619] (cartographer_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1856'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6788'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:34291'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1660,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', '34b85fbecf2c487b8b306686a106f83a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4359A2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba5b7710-1824-4397-a236-6ae17385dd3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.573676] (cartographer_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o\x1b[0m\n'}
+[3.573939] (cartographer_ros) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o\x1b[0m\n'}
+[3.574083] (cartographer_ros) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o\x1b[0m\n'}
+[3.574176] (cartographer_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o\x1b[0m\n'}
+[3.574265] (cartographer_ros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o\x1b[0m\n'}
+[3.574394] (cartographer_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o\x1b[0m\n'}
+[3.574486] (cartographer_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o\x1b[0m\n'}
+[3.574630] (cartographer_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o\x1b[0m\n'}
+[3.574803] (cartographer_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o\x1b[0m\n'}
+[3.574916] (cartographer_ros) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o\x1b[0m\n'}
+[3.575030] (cartographer_ros) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o\x1b[0m\n'}
+[3.575512] (cartographer_ros) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o\x1b[0m\n'}
+[3.605964] (-) TimerEvent: {}
+[3.706323] (-) TimerEvent: {}
+[3.806628] (-) TimerEvent: {}
+[3.906942] (-) TimerEvent: {}
+[4.007227] (-) TimerEvent: {}
+[4.107490] (-) TimerEvent: {}
+[4.143265] (cartographer_ros) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o\x1b[0m\n'}
+[4.207607] (-) TimerEvent: {}
+[4.307924] (-) TimerEvent: {}
+[4.408204] (-) TimerEvent: {}
+[4.508497] (-) TimerEvent: {}
+[4.608804] (-) TimerEvent: {}
+[4.709118] (-) TimerEvent: {}
+[4.809460] (-) TimerEvent: {}
+[4.909842] (-) TimerEvent: {}
+[5.010297] (-) TimerEvent: {}
+[5.110774] (-) TimerEvent: {}
+[5.211185] (-) TimerEvent: {}
+[5.311585] (-) TimerEvent: {}
+[5.411964] (-) TimerEvent: {}
+[5.512416] (-) TimerEvent: {}
+[5.612940] (-) TimerEvent: {}
+[5.713376] (-) TimerEvent: {}
+[5.813714] (-) TimerEvent: {}
+[5.914067] (-) TimerEvent: {}
+[6.014435] (-) TimerEvent: {}
+[6.114806] (-) TimerEvent: {}
+[6.215150] (-) TimerEvent: {}
+[6.315492] (-) TimerEvent: {}
+[6.415870] (-) TimerEvent: {}
+[6.516226] (-) TimerEvent: {}
+[6.616586] (-) TimerEvent: {}
+[6.716937] (-) TimerEvent: {}
+[6.817286] (-) TimerEvent: {}
+[6.917635] (-) TimerEvent: {}
+[7.018011] (-) TimerEvent: {}
+[7.118383] (-) TimerEvent: {}
+[7.218733] (-) TimerEvent: {}
+[7.319074] (-) TimerEvent: {}
+[7.419411] (-) TimerEvent: {}
+[7.519752] (-) TimerEvent: {}
+[7.620096] (-) TimerEvent: {}
+[7.720475] (-) TimerEvent: {}
+[7.820817] (-) TimerEvent: {}
+[7.848424] (cartographer_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o\x1b[0m\n'}
+[7.920925] (-) TimerEvent: {}
+[8.021258] (-) TimerEvent: {}
+[8.121611] (-) TimerEvent: {}
+[8.221948] (-) TimerEvent: {}
+[8.322806] (-) TimerEvent: {}
+[8.427380] (-) TimerEvent: {}
+[8.495367] (cartographer_ros) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o\x1b[0m\n'}
+[8.527494] (-) TimerEvent: {}
+[8.627855] (-) TimerEvent: {}
+[8.728250] (-) TimerEvent: {}
+[8.796578] (cartographer_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o\x1b[0m\n'}
+[8.828454] (-) TimerEvent: {}
+[8.928811] (-) TimerEvent: {}
+[9.029168] (-) TimerEvent: {}
+[9.129561] (-) TimerEvent: {}
+[9.229910] (-) TimerEvent: {}
+[9.329445] (cartographer_ros) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o\x1b[0m\n'}
+[9.329973] (-) TimerEvent: {}
+[9.430244] (-) TimerEvent: {}
+[9.530609] (-) TimerEvent: {}
+[9.630999] (-) TimerEvent: {}
+[9.731338] (-) TimerEvent: {}
+[9.831686] (-) TimerEvent: {}
+[9.932052] (-) TimerEvent: {}
+[10.032512] (-) TimerEvent: {}
+[10.132942] (-) TimerEvent: {}
+[10.233387] (-) TimerEvent: {}
+[10.333844] (-) TimerEvent: {}
+[10.434298] (-) TimerEvent: {}
+[10.534761] (-) TimerEvent: {}
+[10.635253] (-) TimerEvent: {}
+[10.735752] (-) TimerEvent: {}
+[10.836224] (-) TimerEvent: {}
+[10.936671] (-) TimerEvent: {}
+[11.037112] (-) TimerEvent: {}
+[11.137556] (-) TimerEvent: {}
+[11.237989] (-) TimerEvent: {}
+[11.338418] (-) TimerEvent: {}
+[11.438745] (-) TimerEvent: {}
+[11.539091] (-) TimerEvent: {}
+[11.639473] (-) TimerEvent: {}
+[11.739804] (-) TimerEvent: {}
+[11.840153] (-) TimerEvent: {}
+[11.940495] (-) TimerEvent: {}
+[12.040820] (-) TimerEvent: {}
+[12.141166] (-) TimerEvent: {}
+[12.241500] (-) TimerEvent: {}
+[12.341852] (-) TimerEvent: {}
+[12.442218] (-) TimerEvent: {}
+[12.478371] (cartographer_ros) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o\x1b[0m\n'}
+[12.542339] (-) TimerEvent: {}
+[12.642700] (-) TimerEvent: {}
+[12.743057] (-) TimerEvent: {}
+[12.843402] (-) TimerEvent: {}
+[12.943748] (-) TimerEvent: {}
+[13.044090] (-) TimerEvent: {}
+[13.144401] (-) TimerEvent: {}
+[13.244747] (-) TimerEvent: {}
+[13.345285] (-) TimerEvent: {}
+[13.445673] (-) TimerEvent: {}
+[13.546041] (-) TimerEvent: {}
+[13.646398] (-) TimerEvent: {}
+[13.746764] (-) TimerEvent: {}
+[13.847124] (-) TimerEvent: {}
+[13.860240] (cartographer_ros) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o\x1b[0m\n'}
+[13.947235] (-) TimerEvent: {}
+[14.047557] (-) TimerEvent: {}
+[14.127809] (cartographer_ros) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o\x1b[0m\n'}
+[14.147679] (-) TimerEvent: {}
+[14.248011] (-) TimerEvent: {}
+[14.348350] (-) TimerEvent: {}
+[14.448719] (-) TimerEvent: {}
+[14.549075] (-) TimerEvent: {}
+[14.649429] (-) TimerEvent: {}
+[14.749773] (-) TimerEvent: {}
+[14.850109] (-) TimerEvent: {}
+[14.950471] (-) TimerEvent: {}
+[15.050847] (-) TimerEvent: {}
+[15.151192] (-) TimerEvent: {}
+[15.251558] (-) TimerEvent: {}
+[15.351915] (-) TimerEvent: {}
+[15.452274] (-) TimerEvent: {}
+[15.552636] (-) TimerEvent: {}
+[15.652972] (-) TimerEvent: {}
+[15.753305] (-) TimerEvent: {}
+[15.853650] (-) TimerEvent: {}
+[15.953968] (-) TimerEvent: {}
+[16.054291] (-) TimerEvent: {}
+[16.154627] (-) TimerEvent: {}
+[16.254965] (-) TimerEvent: {}
+[16.355306] (-) TimerEvent: {}
+[16.455663] (-) TimerEvent: {}
+[16.555982] (-) TimerEvent: {}
+[16.656391] (-) TimerEvent: {}
+[16.756710] (-) TimerEvent: {}
+[16.857012] (-) TimerEvent: {}
+[16.957321] (-) TimerEvent: {}
+[17.057629] (-) TimerEvent: {}
+[17.157935] (-) TimerEvent: {}
+[17.258255] (-) TimerEvent: {}
+[17.358574] (-) TimerEvent: {}
+[17.458897] (-) TimerEvent: {}
+[17.559246] (-) TimerEvent: {}
+[17.659578] (-) TimerEvent: {}
+[17.759901] (-) TimerEvent: {}
+[17.860198] (-) TimerEvent: {}
+[17.960491] (-) TimerEvent: {}
+[18.060768] (-) TimerEvent: {}
+[18.161048] (-) TimerEvent: {}
+[18.261336] (-) TimerEvent: {}
+[18.361625] (-) TimerEvent: {}
+[18.461909] (-) TimerEvent: {}
+[18.562185] (-) TimerEvent: {}
+[18.662456] (-) TimerEvent: {}
+[18.762729] (-) TimerEvent: {}
+[18.863023] (-) TimerEvent: {}
+[18.963300] (-) TimerEvent: {}
+[19.063578] (-) TimerEvent: {}
+[19.163859] (-) TimerEvent: {}
+[19.264173] (-) TimerEvent: {}
+[19.364489] (-) TimerEvent: {}
+[19.464762] (-) TimerEvent: {}
+[19.565060] (-) TimerEvent: {}
+[19.665389] (-) TimerEvent: {}
+[19.765656] (-) TimerEvent: {}
+[19.865987] (-) TimerEvent: {}
+[19.966280] (-) TimerEvent: {}
+[20.066552] (-) TimerEvent: {}
+[20.166805] (-) TimerEvent: {}
+[20.267059] (-) TimerEvent: {}
+[20.367326] (-) TimerEvent: {}
+[20.467588] (-) TimerEvent: {}
+[20.567867] (-) TimerEvent: {}
+[20.668133] (-) TimerEvent: {}
+[20.768425] (-) TimerEvent: {}
+[20.868673] (-) TimerEvent: {}
+[20.968895] (-) TimerEvent: {}
+[21.069167] (-) TimerEvent: {}
+[21.169426] (-) TimerEvent: {}
+[21.269675] (-) TimerEvent: {}
+[21.369929] (-) TimerEvent: {}
+[21.470185] (-) TimerEvent: {}
+[21.570441] (-) TimerEvent: {}
+[21.670699] (-) TimerEvent: {}
+[21.770952] (-) TimerEvent: {}
+[21.871205] (-) TimerEvent: {}
+[21.971463] (-) TimerEvent: {}
+[22.071723] (-) TimerEvent: {}
+[22.171982] (-) TimerEvent: {}
+[22.272237] (-) TimerEvent: {}
+[22.372573] (-) TimerEvent: {}
+[22.472830] (-) TimerEvent: {}
+[22.573055] (-) TimerEvent: {}
+[22.673319] (-) TimerEvent: {}
+[22.773577] (-) TimerEvent: {}
+[22.873831] (-) TimerEvent: {}
+[22.974088] (-) TimerEvent: {}
+[23.074346] (-) TimerEvent: {}
+[23.174605] (-) TimerEvent: {}
+[23.274864] (-) TimerEvent: {}
+[23.375123] (-) TimerEvent: {}
+[23.475358] (-) TimerEvent: {}
+[23.575620] (-) TimerEvent: {}
+[23.675879] (-) TimerEvent: {}
+[23.776142] (-) TimerEvent: {}
+[23.876409] (-) TimerEvent: {}
+[23.976671] (-) TimerEvent: {}
+[24.076950] (-) TimerEvent: {}
+[24.177203] (-) TimerEvent: {}
+[24.277444] (-) TimerEvent: {}
+[24.377744] (-) TimerEvent: {}
+[24.477993] (-) TimerEvent: {}
+[24.578248] (-) TimerEvent: {}
+[24.678523] (-) TimerEvent: {}
+[24.778777] (-) TimerEvent: {}
+[24.879034] (-) TimerEvent: {}
+[24.979291] (-) TimerEvent: {}
+[25.079568] (-) TimerEvent: {}
+[25.179788] (-) TimerEvent: {}
+[25.280047] (-) TimerEvent: {}
+[25.380301] (-) TimerEvent: {}
+[25.480564] (-) TimerEvent: {}
+[25.580825] (-) TimerEvent: {}
+[25.681085] (-) TimerEvent: {}
+[25.781350] (-) TimerEvent: {}
+[25.881618] (-) TimerEvent: {}
+[25.981882] (-) TimerEvent: {}
+[26.082147] (-) TimerEvent: {}
+[26.182414] (-) TimerEvent: {}
+[26.282682] (-) TimerEvent: {}
+[26.382954] (-) TimerEvent: {}
+[26.483233] (-) TimerEvent: {}
+[26.583600] (-) TimerEvent: {}
+[26.683843] (-) TimerEvent: {}
+[26.784060] (-) TimerEvent: {}
+[26.884281] (-) TimerEvent: {}
+[26.984573] (-) TimerEvent: {}
+[27.084816] (-) TimerEvent: {}
+[27.185031] (-) TimerEvent: {}
+[27.285276] (-) TimerEvent: {}
+[27.385523] (-) TimerEvent: {}
+[27.485770] (-) TimerEvent: {}
+[27.586015] (-) TimerEvent: {}
+[27.686265] (-) TimerEvent: {}
+[27.786513] (-) TimerEvent: {}
+[27.886758] (-) TimerEvent: {}
+[27.987005] (-) TimerEvent: {}
+[28.087252] (-) TimerEvent: {}
+[28.187471] (-) TimerEvent: {}
+[28.287722] (-) TimerEvent: {}
+[28.387967] (-) TimerEvent: {}
+[28.488212] (-) TimerEvent: {}
+[28.588460] (-) TimerEvent: {}
+[28.688704] (-) TimerEvent: {}
+[28.788952] (-) TimerEvent: {}
+[28.889204] (-) TimerEvent: {}
+[28.989450] (-) TimerEvent: {}
+[29.089699] (-) TimerEvent: {}
+[29.189945] (-) TimerEvent: {}
+[29.290174] (-) TimerEvent: {}
+[29.390470] (-) TimerEvent: {}
+[29.490714] (-) TimerEvent: {}
+[29.590964] (-) TimerEvent: {}
+[29.691208] (-) TimerEvent: {}
+[29.791452] (-) TimerEvent: {}
+[29.891698] (-) TimerEvent: {}
+[29.991944] (-) TimerEvent: {}
+[30.092214] (-) TimerEvent: {}
+[30.192442] (-) TimerEvent: {}
+[30.292696] (-) TimerEvent: {}
+[30.392946] (-) TimerEvent: {}
+[30.493199] (-) TimerEvent: {}
+[30.593443] (-) TimerEvent: {}
+[30.693690] (-) TimerEvent: {}
+[30.793939] (-) TimerEvent: {}
+[30.894183] (-) TimerEvent: {}
+[30.994435] (-) TimerEvent: {}
+[31.094682] (-) TimerEvent: {}
+[31.194925] (-) TimerEvent: {}
+[31.295171] (-) TimerEvent: {}
+[31.395415] (-) TimerEvent: {}
+[31.495667] (-) TimerEvent: {}
+[31.595913] (-) TimerEvent: {}
+[31.696159] (-) TimerEvent: {}
+[31.796418] (-) TimerEvent: {}
+[31.896664] (-) TimerEvent: {}
+[31.996913] (-) TimerEvent: {}
+[32.097159] (-) TimerEvent: {}
+[32.197374] (-) TimerEvent: {}
+[32.297619] (-) TimerEvent: {}
+[32.397861] (-) TimerEvent: {}
+[32.498110] (-) TimerEvent: {}
+[32.598363] (-) TimerEvent: {}
+[32.698607] (-) TimerEvent: {}
+[32.798852] (-) TimerEvent: {}
+[32.899097] (-) TimerEvent: {}
+[32.999345] (-) TimerEvent: {}
+[33.099590] (-) TimerEvent: {}
+[33.199844] (-) TimerEvent: {}
+[33.300097] (-) TimerEvent: {}
+[33.400377] (-) TimerEvent: {}
+[33.500636] (-) TimerEvent: {}
+[33.600896] (-) TimerEvent: {}
+[33.701157] (-) TimerEvent: {}
+[33.801414] (-) TimerEvent: {}
+[33.901672] (-) TimerEvent: {}
+[34.001928] (-) TimerEvent: {}
+[34.102194] (-) TimerEvent: {}
+[34.202455] (-) TimerEvent: {}
+[34.302679] (-) TimerEvent: {}
+[34.402926] (-) TimerEvent: {}
+[34.503174] (-) TimerEvent: {}
+[34.603421] (-) TimerEvent: {}
+[34.703666] (-) TimerEvent: {}
+[34.803912] (-) TimerEvent: {}
+[34.904165] (-) TimerEvent: {}
+[35.004414] (-) TimerEvent: {}
+[35.104660] (-) TimerEvent: {}
+[35.204873] (-) TimerEvent: {}
+[35.305117] (-) TimerEvent: {}
+[35.405359] (-) TimerEvent: {}
+[35.505605] (-) TimerEvent: {}
+[35.605850] (-) TimerEvent: {}
+[35.706102] (-) TimerEvent: {}
+[35.806349] (-) TimerEvent: {}
+[35.906596] (-) TimerEvent: {}
+[36.006842] (-) TimerEvent: {}
+[36.107087] (-) TimerEvent: {}
+[36.207331] (-) TimerEvent: {}
+[36.307581] (-) TimerEvent: {}
+[36.407827] (-) TimerEvent: {}
+[36.508079] (-) TimerEvent: {}
+[36.608330] (-) TimerEvent: {}
+[36.708580] (-) TimerEvent: {}
+[36.808825] (-) TimerEvent: {}
+[36.909070] (-) TimerEvent: {}
+[37.009317] (-) TimerEvent: {}
+[37.109565] (-) TimerEvent: {}
+[37.209809] (-) TimerEvent: {}
+[37.310054] (-) TimerEvent: {}
+[37.410303] (-) TimerEvent: {}
+[37.510548] (-) TimerEvent: {}
+[37.610793] (-) TimerEvent: {}
+[37.711039] (-) TimerEvent: {}
+[37.811286] (-) TimerEvent: {}
+[37.911538] (-) TimerEvent: {}
+[38.011788] (-) TimerEvent: {}
+[38.112083] (-) TimerEvent: {}
+[38.212350] (-) TimerEvent: {}
+[38.312654] (-) TimerEvent: {}
+[38.412913] (-) TimerEvent: {}
+[38.513174] (-) TimerEvent: {}
+[38.613440] (-) TimerEvent: {}
+[38.713706] (-) TimerEvent: {}
+[38.813968] (-) TimerEvent: {}
+[38.914233] (-) TimerEvent: {}
+[39.014498] (-) TimerEvent: {}
+[39.114768] (-) TimerEvent: {}
+[39.215032] (-) TimerEvent: {}
+[39.315295] (-) TimerEvent: {}
+[39.415566] (-) TimerEvent: {}
+[39.515846] (-) TimerEvent: {}
+[39.616114] (-) TimerEvent: {}
+[39.716373] (-) TimerEvent: {}
+[39.816641] (-) TimerEvent: {}
+[39.916918] (-) TimerEvent: {}
+[40.017190] (-) TimerEvent: {}
+[40.117462] (-) TimerEvent: {}
+[40.217727] (-) TimerEvent: {}
+[40.232150] (cartographer_ros) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libcartographer_ros.a\x1b[0m\n'}
+[40.317854] (-) TimerEvent: {}
+[40.418122] (-) TimerEvent: {}
+[40.518382] (-) TimerEvent: {}
+[40.618642] (-) TimerEvent: {}
+[40.718920] (-) TimerEvent: {}
+[40.819295] (-) TimerEvent: {}
+[40.904859] (cartographer_ros) StdoutLine: {'line': b'[ 60%] Built target cartographer_ros\n'}
+[40.919390] (-) TimerEvent: {}
+[40.919668] (cartographer_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o\x1b[0m\n'}
+[40.919880] (cartographer_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o\x1b[0m\n'}
+[40.919981] (cartographer_ros) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o\x1b[0m\n'}
+[40.920092] (cartographer_ros) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o\x1b[0m\n'}
+[40.921080] (cartographer_ros) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o\x1b[0m\n'}
+[40.921824] (cartographer_ros) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o\x1b[0m\n'}
+[40.922790] (cartographer_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o\x1b[0m\n'}
+[41.019503] (-) TimerEvent: {}
+[41.119847] (-) TimerEvent: {}
+[41.220154] (-) TimerEvent: {}
+[41.320466] (-) TimerEvent: {}
+[41.420760] (-) TimerEvent: {}
+[41.521073] (-) TimerEvent: {}
+[41.621428] (-) TimerEvent: {}
+[41.721764] (-) TimerEvent: {}
+[41.822196] (-) TimerEvent: {}
+[41.922626] (-) TimerEvent: {}
+[42.022942] (-) TimerEvent: {}
+[42.123280] (-) TimerEvent: {}
+[42.223621] (-) TimerEvent: {}
+[42.324022] (-) TimerEvent: {}
+[42.424359] (-) TimerEvent: {}
+[42.524689] (-) TimerEvent: {}
+[42.625047] (-) TimerEvent: {}
+[42.725399] (-) TimerEvent: {}
+[42.825723] (-) TimerEvent: {}
+[42.926037] (-) TimerEvent: {}
+[43.026353] (-) TimerEvent: {}
+[43.126677] (-) TimerEvent: {}
+[43.227003] (-) TimerEvent: {}
+[43.327325] (-) TimerEvent: {}
+[43.427654] (-) TimerEvent: {}
+[43.527979] (-) TimerEvent: {}
+[43.628312] (-) TimerEvent: {}
+[43.728652] (-) TimerEvent: {}
+[43.828997] (-) TimerEvent: {}
+[43.929339] (-) TimerEvent: {}
+[44.029667] (-) TimerEvent: {}
+[44.129998] (-) TimerEvent: {}
+[44.230324] (-) TimerEvent: {}
+[44.330661] (-) TimerEvent: {}
+[44.431017] (-) TimerEvent: {}
+[44.531365] (-) TimerEvent: {}
+[44.631720] (-) TimerEvent: {}
+[44.732076] (-) TimerEvent: {}
+[44.832409] (-) TimerEvent: {}
+[44.932743] (-) TimerEvent: {}
+[45.033079] (-) TimerEvent: {}
+[45.133416] (-) TimerEvent: {}
+[45.233767] (-) TimerEvent: {}
+[45.334108] (-) TimerEvent: {}
+[45.434425] (-) TimerEvent: {}
+[45.534759] (-) TimerEvent: {}
+[45.635110] (-) TimerEvent: {}
+[45.735454] (-) TimerEvent: {}
+[45.835782] (-) TimerEvent: {}
+[45.936105] (-) TimerEvent: {}
+[46.036410] (-) TimerEvent: {}
+[46.136755] (-) TimerEvent: {}
+[46.237091] (-) TimerEvent: {}
+[46.337420] (-) TimerEvent: {}
+[46.437766] (-) TimerEvent: {}
+[46.538114] (-) TimerEvent: {}
+[46.598028] (cartographer_ros) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable cartographer_offline_node\x1b[0m\n'}
+[46.627798] (cartographer_ros) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable cartographer_pbstream_to_ros_map\x1b[0m\n'}
+[46.638230] (-) TimerEvent: {}
+[46.738560] (-) TimerEvent: {}
+[46.838904] (-) TimerEvent: {}
+[46.939254] (-) TimerEvent: {}
+[47.039647] (-) TimerEvent: {}
+[47.064782] (cartographer_ros) StdoutLine: {'line': b'[ 85%] Built target cartographer_pbstream_to_ros_map\n'}
+[47.139768] (-) TimerEvent: {}
+[47.240137] (-) TimerEvent: {}
+[47.340512] (-) TimerEvent: {}
+[47.440905] (-) TimerEvent: {}
+[47.541286] (-) TimerEvent: {}
+[47.641682] (-) TimerEvent: {}
+[47.742124] (-) TimerEvent: {}
+[47.842584] (-) TimerEvent: {}
+[47.943059] (-) TimerEvent: {}
+[48.043567] (-) TimerEvent: {}
+[48.143957] (-) TimerEvent: {}
+[48.244439] (-) TimerEvent: {}
+[48.308374] (cartographer_ros) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable cartographer_node\x1b[0m\n'}
+[48.344566] (-) TimerEvent: {}
+[48.444981] (-) TimerEvent: {}
+[48.545417] (-) TimerEvent: {}
+[48.645867] (-) TimerEvent: {}
+[48.746320] (-) TimerEvent: {}
+[48.846761] (-) TimerEvent: {}
+[48.947220] (-) TimerEvent: {}
+[49.047706] (-) TimerEvent: {}
+[49.148248] (-) TimerEvent: {}
+[49.168482] (cartographer_ros) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable cartographer_pbstream_map_publisher\x1b[0m\n'}
+[49.248407] (-) TimerEvent: {}
+[49.348892] (-) TimerEvent: {}
+[49.449424] (-) TimerEvent: {}
+[49.549986] (-) TimerEvent: {}
+[49.650549] (-) TimerEvent: {}
+[49.751121] (-) TimerEvent: {}
+[49.851635] (-) TimerEvent: {}
+[49.952143] (-) TimerEvent: {}
+[50.019066] (cartographer_ros) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable cartographer_assets_writer\x1b[0m\n'}
+[50.052302] (-) TimerEvent: {}
+[50.152809] (-) TimerEvent: {}
+[50.183085] (cartographer_ros) StdoutLine: {'line': b'[ 94%] Built target cartographer_pbstream_map_publisher\n'}
+[50.252981] (-) TimerEvent: {}
+[50.353489] (-) TimerEvent: {}
+[50.453926] (-) TimerEvent: {}
+[50.554368] (-) TimerEvent: {}
+[50.654789] (-) TimerEvent: {}
+[50.755216] (-) TimerEvent: {}
+[50.855609] (-) TimerEvent: {}
+[50.956102] (-) TimerEvent: {}
+[51.018450] (cartographer_ros) StdoutLine: {'line': b'[ 94%] Built target cartographer_assets_writer\n'}
+[51.056232] (-) TimerEvent: {}
+[51.156741] (-) TimerEvent: {}
+[51.257081] (-) TimerEvent: {}
+[51.357405] (-) TimerEvent: {}
+[51.457833] (-) TimerEvent: {}
+[51.558145] (-) TimerEvent: {}
+[51.658511] (-) TimerEvent: {}
+[51.758817] (-) TimerEvent: {}
+[51.859115] (-) TimerEvent: {}
+[51.959418] (-) TimerEvent: {}
+[52.059754] (-) TimerEvent: {}
+[52.160033] (-) TimerEvent: {}
+[52.260339] (-) TimerEvent: {}
+[52.308953] (cartographer_ros) StdoutLine: {'line': b'[ 94%] Built target cartographer_offline_node\n'}
+[52.360429] (-) TimerEvent: {}
+[52.460702] (-) TimerEvent: {}
+[52.560999] (-) TimerEvent: {}
+[52.661282] (-) TimerEvent: {}
+[52.761545] (-) TimerEvent: {}
+[52.861818] (-) TimerEvent: {}
+[52.940878] (cartographer_ros) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable cartographer_rosbag_validate\x1b[0m\n'}
+[52.961931] (-) TimerEvent: {}
+[53.062248] (-) TimerEvent: {}
+[53.162587] (-) TimerEvent: {}
+[53.261014] (cartographer_ros) StdoutLine: {'line': b'[ 97%] Built target cartographer_node\n'}
+[53.262637] (-) TimerEvent: {}
+[53.334871] (cartographer_ros) StdoutLine: {'line': b'[ 97%] Built target cartographer_rosbag_validate\n'}
+[53.362769] (-) TimerEvent: {}
+[53.463030] (-) TimerEvent: {}
+[53.540273] (cartographer_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cartographer_occupancy_grid_node\x1b[0m\n'}
+[53.563156] (-) TimerEvent: {}
+[53.663426] (-) TimerEvent: {}
+[53.763698] (-) TimerEvent: {}
+[53.863987] (-) TimerEvent: {}
+[53.964454] (-) TimerEvent: {}
+[54.064726] (-) TimerEvent: {}
+[54.165073] (-) TimerEvent: {}
+[54.265360] (-) TimerEvent: {}
+[54.317002] (cartographer_ros) StdoutLine: {'line': b'[100%] Built target cartographer_occupancy_grid_node\n'}
+[54.324904] (cartographer_ros) CommandEnded: {'returncode': 0}
+[54.365406] (-) TimerEvent: {}
+[54.374473] (cartographer_ros) JobProgress: {'identifier': 'cartographer_ros', 'progress': 'install'}
+[54.380458] (cartographer_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros'], 'cwd': '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1111'), ('SYSTEMD_EXEC_PID', '1856'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6788'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('JOURNAL_STREAM', '8:34291'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1660,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', '34b85fbecf2c487b8b306686a106f83a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4359A2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ba5b7710-1824-4397-a236-6ae17385dd3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[54.386534] (cartographer_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[54.386731] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/libcartographer_ros.a\n'}
+[54.432646] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node\n'}
+[54.447140] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""\n'}
+[54.447283] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node\n'}
+[54.451735] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""\n'}
+[54.451863] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node\n'}
+[54.465533] (-) TimerEvent: {}
+[54.469217] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""\n'}
+[54.469345] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer\n'}
+[54.472135] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""\n'}
+[54.472275] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher\n'}
+[54.474714] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""\n'}
+[54.474864] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map\n'}
+[54.476016] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""\n'}
+[54.476123] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate\n'}
+[54.477189] (cartographer_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""\n'}
+[54.477356] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include/\n'}
+[54.477454] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros\n'}
+[54.477605] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h\n'}
+[54.477665] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h\n'}
+[54.477721] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h\n'}
+[54.477773] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h\n'}
+[54.477824] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h\n'}
+[54.477875] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h\n'}
+[54.477995] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/node.h\n'}
+[54.478105] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/submap.h\n'}
+[54.478165] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics\n'}
+[54.478219] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h\n'}
+[54.478270] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal\n'}
+[54.478321] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h\n'}
+[54.478371] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h\n'}
+[54.478422] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h\n'}
+[54.478472] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h\n'}
+[54.478523] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h\n'}
+[54.478607] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/node_options.h\n'}
+[54.478659] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h\n'}
+[54.478709] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h\n'}
+[54.478758] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h\n'}
+[54.478808] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h\n'}
+[54.478858] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h\n'}
+[54.478908] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h\n'}
+[54.478958] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h\n'}
+[54.479026] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files\n'}
+[54.479106] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua\n'}
+[54.479172] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua\n'}
+[54.479223] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua\n'}
+[54.479273] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua\n'}
+[54.479322] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua\n'}
+[54.479371] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua\n'}
+[54.479421] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua\n'}
+[54.479472] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua\n'}
+[54.479521] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua\n'}
+[54.479615] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz\n'}
+[54.479679] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua\n'}
+[54.479740] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua\n'}
+[54.479790] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz\n'}
+[54.479842] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua\n'}
+[54.479891] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua\n'}
+[54.479940] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua\n'}
+[54.479990] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua\n'}
+[54.480039] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua\n'}
+[54.480104] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf\n'}
+[54.480174] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf\n'}
+[54.480225] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf\n'}
+[54.480275] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf\n'}
+[54.480333] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch\n'}
+[54.480423] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py\n'}
+[54.480473] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py\n'}
+[54.480547] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py\n'}
+[54.480596] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py\n'}
+[54.480646] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py\n'}
+[54.480697] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py\n'}
+[54.480746] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py\n'}
+[54.480823] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch\n'}
+[54.480911] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py\n'}
+[54.480979] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py\n'}
+[54.481029] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py\n'}
+[54.481079] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py\n'}
+[54.481159] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py\n'}
+[54.481210] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py\n'}
+[54.481261] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py\n'}
+[54.481335] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch\n'}
+[54.481384] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py\n'}
+[54.481453] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py\n'}
+[54.481503] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py\n'}
+[54.481571] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch\n'}
+[54.481619] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh\n'}
+[54.481668] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv\n'}
+[54.481735] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros\n'}
+[54.481886] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros\n'}
+[54.481987] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh\n'}
+[54.482085] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv\n'}
+[54.482180] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh\n'}
+[54.482268] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv\n'}
+[54.482354] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash\n'}
+[54.482443] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh\n'}
+[54.482534] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh\n'}
+[54.482623] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv\n'}
+[54.482700] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/package.dsv\n'}
+[54.482806] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros\n'}
+[54.482911] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[54.482985] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[54.483065] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[54.483150] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake\n'}
+[54.483213] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake\n'}
+[54.483288] (cartographer_ros) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/package.xml\n'}
+[54.484650] (cartographer_ros) CommandEnded: {'returncode': 0}
+[54.562779] (cartographer_ros) JobEnded: {'identifier': 'cartographer_ros', 'rc': 0}
+[54.563204] (-) EventReactorShutdown: {}

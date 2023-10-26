@@ -1,0 +1,208 @@
+[0.008s] Invoking command in '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/cartographer_test_ws/src/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/cartographer_test_ws/install/cartographer_ros
+[0.199s] -- The C compiler identification is GNU 11.4.0
+[0.266s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.416s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.478s] -- Detecting CXX compile features
+[0.479s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.615s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.737s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.765s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.769s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.777s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.850s] -- Looking for pthread.h
+[0.924s] -- Looking for pthread.h - found
+[0.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.973s] -- Found Threads: TRUE  
+[0.981s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.984s] -- Found required Ceres dependency: glog
+[0.985s] -- Found required Ceres dependency: gflags
+[0.985s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.992s] -- Found cartographer_ros_msgs: 2.0.9000 (/opt/ros/humble/share/cartographer_ros_msgs/cmake)
+[1.190s] -- Checking for module 'eigen3'
+[1.197s] --   Found eigen3, version 3.4.0
+[1.215s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.215s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.232s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.235s] -- looking for PCL_COMMON
+[1.236s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.236s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.238s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.317s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.386s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.390s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.482s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.504s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.981s] -- Found rosbag2_cpp: 0.15.6 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.034s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[2.046s] -- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.459s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[2.467s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.372s] -- Configuring done
+[3.522s] -- Generating done
+[3.524s] -- Build files have been written to: /home/lx/ros2/cartographer_test_ws/build/cartographer_ros
+[3.534s] Invoked command in '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/cartographer_test_ws/src/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/cartographer_test_ws/install/cartographer_ros
+[3.536s] Invoking command in '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/cartographer_test_ws/build/cartographer_ros -- -j12 -l12
+[3.573s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[3.574s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[3.574s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[3.574s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[3.574s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[3.574s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[3.574s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[3.574s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[3.575s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[3.575s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[3.575s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[3.575s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[4.143s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[7.848s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[8.495s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[8.796s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[9.329s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[12.478s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[13.860s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[14.128s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[40.232s] [ 60%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[40.905s] [ 60%] Built target cartographer_ros
+[40.919s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[40.920s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[40.920s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[40.920s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[40.921s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[40.922s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[40.923s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[46.598s] [ 82%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[46.628s] [ 85%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[47.065s] [ 85%] Built target cartographer_pbstream_to_ros_map
+[48.308s] [ 88%] [32m[1mLinking CXX executable cartographer_node[0m
+[49.168s] [ 91%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[50.019s] [ 94%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[50.183s] [ 94%] Built target cartographer_pbstream_map_publisher
+[51.018s] [ 94%] Built target cartographer_assets_writer
+[52.309s] [ 94%] Built target cartographer_offline_node
+[52.941s] [ 97%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[53.261s] [ 97%] Built target cartographer_node
+[53.335s] [ 97%] Built target cartographer_rosbag_validate
+[53.540s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[54.317s] [100%] Built target cartographer_occupancy_grid_node
+[54.325s] Invoked command in '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/cartographer_test_ws/build/cartographer_ros -- -j12 -l12
+[54.381s] Invoking command in '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/cartographer_test_ws/build/cartographer_ros
+[54.386s] -- Install configuration: ""
+[54.386s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[54.432s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[54.447s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[54.447s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[54.451s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""
+[54.452s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[54.469s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""
+[54.469s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[54.472s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""
+[54.472s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[54.474s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""
+[54.475s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[54.476s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""
+[54.476s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[54.477s] -- Set runtime path of "/home/lx/ros2/cartographer_test_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""
+[54.477s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include/
+[54.477s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros
+[54.477s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[54.477s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[54.477s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[54.477s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/node.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/submap.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/node_options.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[54.478s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[54.479s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[54.480s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[54.481s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[54.482s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[54.483s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.483s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[54.483s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.483s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[54.483s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[54.483s] -- Installing: /home/lx/ros2/cartographer_test_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[54.485s] Invoked command in '/home/lx/ros2/cartographer_test_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/cartographer_test_ws/build/cartographer_ros

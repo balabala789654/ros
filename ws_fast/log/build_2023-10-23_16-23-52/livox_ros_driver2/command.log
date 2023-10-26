@@ -1,0 +1,2 @@
+Invoking command in '/home/lx/ros2/ws_fast/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ws_fast/build/livox_ros_driver2 -- -j12 -l12
+Invoked command in '/home/lx/ros2/ws_fast/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ws_fast/build/livox_ros_driver2 -- -j12 -l12

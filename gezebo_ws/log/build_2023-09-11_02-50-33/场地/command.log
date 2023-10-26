@@ -1,0 +1,2 @@
+Invoking command in '/home/lx/ros/gezebo_ws/build/场地': /usr/bin/cmake /home/lx/ros/gezebo_ws/src/场地 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/gezebo_ws/install/场地
+Invoked command in '/home/lx/ros/gezebo_ws/build/场地' returned '1': /usr/bin/cmake /home/lx/ros/gezebo_ws/src/场地 -DCMAKE_INSTALL_PREFIX=/home/lx/ros/gezebo_ws/install/场地

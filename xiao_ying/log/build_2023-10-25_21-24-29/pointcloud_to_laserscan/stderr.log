@@ -1,0 +1,7 @@
+gmake[2]: *** [CMakeFiles/laserscan_to_pointcloud_node.dir/build.make:76: CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/laserscan_to_pointcloud_node.dir/all] 中断
+gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan_node.dir/build.make:76: CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o] 中断
+gmake[2]: *** [CMakeFiles/laserscan_to_pointcloud.dir/build.make:76: CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/laserscan_to_pointcloud.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/pointcloud_to_laserscan_node.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

@@ -1,0 +1,6 @@
+[0.008s] Invoking command in '/home/lx/ros2/ws_fast/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ws_fast/build/pointcloud_to_laserscan -- -j12 -l12
+[0.023s] [0mCMake Error: The current CMakeCache.txt directory /home/lx/ros2/ws_fast/build/pointcloud_to_laserscan/CMakeCache.txt is different than the directory /home/johan/ws_fast/build/pointcloud_to_laserscan where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.034s] [0mCMake Error: The source directory "/home/johan/ws_fast/src/pointcloud_to_laserscan-rolling" does not exist.
+[0.034s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.035s] gmake: *** [Makefile:431：cmake_check_build_system] 错误 1
+[0.037s] Invoked command in '/home/lx/ros2/ws_fast/build/pointcloud_to_laserscan' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ws_fast/build/pointcloud_to_laserscan -- -j12 -l12

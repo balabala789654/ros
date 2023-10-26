@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_to_odom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o[0m
+gmake[2]: *** [CMakeFiles/imu_to_odom.dir/build.make:76: CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_to_odom.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

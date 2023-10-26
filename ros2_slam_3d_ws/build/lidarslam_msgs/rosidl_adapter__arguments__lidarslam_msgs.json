@@ -1,0 +1,7 @@
+{
+  "package_name": "lidarslam_msgs",
+  "non_idl_tuples": [
+    "/home/lx/ros2/ros2_slam_3d_ws/src/lidarslam_ros2/lidarslam_msgs:msg/SubMap.msg",
+    "/home/lx/ros2/ros2_slam_3d_ws/src/lidarslam_ros2/lidarslam_msgs:msg/MapArray.msg"
+  ]
+}

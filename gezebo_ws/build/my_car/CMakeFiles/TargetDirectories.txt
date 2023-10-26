@@ -1,0 +1,10 @@
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/uninstall.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/my_car_uninstall.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/joint_control.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/test.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/edit_cache.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/rebuild_cache.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/list_install_components.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/install.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/install/local.dir
+/home/lx/ros2/gezebo_ws/build/my_car/CMakeFiles/install/strip.dir

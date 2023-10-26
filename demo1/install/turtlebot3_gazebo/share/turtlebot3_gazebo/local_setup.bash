@@ -1,0 +1,1 @@
+/home/lx/ros2/demo1/build/turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,2 @@
+Invoking command in '/home/lx/ros/gezebo_ws/build/venue': /usr/bin/cmake /home/lx/ros/gezebo_ws/src/venue -DCMAKE_INSTALL_PREFIX=/home/lx/ros/gezebo_ws/install/venue
+Invoked command in '/home/lx/ros/gezebo_ws/build/venue' returned '1': /usr/bin/cmake /home/lx/ros/gezebo_ws/src/venue -DCMAKE_INSTALL_PREFIX=/home/lx/ros/gezebo_ws/install/venue

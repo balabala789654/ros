@@ -1,0 +1,6 @@
+[0.177s] Invoking command in '/home/lx/ros2/xiao_ying/build/imu_to_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/xiao_ying/build/imu_to_odom -- -j12 -l12
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target imu_to_odom[0m
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o[0m
+[7.137s] gmake[2]: *** [CMakeFiles/imu_to_odom.dir/build.make:76: CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o] 中断
+[7.138s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_to_odom.dir/all] 中断
+[7.138s] gmake: *** [Makefile:146: all] 中断

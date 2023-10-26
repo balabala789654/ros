@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:35 (find_package):
+  By not providing "Findndt_omp_ros2.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "ndt_omp_ros2", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ndt_omp_ros2" with
+  any of the following names:
+
+    ndt_omp_ros2Config.cmake
+    ndt_omp_ros2-config.cmake
+
+  Add the installation prefix of "ndt_omp_ros2" to CMAKE_PREFIX_PATH or set
+  "ndt_omp_ros2_DIR" to a directory containing one of the above files.  If
+  "ndt_omp_ros2" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

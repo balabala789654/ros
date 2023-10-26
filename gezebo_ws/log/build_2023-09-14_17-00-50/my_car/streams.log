@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/lx/ros2/gezebo_ws/build/my_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/ros2/gezebo_ws/install/lesson_urdf:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/gezebo_ws/build/my_car -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target joint_control[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_control.dir/src/joint_control.cpp.o[0m
+[1.754s] [01m[K/home/lx/ros2/gezebo_ws/src/my_car/src/joint_control.cpp:[m[K In member function ‘[01m[Kvoid joint_control_node::topic_public_callback()[m[K’:
+[1.754s] [01m[K/home/lx/ros2/gezebo_ws/src/my_car/src/joint_control.cpp:14:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto jointstate[m[K’
+[1.755s]    14 |         auto [01;31m[Kjointstate[m[K = JointState();
+[1.755s]       |              [01;31m[K^~~~~~~~~~[m[K
+[1.755s] [01m[K/home/lx/ros2/gezebo_ws/src/my_car/src/joint_control.cpp:13:38:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ksensor_msgs::msg::JointState jointstate[m[K’
+[1.755s]    13 |         sensor_msgs::msg::JointState [01;36m[Kjointstate[m[K;
+[1.755s]       |                                      [01;36m[K^~~~~~~~~~[m[K
+[2.375s] gmake[2]: *** [CMakeFiles/joint_control.dir/build.make:76：CMakeFiles/joint_control.dir/src/joint_control.cpp.o] 错误 1
+[2.375s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/joint_control.dir/all] 错误 2
+[2.375s] gmake: *** [Makefile:146：all] 错误 2
+[2.377s] Invoked command in '/home/lx/ros2/gezebo_ws/build/my_car' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lx/ros2/gezebo_ws/install/lesson_urdf:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/gezebo_ws/build/my_car -- -j12 -l12

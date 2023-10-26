@@ -1,0 +1,28 @@
+[0.059s] Invoking command in '/home/lx/ros2/xiao_ying/build/imu_to_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/xiao_ying/build/imu_to_odom -- -j12 -l12
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o[0m
+[6.891s] [100%] [32m[1mLinking CXX executable imu_to_odom[0m
+[7.187s] [100%] Built target imu_to_odom
+[7.194s] Invoked command in '/home/lx/ros2/xiao_ying/build/imu_to_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/xiao_ying/build/imu_to_odom -- -j12 -l12
+[7.217s] Invoking command in '/home/lx/ros2/xiao_ying/build/imu_to_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/xiao_ying/build/imu_to_odom
+[7.222s] -- Install configuration: ""
+[7.222s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/include/
+[7.222s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/include//imu_to_odom
+[7.222s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/include//imu_to_odom/imu_to_odom.hpp
+[7.222s] -- Installing: /home/lx/ros2/xiao_ying/install/imu_to_odom/lib/imu_to_odom/imu_to_odom
+[7.224s] -- Set runtime path of "/home/lx/ros2/xiao_ying/install/imu_to_odom/lib/imu_to_odom/imu_to_odom" to ""
+[7.224s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/ament_index/resource_index/package_run_dependencies/imu_to_odom
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/ament_index/resource_index/parent_prefix_path/imu_to_odom
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/environment/ament_prefix_path.sh
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/environment/ament_prefix_path.dsv
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/environment/path.sh
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/environment/path.dsv
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/local_setup.bash
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/local_setup.sh
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/local_setup.zsh
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/local_setup.dsv
+[7.225s] -- Installing: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/package.dsv
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/ament_index/resource_index/packages/imu_to_odom
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/cmake/imu_to_odomConfig.cmake
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/cmake/imu_to_odomConfig-version.cmake
+[7.225s] -- Up-to-date: /home/lx/ros2/xiao_ying/install/imu_to_odom/share/imu_to_odom/package.xml
+[7.226s] Invoked command in '/home/lx/ros2/xiao_ying/build/imu_to_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/xiao_ying/build/imu_to_odom

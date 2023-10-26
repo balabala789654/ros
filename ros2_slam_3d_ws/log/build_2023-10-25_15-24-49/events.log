@@ -1,0 +1,451 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (lidarslam_msgs) JobQueued: {'identifier': 'lidarslam_msgs', 'dependencies': OrderedDict()}
+[0.000369] (graph_based_slam) JobQueued: {'identifier': 'graph_based_slam', 'dependencies': OrderedDict([('lidarslam_msgs', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs')])}
+[0.000389] (scanmatcher) JobQueued: {'identifier': 'scanmatcher', 'dependencies': OrderedDict([('lidarslam_msgs', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs')])}
+[0.000406] (lidarslam) JobQueued: {'identifier': 'lidarslam', 'dependencies': OrderedDict([('lidarslam_msgs', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs'), ('graph_based_slam', '/home/lx/ros2/ros2_slam_3d_ws/install/graph_based_slam'), ('scanmatcher', '/home/lx/ros2/ros2_slam_3d_ws/install/scanmatcher')])}
+[0.000423] (lidarslam_msgs) JobStarted: {'identifier': 'lidarslam_msgs'}
+[0.006921] (lidarslam_msgs) JobProgress: {'identifier': 'lidarslam_msgs', 'progress': 'cmake'}
+[0.007084] (lidarslam_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/lx/ros2/ros2_slam_3d_ws/src/lidarslam_ros2/lidarslam_msgs', '-DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs'], 'cwd': '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros2_slam_3d_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1844'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1683,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d95fd64e_4a46_4e8f_b8ef_db901627e8f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RM9BD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044896] (lidarslam_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.082910] (lidarslam_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.087873] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.098658] (-) TimerEvent: {}
+[0.134863] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.141047] (lidarslam_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.141198] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.141504] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.143843] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198749] (-) TimerEvent: {}
+[0.199987] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.206633] (lidarslam_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.206820] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.207198] (lidarslam_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.208724] (lidarslam_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.298861] (-) TimerEvent: {}
+[0.348605] (lidarslam_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.398953] (-) TimerEvent: {}
+[0.467406] (lidarslam_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.472218] (lidarslam_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499040] (-) TimerEvent: {}
+[0.506099] (lidarslam_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599127] (-) TimerEvent: {}
+[0.699338] (-) TimerEvent: {}
+[0.799576] (-) TimerEvent: {}
+[0.899842] (-) TimerEvent: {}
+[0.910233] (lidarslam_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.999941] (-) TimerEvent: {}
+[1.100186] (-) TimerEvent: {}
+[1.150390] (lidarslam_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.200265] (-) TimerEvent: {}
+[1.300495] (-) TimerEvent: {}
+[1.400720] (-) TimerEvent: {}
+[1.434993] (lidarslam_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.451334] (lidarslam_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.452462] (lidarslam_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.472654] (lidarslam_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.472994] (lidarslam_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.473061] (lidarslam_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.473115] (lidarslam_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.490052] (lidarslam_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.500845] (-) TimerEvent: {}
+[1.553255] (lidarslam_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.569097] (lidarslam_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.570191] (lidarslam_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.570830] (lidarslam_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.572652] (lidarslam_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.600924] (-) TimerEvent: {}
+[1.602398] (lidarslam_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.604318] (lidarslam_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs\n'}
+[1.614783] (lidarslam_msgs) CommandEnded: {'returncode': 0}
+[1.615371] (lidarslam_msgs) JobProgress: {'identifier': 'lidarslam_msgs', 'progress': 'build'}
+[1.615954] (lidarslam_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros2_slam_3d_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1844'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1683,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d95fd64e_4a46_4e8f_b8ef_db901627e8f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RM9BD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.648651] (lidarslam_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.656626] (lidarslam_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.664245] (lidarslam_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_lidarslam_msgs\n'}
+[1.701016] (-) TimerEvent: {}
+[1.801278] (-) TimerEvent: {}
+[1.870752] (lidarslam_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.871266] (lidarslam_msgs) StdoutLine: {'line': b'creating lidarslam_msgs.egg-info\n'}
+[1.871454] (lidarslam_msgs) StdoutLine: {'line': b'writing lidarslam_msgs.egg-info/PKG-INFO\n'}
+[1.871612] (lidarslam_msgs) StdoutLine: {'line': b'writing dependency_links to lidarslam_msgs.egg-info/dependency_links.txt\n'}
+[1.871779] (lidarslam_msgs) StdoutLine: {'line': b'writing top-level names to lidarslam_msgs.egg-info/top_level.txt\n'}
+[1.871973] (lidarslam_msgs) StdoutLine: {'line': b"writing manifest file 'lidarslam_msgs.egg-info/SOURCES.txt'\n"}
+[1.873493] (lidarslam_msgs) StdoutLine: {'line': b"reading manifest file 'lidarslam_msgs.egg-info/SOURCES.txt'\n"}
+[1.873998] (lidarslam_msgs) StdoutLine: {'line': b"writing manifest file 'lidarslam_msgs.egg-info/SOURCES.txt'\n"}
+[1.896824] (lidarslam_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_lidarslam_msgs_egg\n'}
+[1.901393] (-) TimerEvent: {}
+[1.920727] (lidarslam_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_generator_c.dir/rosidl_generator_c/lidarslam_msgs/msg/detail/sub_map__functions.c.o\x1b[0m\n'}
+[1.920902] (lidarslam_msgs) StdoutLine: {'line': b'[ 10%] Built target lidarslam_msgs__cpp\n'}
+[1.920965] (lidarslam_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_generator_c.dir/rosidl_generator_c/lidarslam_msgs/msg/detail/map_array__functions.c.o\x1b[0m\n'}
+[1.928140] (lidarslam_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.928318] (lidarslam_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.928420] (lidarslam_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.960188] (lidarslam_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library liblidarslam_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.989475] (lidarslam_msgs) StdoutLine: {'line': b'[ 20%] Built target lidarslam_msgs__rosidl_generator_c\n'}
+[1.997251] (lidarslam_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.997554] (lidarslam_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.997653] (lidarslam_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.001472] (-) TimerEvent: {}
+[2.101735] (-) TimerEvent: {}
+[2.138963] (lidarslam_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidarslam_msgs/msg/sub_map__type_support.cpp.o\x1b[0m\n'}
+[2.141490] (lidarslam_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidarslam_msgs/msg/map_array__type_support.cpp.o\x1b[0m\n'}
+[2.184737] (lidarslam_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidarslam_msgs/msg/detail/dds_fastrtps/sub_map__type_support.cpp.o\x1b[0m\n'}
+[2.185090] (lidarslam_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidarslam_msgs/msg/detail/dds_fastrtps/map_array__type_support.cpp.o\x1b[0m\n'}
+[2.191682] (lidarslam_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidarslam_msgs/msg/detail/map_array__type_support.cpp.o\x1b[0m\n'}
+[2.192415] (lidarslam_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidarslam_msgs/msg/detail/sub_map__type_support.cpp.o\x1b[0m\n'}
+[2.201791] (-) TimerEvent: {}
+[2.212536] (lidarslam_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidarslam_msgs/msg/map_array__type_support.cpp.o\x1b[0m\n'}
+[2.214376] (lidarslam_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidarslam_msgs/msg/sub_map__type_support.cpp.o\x1b[0m\n'}
+[2.248392] (lidarslam_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library liblidarslam_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.281014] (lidarslam_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidarslam_msgs/msg/detail/map_array__type_support_c.cpp.o\x1b[0m\n'}
+[2.283832] (lidarslam_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/lidarslam_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidarslam_msgs/msg/detail/sub_map__type_support_c.cpp.o\x1b[0m\n'}
+[2.289079] (lidarslam_msgs) StdoutLine: {'line': b'[ 56%] Built target lidarslam_msgs__rosidl_typesupport_c\n'}
+[2.301906] (-) TimerEvent: {}
+[2.324648] (lidarslam_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidarslam_msgs/msg/detail/sub_map__type_support.c.o\x1b[0m\n'}
+[2.325405] (lidarslam_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidarslam_msgs/msg/detail/map_array__type_support.c.o\x1b[0m\n'}
+[2.365211] (lidarslam_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library liblidarslam_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.392744] (lidarslam_msgs) StdoutLine: {'line': b'[ 64%] Built target lidarslam_msgs__rosidl_typesupport_introspection_c\n'}
+[2.401995] (-) TimerEvent: {}
+[2.434080] (lidarslam_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library liblidarslam_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.467022] (lidarslam_msgs) StdoutLine: {'line': b'[ 66%] Built target lidarslam_msgs__rosidl_typesupport_cpp\n'}
+[2.502084] (-) TimerEvent: {}
+[2.602350] (-) TimerEvent: {}
+[2.620262] (lidarslam_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library liblidarslam_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.687982] (lidarslam_msgs) StdoutLine: {'line': b'[ 69%] Built target lidarslam_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.702450] (-) TimerEvent: {}
+[2.756001] (lidarslam_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library liblidarslam_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.789816] (lidarslam_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblidarslam_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.802571] (-) TimerEvent: {}
+[2.818556] (lidarslam_msgs) StdoutLine: {'line': b'[ 74%] Built target lidarslam_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.847709] (lidarslam_msgs) StdoutLine: {'line': b'[ 74%] Built target lidarslam_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.860730] (lidarslam_msgs) StdoutLine: {'line': b'[ 74%] Built target lidarslam_msgs\n'}
+[2.874103] (lidarslam_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.902678] (-) TimerEvent: {}
+[3.002875] (-) TimerEvent: {}
+[3.103082] (-) TimerEvent: {}
+[3.203334] (-) TimerEvent: {}
+[3.213333] (lidarslam_msgs) StdoutLine: {'line': b'[ 76%] Built target lidarslam_msgs__py\n'}
+[3.226628] (lidarslam_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_generator_py.dir/rosidl_generator_py/lidarslam_msgs/msg/_sub_map_s.c.o\x1b[0m\n'}
+[3.226766] (lidarslam_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_generator_py.dir/rosidl_generator_py/lidarslam_msgs/msg/_map_array_s.c.o\x1b[0m\n'}
+[3.303452] (-) TimerEvent: {}
+[3.304115] (lidarslam_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lidarslam_msgs/liblidarslam_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.333652] (lidarslam_msgs) StdoutLine: {'line': b'[ 84%] Built target lidarslam_msgs__rosidl_generator_py\n'}
+[3.347657] (lidarslam_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lidarslam_msgs/_lidarslam_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.347810] (lidarslam_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lidarslam_msgs/_lidarslam_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.347901] (lidarslam_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lidarslam_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lidarslam_msgs/_lidarslam_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.403575] (-) TimerEvent: {}
+[3.422250] (lidarslam_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.422404] (lidarslam_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.427655] (lidarslam_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.453228] (lidarslam_msgs) StdoutLine: {'line': b'[100%] Built target lidarslam_msgs__rosidl_typesupport_c__pyext\n'}
+[3.453420] (lidarslam_msgs) StdoutLine: {'line': b'[100%] Built target lidarslam_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.459505] (lidarslam_msgs) StdoutLine: {'line': b'[100%] Built target lidarslam_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.467492] (lidarslam_msgs) CommandEnded: {'returncode': 0}
+[3.503683] (-) TimerEvent: {}
+[3.510175] (lidarslam_msgs) JobProgress: {'identifier': 'lidarslam_msgs', 'progress': 'install'}
+[3.516170] (lidarslam_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs'], 'cwd': '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros2_slam_3d_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1844'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1683,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d95fd64e_4a46_4e8f_b8ef_db901627e8f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RM9BD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros2_slam_3d_ws/build/lidarslam_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.521500] (lidarslam_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.521673] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/ament_index/resource_index/rosidl_interfaces/lidarslam_msgs\n'}
+[3.521818] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs\n'}
+[3.521904] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg\n'}
+[3.521955] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail\n'}
+[3.522007] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__functions.c\n'}
+[3.522075] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__functions.c\n'}
+[3.522125] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__type_support.h\n'}
+[3.522199] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__functions.h\n'}
+[3.522249] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__struct.h\n'}
+[3.522299] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__functions.h\n'}
+[3.522372] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__type_support.h\n'}
+[3.522440] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__struct.h\n'}
+[3.522492] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/map_array.h\n'}
+[3.522541] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.522613] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/sub_map.h\n'}
+[3.522689] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/library_path.sh\n'}
+[3.522736] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/library_path.dsv\n'}
+[3.522794] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_generator_c.so\n'}
+[3.522955] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_generator_c.so" to ""\n'}
+[3.523030] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs\n'}
+[3.523092] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg\n'}
+[3.523141] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail\n'}
+[3.523190] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__rosidl_typesupport_fastrtps_c.h\n'}
+[3.523263] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__rosidl_typesupport_fastrtps_c.h\n'}
+[3.523312] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.523364] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.523458] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.523528] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs\n'}
+[3.523605] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg\n'}
+[3.523660] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail\n'}
+[3.523709] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__type_support.c\n'}
+[3.523783] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__rosidl_typesupport_introspection_c.h\n'}
+[3.523847] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__type_support.c\n'}
+[3.523900] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__rosidl_typesupport_introspection_c.h\n'}
+[3.523949] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.524014] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.524079] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.524145] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_c.so\n'}
+[3.524269] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.524342] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs\n'}
+[3.524405] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg\n'}
+[3.524453] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail\n'}
+[3.524502] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__traits.hpp\n'}
+[3.524585] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__struct.hpp\n'}
+[3.524651] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__builder.hpp\n'}
+[3.524721] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__struct.hpp\n'}
+[3.524777] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__traits.hpp\n'}
+[3.524825] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__builder.hpp\n'}
+[3.524873] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/map_array.hpp\n'}
+[3.524941] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/sub_map.hpp\n'}
+[3.524990] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs\n'}
+[3.525039] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg\n'}
+[3.525087] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail\n'}
+[3.525136] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.525205] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.525255] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/dds_fastrtps\n'}
+[3.525301] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.525347] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.525410] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.525475] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs\n'}
+[3.525577] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg\n'}
+[3.525649] (lidarslam_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail\n'}
+[3.525708] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.525755] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/map_array__type_support.cpp\n'}
+[3.525803] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__type_support.cpp\n'}
+[3.525852] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/include/lidarslam_msgs/lidarslam_msgs/msg/detail/sub_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.525917] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.526027] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.526093] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_cpp.so\n'}
+[3.526232] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.526292] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/pythonpath.sh\n'}
+[3.526355] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/pythonpath.dsv\n'}
+[3.526419] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs-0.0.0-py3.10.egg-info\n'}
+[3.526494] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.526560] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.526624] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.526693] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.526762] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs\n'}
+[3.526828] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.526894] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.526959] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/_lidarslam_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.527024] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/_lidarslam_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.527089] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/liblidarslam_msgs__rosidl_generator_py.so\n'}
+[3.527154] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg\n'}
+[3.527223] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/_map_array_s.c\n'}
+[3.527290] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/_sub_map_s.c\n'}
+[3.527351] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/_sub_map.py\n'}
+[3.527415] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/__init__.py\n'}
+[3.527486] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/_map_array.py\n'}
+[3.527535] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/_lidarslam_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.527599] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/__init__.py\n'}
+[3.527661] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.552550] (lidarslam_msgs) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs'...\n"}
+[3.552675] (lidarslam_msgs) StdoutLine: {'line': b"Compiling '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/__init__.py'...\n"}
+[3.552733] (lidarslam_msgs) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg'...\n"}
+[3.552789] (lidarslam_msgs) StdoutLine: {'line': b"Compiling '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/__init__.py'...\n"}
+[3.552840] (lidarslam_msgs) StdoutLine: {'line': b"Compiling '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/_map_array.py'...\n"}
+[3.552887] (lidarslam_msgs) StdoutLine: {'line': b"Compiling '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/msg/_sub_map.py'...\n"}
+[3.555898] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.556080] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.556202] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.556374] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.556457] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.556628] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages/lidarslam_msgs/lidarslam_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.556709] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_generator_py.so\n'}
+[3.556860] (lidarslam_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib/liblidarslam_msgs__rosidl_generator_py.so" to ""\n'}
+[3.556936] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/msg/SubMap.idl\n'}
+[3.557007] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/msg/MapArray.idl\n'}
+[3.557082] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/msg/SubMap.msg\n'}
+[3.557159] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/msg/MapArray.msg\n'}
+[3.557261] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/ament_index/resource_index/package_run_dependencies/lidarslam_msgs\n'}
+[3.557360] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/ament_index/resource_index/parent_prefix_path/lidarslam_msgs\n'}
+[3.557439] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/ament_prefix_path.sh\n'}
+[3.557531] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/ament_prefix_path.dsv\n'}
+[3.557611] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/path.sh\n'}
+[3.557689] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/environment/path.dsv\n'}
+[3.557763] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/local_setup.bash\n'}
+[3.557838] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/local_setup.sh\n'}
+[3.557915] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/local_setup.zsh\n'}
+[3.557992] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/local_setup.dsv\n'}
+[3.558081] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.dsv\n'}
+[3.558188] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/ament_index/resource_index/packages/lidarslam_msgs\n'}
+[3.558302] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_generator_cExport.cmake\n'}
+[3.558386] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.558475] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.558557] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.558646] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.558731] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.558820] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.558902] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.558988] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.559077] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.559161] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.559250] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.559333] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.559421] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.559503] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.559592] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.559675] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/export_lidarslam_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.559752] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.559827] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.559914] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.559992] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.560069] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.560189] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.560262] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.560331] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgsConfig.cmake\n'}
+[3.560399] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake/lidarslam_msgsConfig-version.cmake\n'}
+[3.560467] (lidarslam_msgs) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/package.xml\n'}
+[3.562355] (lidarslam_msgs) CommandEnded: {'returncode': 0}
+[3.603760] (-) TimerEvent: {}
+[3.630458] (lidarslam_msgs) JobEnded: {'identifier': 'lidarslam_msgs', 'rc': 0}
+[3.632673] (graph_based_slam) JobStarted: {'identifier': 'graph_based_slam'}
+[3.635395] (scanmatcher) JobStarted: {'identifier': 'scanmatcher'}
+[3.640597] (graph_based_slam) JobProgress: {'identifier': 'graph_based_slam', 'progress': 'cmake'}
+[3.640768] (graph_based_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/lx/ros2/ros2_slam_3d_ws/src/lidarslam_ros2/graph_based_slam', '-DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros2_slam_3d_ws/install/graph_based_slam'], 'cwd': '/home/lx/ros2/ros2_slam_3d_ws/build/graph_based_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros2_slam_3d_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1844'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1683,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d95fd64e_4a46_4e8f_b8ef_db901627e8f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RM9BD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros2_slam_3d_ws/build/graph_based_slam'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs:/opt/ros/humble')]), 'shell': False}
+[3.642568] (scanmatcher) JobProgress: {'identifier': 'scanmatcher', 'progress': 'cmake'}
+[3.642866] (scanmatcher) Command: {'cmd': ['/usr/bin/cmake', '/home/lx/ros2/ros2_slam_3d_ws/src/lidarslam_ros2/scanmatcher', '-DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros2_slam_3d_ws/install/scanmatcher'], 'cwd': '/home/lx/ros2/ros2_slam_3d_ws/build/scanmatcher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros2_slam_3d_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1844'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1683,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d95fd64e_4a46_4e8f_b8ef_db901627e8f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RM9BD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros2_slam_3d_ws/build/scanmatcher'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs:/opt/ros/humble')]), 'shell': False}
+[3.680871] (graph_based_slam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.684041] (scanmatcher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.703866] (-) TimerEvent: {}
+[3.724157] (graph_based_slam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.726368] (scanmatcher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.729878] (graph_based_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.732074] (scanmatcher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.780317] (graph_based_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.780463] (scanmatcher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.786701] (graph_based_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.786863] (graph_based_slam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.787178] (graph_based_slam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.787357] (scanmatcher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.787599] (scanmatcher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.787956] (scanmatcher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.789637] (graph_based_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.790455] (scanmatcher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.803953] (-) TimerEvent: {}
+[3.848279] (scanmatcher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.850491] (graph_based_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.855557] (scanmatcher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.855869] (scanmatcher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.856248] (scanmatcher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.857239] (graph_based_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.857455] (graph_based_slam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.857884] (graph_based_slam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.858407] (scanmatcher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.859664] (graph_based_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.904060] (-) TimerEvent: {}
+[3.994008] (graph_based_slam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.995238] (scanmatcher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.004146] (-) TimerEvent: {}
+[4.061167] (graph_based_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.062655] (scanmatcher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.095841] (graph_based_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.096776] (scanmatcher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.099832] (graph_based_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.101156] (scanmatcher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.104205] (-) TimerEvent: {}
+[4.106749] (graph_based_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.108582] (scanmatcher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.118376] (graph_based_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.121141] (scanmatcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.135267] (graph_based_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.139237] (scanmatcher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.198897] (graph_based_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.200933] (graph_based_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.203605] (scanmatcher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.204267] (-) TimerEvent: {}
+[4.205565] (scanmatcher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.272916] (graph_based_slam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.275322] (scanmatcher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.292783] (graph_based_slam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.295466] (scanmatcher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.304375] (-) TimerEvent: {}
+[4.328271] (graph_based_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.332638] (scanmatcher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.335490] (graph_based_slam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.339951] (scanmatcher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.384846] (graph_based_slam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.385103] (graph_based_slam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.391304] (scanmatcher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.391615] (scanmatcher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.404507] (-) TimerEvent: {}
+[4.435907] (graph_based_slam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.436712] (graph_based_slam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.441410] (scanmatcher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.442285] (scanmatcher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.504595] (-) TimerEvent: {}
+[4.582207] (graph_based_slam) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.587908] (scanmatcher) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.604674] (-) TimerEvent: {}
+[4.640443] (graph_based_slam) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.646710] (scanmatcher) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.679185] (graph_based_slam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.688767] (scanmatcher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.704752] (-) TimerEvent: {}
+[4.755303] (graph_based_slam) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.768787] (scanmatcher) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.804841] (-) TimerEvent: {}
+[4.829219] (graph_based_slam) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[4.844476] (graph_based_slam) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.846492] (scanmatcher) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.904926] (-) TimerEvent: {}
+[5.005133] (-) TimerEvent: {}
+[5.080636] (graph_based_slam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[5.085385] (scanmatcher) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[5.086380] (graph_based_slam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.092954] (graph_based_slam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.093984] (graph_based_slam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.094130] (graph_based_slam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.102631] (graph_based_slam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[5.105192] (-) TimerEvent: {}
+[5.107786] (scanmatcher) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.115874] (scanmatcher) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.115989] (scanmatcher) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.120537] (graph_based_slam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[5.125063] (scanmatcher) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[5.129902] (scanmatcher) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[5.205288] (-) TimerEvent: {}
+[5.229409] (graph_based_slam) StdoutLine: {'line': b'-- Found lidarslam_msgs: 0.0.0 (/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake)\n'}
+[5.242308] (scanmatcher) StdoutLine: {'line': b'-- Found lidarslam_msgs: 0.0.0 (/home/lx/ros2/ros2_slam_3d_ws/install/lidarslam_msgs/share/lidarslam_msgs/cmake)\n'}
+[5.305362] (-) TimerEvent: {}
+[5.355207] (graph_based_slam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:36 (find_package):\n'}
+[5.355383] (graph_based_slam) StderrLine: {'line': b'  By not providing "Findndt_omp_ros2.cmake" in CMAKE_MODULE_PATH this project\n'}
+[5.355441] (graph_based_slam) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[5.355492] (graph_based_slam) StderrLine: {'line': b'  "ndt_omp_ros2", but CMake did not find one.\n'}
+[5.355542] (graph_based_slam) StderrLine: {'line': b'\n'}
+[5.355618] (graph_based_slam) StderrLine: {'line': b'  Could not find a package configuration file provided by "ndt_omp_ros2" with\n'}
+[5.355667] (graph_based_slam) StderrLine: {'line': b'  any of the following names:\n'}
+[5.355713] (graph_based_slam) StderrLine: {'line': b'\n'}
+[5.355758] (graph_based_slam) StderrLine: {'line': b'    ndt_omp_ros2Config.cmake\n'}
+[5.355803] (graph_based_slam) StderrLine: {'line': b'    ndt_omp_ros2-config.cmake\n'}
+[5.355850] (graph_based_slam) StderrLine: {'line': b'\n'}
+[5.355895] (graph_based_slam) StderrLine: {'line': b'  Add the installation prefix of "ndt_omp_ros2" to CMAKE_PREFIX_PATH or set\n'}
+[5.355944] (graph_based_slam) StderrLine: {'line': b'  "ndt_omp_ros2_DIR" to a directory containing one of the above files.  If\n'}
+[5.355990] (graph_based_slam) StderrLine: {'line': b'  "ndt_omp_ros2" provides a separate development package or SDK, be sure it\n'}
+[5.356035] (graph_based_slam) StderrLine: {'line': b'  has been installed.\n'}
+[5.356107] (graph_based_slam) StderrLine: {'line': b'\n'}
+[5.356178] (graph_based_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[5.356247] (graph_based_slam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.356324] (graph_based_slam) StdoutLine: {'line': b'See also "/home/lx/ros2/ros2_slam_3d_ws/build/graph_based_slam/CMakeFiles/CMakeOutput.log".\n'}
+[5.362706] (graph_based_slam) CommandEnded: {'returncode': 1}
+[5.369284] (scanmatcher) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:35 (find_package):\n'}
+[5.369407] (scanmatcher) StderrLine: {'line': b'  By not providing "Findndt_omp_ros2.cmake" in CMAKE_MODULE_PATH this project\n'}
+[5.369466] (scanmatcher) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[5.369529] (scanmatcher) StderrLine: {'line': b'  "ndt_omp_ros2", but CMake did not find one.\n'}
+[5.369578] (scanmatcher) StderrLine: {'line': b'\n'}
+[5.369626] (scanmatcher) StderrLine: {'line': b'  Could not find a package configuration file provided by "ndt_omp_ros2" with\n'}
+[5.369688] (scanmatcher) StderrLine: {'line': b'  any of the following names:\n'}
+[5.369751] (scanmatcher) StderrLine: {'line': b'\n'}
+[5.369811] (scanmatcher) StderrLine: {'line': b'    ndt_omp_ros2Config.cmake\n'}
+[5.369989] (scanmatcher) StderrLine: {'line': b'    ndt_omp_ros2-config.cmake\n'}
+[5.370051] (scanmatcher) StderrLine: {'line': b'\n'}
+[5.370113] (scanmatcher) StderrLine: {'line': b'  Add the installation prefix of "ndt_omp_ros2" to CMAKE_PREFIX_PATH or set\n'}
+[5.370161] (scanmatcher) StderrLine: {'line': b'  "ndt_omp_ros2_DIR" to a directory containing one of the above files.  If\n'}
+[5.370207] (scanmatcher) StderrLine: {'line': b'  "ndt_omp_ros2" provides a separate development package or SDK, be sure it\n'}
+[5.370258] (scanmatcher) StderrLine: {'line': b'  has been installed.\n'}
+[5.370311] (scanmatcher) StderrLine: {'line': b'\n'}
+[5.370357] (scanmatcher) StderrLine: {'line': b'\x1b[0m\n'}
+[5.370403] (scanmatcher) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.370457] (scanmatcher) StdoutLine: {'line': b'See also "/home/lx/ros2/ros2_slam_3d_ws/build/scanmatcher/CMakeFiles/CMakeOutput.log".\n'}
+[5.375662] (graph_based_slam) JobEnded: {'identifier': 'graph_based_slam', 'rc': 1}
+[5.377102] (scanmatcher) JobEnded: {'identifier': 'scanmatcher', 'rc': 'SIGINT'}
+[5.387550] (lidarslam) JobSkipped: {'identifier': 'lidarslam'}
+[5.387611] (-) EventReactorShutdown: {}

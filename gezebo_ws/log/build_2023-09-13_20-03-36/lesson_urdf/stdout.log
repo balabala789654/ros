@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/lesson_urdf/lesson_urdf.egg-info
+writing ../../build/lesson_urdf/lesson_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/lesson_urdf/lesson_urdf.egg-info/dependency_links.txt
+writing entry points to ../../build/lesson_urdf/lesson_urdf.egg-info/entry_points.txt
+writing requirements to ../../build/lesson_urdf/lesson_urdf.egg-info/requires.txt
+writing top-level names to ../../build/lesson_urdf/lesson_urdf.egg-info/top_level.txt
+writing manifest file '../../build/lesson_urdf/lesson_urdf.egg-info/SOURCES.txt'
+reading manifest file '../../build/lesson_urdf/lesson_urdf.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lesson_urdf/lesson_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lx/ros2/gezebo_ws/build/lesson_urdf/build
+creating /home/lx/ros2/gezebo_ws/build/lesson_urdf/build/lib
+creating /home/lx/ros2/gezebo_ws/build/lesson_urdf/build/lib/lesson_urdf
+copying lesson_urdf/__init__.py -> /home/lx/ros2/gezebo_ws/build/lesson_urdf/build/lib/lesson_urdf
+running install
+running install_lib
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/lib/python3.10/site-packages/lesson_urdf
+copying /home/lx/ros2/gezebo_ws/build/lesson_urdf/build/lib/lesson_urdf/__init__.py -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/lib/python3.10/site-packages/lesson_urdf
+byte-compiling /home/lx/ros2/gezebo_ws/install/lesson_urdf/lib/python3.10/site-packages/lesson_urdf/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/ament_index
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/ament_index/resource_index
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/ament_index/resource_index/packages
+copying resource/lesson_urdf -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/ament_index/resource_index/packages
+copying package.xml -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf
+copying launch/view_robot_launch.py -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/urdf
+copying urdf/planar_3dof.urdf -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/urdf/
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/rviz
+copying rviz/view.rviz -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/rviz/
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/collision
+copying meshes/collision/gripper.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/collision/
+copying meshes/collision/arm_link.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/collision/
+copying meshes/collision/arm_link_twist_2.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/collision/
+copying meshes/collision/arm_link_twist_1.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/collision/
+creating /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/visual
+copying meshes/visual/gripper.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/visual/
+copying meshes/visual/arm_link.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/visual/
+copying meshes/visual/arm_link_twist_2.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/visual/
+copying meshes/visual/arm_link_twist_1.stl -> /home/lx/ros2/gezebo_ws/install/lesson_urdf/share/lesson_urdf/meshes/visual/
+running install_egg_info
+Copying ../../build/lesson_urdf/lesson_urdf.egg-info to /home/lx/ros2/gezebo_ws/install/lesson_urdf/lib/python3.10/site-packages/lesson_urdf-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lx/ros2/gezebo_ws/build/lesson_urdf/install.log'
