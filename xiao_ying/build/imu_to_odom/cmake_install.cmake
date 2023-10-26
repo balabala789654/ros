@@ -1,8 +1,8 @@
-# Install script for directory: /home/lx/ros2/xiao_ying/src/imu_to_odom
+# Install script for directory: /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lx/ros2/xiao_ying/install/imu_to_odom")
+  set(CMAKE_INSTALL_PREFIX "/home/lx/文档/GitHub/ros/xiao_ying/install/imu_to_odom")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/lx/ros2/xiao_ying/src/imu_to_odom/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/imu_to_odom/imu_to_odom"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_to_odom" TYPE EXECUTABLE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/imu_to_odom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_to_odom" TYPE EXECUTABLE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/imu_to_odom")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/imu_to_odom/imu_to_odom" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/imu_to_odom/imu_to_odom")
     file(RPATH_CHANGE
@@ -67,11 +67,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/imu_to_odom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/imu_to_odom")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/imu_to_odom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/imu_to_odom")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom/environment" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom/environment" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,42 +87,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom/environment" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom/environment" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_index/share/ament_index/resource_index/packages/imu_to_odom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_index/share/ament_index/resource_index/packages/imu_to_odom")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom/cmake" TYPE FILE FILES
-    "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_core/imu_to_odomConfig.cmake"
-    "/home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_core/imu_to_odomConfig-version.cmake"
+    "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_core/imu_to_odomConfig.cmake"
+    "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_core/imu_to_odomConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/ros2/xiao_ying/src/imu_to_odom/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_to_odom" TYPE FILE FILES "/home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -133,5 +133,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lx/ros2/xiao_ying/build/imu_to_odom/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

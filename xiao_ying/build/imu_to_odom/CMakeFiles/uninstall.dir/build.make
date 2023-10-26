@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lx/ros2/xiao_ying/src/imu_to_odom
+CMAKE_SOURCE_DIR = /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lx/ros2/xiao_ying/build/imu_to_odom
+CMAKE_BINARY_DIR = /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/lx/ros2/xiao_ying/build/imu_to_odom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lx/ros2/xiao_ying/src/imu_to_odom /home/lx/ros2/xiao_ying/src/imu_to_odom /home/lx/ros2/xiao_ying/build/imu_to_odom /home/lx/ros2/xiao_ying/build/imu_to_odom /home/lx/ros2/xiao_ying/build/imu_to_odom/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

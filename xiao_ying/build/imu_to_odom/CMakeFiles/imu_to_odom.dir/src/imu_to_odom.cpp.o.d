@@ -1,7 +1,7 @@
 CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o: \
- /home/lx/ros2/xiao_ying/src/imu_to_odom/src/imu_to_odom.cpp \
+ /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom/src/imu_to_odom.cpp \
  /usr/include/stdc-predef.h \
- /home/lx/ros2/xiao_ying/src/imu_to_odom/include/imu_to_odom/imu_to_odom.hpp \
+ /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom/include/imu_to_odom/imu_to_odom.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

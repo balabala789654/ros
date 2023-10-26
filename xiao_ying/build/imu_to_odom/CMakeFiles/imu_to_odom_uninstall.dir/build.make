@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lx/ros2/xiao_ying/src/imu_to_odom
+CMAKE_SOURCE_DIR = /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lx/ros2/xiao_ying/build/imu_to_odom
+CMAKE_BINARY_DIR = /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom
 
 # Utility rule file for imu_to_odom_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/imu_to_odom_uninstall.dir/compiler_depend.make
 include CMakeFiles/imu_to_odom_uninstall.dir/progress.make
 
 CMakeFiles/imu_to_odom_uninstall:
-	/usr/bin/cmake -P /home/lx/ros2/xiao_ying/build/imu_to_odom/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 imu_to_odom_uninstall: CMakeFiles/imu_to_odom_uninstall
 imu_to_odom_uninstall: CMakeFiles/imu_to_odom_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/imu_to_odom_uninstall.dir/clean:
 .PHONY : CMakeFiles/imu_to_odom_uninstall.dir/clean
 
 CMakeFiles/imu_to_odom_uninstall.dir/depend:
-	cd /home/lx/ros2/xiao_ying/build/imu_to_odom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lx/ros2/xiao_ying/src/imu_to_odom /home/lx/ros2/xiao_ying/src/imu_to_odom /home/lx/ros2/xiao_ying/build/imu_to_odom /home/lx/ros2/xiao_ying/build/imu_to_odom /home/lx/ros2/xiao_ying/build/imu_to_odom/CMakeFiles/imu_to_odom_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/CMakeFiles/imu_to_odom_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imu_to_odom_uninstall.dir/depend
 

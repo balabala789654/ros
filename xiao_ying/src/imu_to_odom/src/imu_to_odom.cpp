@@ -38,7 +38,7 @@ void IMU_TO_ODOM::odom_callback(){
     odom_.pose.pose.orientation.z = orientation[2];
     odom_.pose.pose.orientation.w = orientation[3];
 
-    odom_publisher->publish(odom_);
+    // odom_publisher->publish(odom_);
 }
 
 int main(int argc, char ** argv)
