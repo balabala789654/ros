@@ -1,0 +1,9 @@
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/uninstall.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/turtlebot3_bringup_uninstall.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/test.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/edit_cache.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/rebuild_cache.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/list_install_components.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/install.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/install/local.dir
+/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_bringup/CMakeFiles/install/strip.dir

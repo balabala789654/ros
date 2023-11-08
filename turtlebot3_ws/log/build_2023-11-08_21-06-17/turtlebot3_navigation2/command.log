@@ -1,0 +1,2 @@
+Invoking command in '/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/turtlebot3_ws/src/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_navigation2
+Invoked command in '/home/lx/ros2/ros/turtlebot3_ws/build/turtlebot3_navigation2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/turtlebot3_ws/src/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_navigation2
