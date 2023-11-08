@@ -1,0 +1,24 @@
+[0.058s] Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/fast_lio -- -j12 -l12
+[0.099s] [  5%] Built target fast_lio__cpp
+[0.099s] [ 11%] Built target fast_lio__rosidl_generator_c
+[0.109s] [ 11%] Built target ament_cmake_python_copy_fast_lio
+[0.115s] [ 20%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.118s] [ 28%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.118s] [ 37%] Built target fast_lio__rosidl_typesupport_c
+[0.119s] [ 45%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.119s] [ 54%] Built target fast_lio__rosidl_typesupport_cpp
+[0.123s] [ 62%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.138s] [ 62%] Built target fast_lio
+[0.149s] [ 74%] Built target fastlio_mapping
+[0.153s] [ 77%] Built target fast_lio__py
+[0.168s] [ 82%] Built target fast_lio__rosidl_generator_py
+[0.184s] [100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.185s] [100%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.185s] [100%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.366s] running egg_info
+[0.368s] writing fast_lio.egg-info/PKG-INFO
+[0.368s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.368s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.371s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.373s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.416s] [100%] Built target ament_cmake_python_build_fast_lio_egg

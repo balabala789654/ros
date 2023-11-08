@@ -1,0 +1,745 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (imu_complementary_filter) JobQueued: {'identifier': 'imu_complementary_filter', 'dependencies': OrderedDict()}
+[0.000504] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000626] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.000692] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2')])}
+[0.000713] (livox_to_pointcloud2) JobQueued: {'identifier': 'livox_to_pointcloud2', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2')])}
+[0.000731] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.063382] (imu_complementary_filter) JobStarted: {'identifier': 'imu_complementary_filter'}
+[0.098806] (-) TimerEvent: {}
+[0.128847] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.199011] (-) TimerEvent: {}
+[0.207554] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.209506] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[0.210637] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[0.213416] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'cmake'}
+[0.213878] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'build'}
+[0.214218] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[0.221526] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.223220] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[0.223539] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/xiao_ying/build/pointcloud_to_laserscan', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[0.299434] (-) TimerEvent: {}
+[0.308813] (livox_ros_driver2) StdoutLine: {'line': b'[  1%] Built target livox_interfaces2__cpp\n'}
+[0.319994] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.321898] (imu_complementary_filter) StdoutLine: {'line': b'[ 60%] Built target complementary_filter\n'}
+[0.326524] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] Built target livox_ros_driver2_node\n'}
+[0.354963] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_livox_ros_driver2\n'}
+[0.363674] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 20%] Built target laserscan_to_pointcloud_node\n'}
+[0.370726] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] Built target pointcloud_to_laserscan_node\n'}
+[0.372541] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] Built target laserscan_to_pointcloud\n'}
+[0.373480] (livox_ros_driver2) StdoutLine: {'line': b'[ 19%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.379389] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.379850] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.381002] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.381997] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.382417] (imu_complementary_filter) StdoutLine: {'line': b'[100%] Built target complementary_filter_node\n'}
+[0.382579] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.394825] (imu_complementary_filter) CommandEnded: {'returncode': 0}
+[0.399438] (-) TimerEvent: {}
+[0.402422] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2\n'}
+[0.409507] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] Built target pointcloud_to_laserscan\n'}
+[0.421760] (imu_complementary_filter) JobProgress: {'identifier': 'imu_complementary_filter', 'progress': 'install'}
+[0.424300] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces2__py\n'}
+[0.428752] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] Built target livox_ros_driver2\n'}
+[0.434651] (imu_complementary_filter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[0.438131] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target dummy_pointcloud_publisher\n'}
+[0.443738] (imu_complementary_filter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.443975] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib/libcomplementary_filter.so\n'}
+[0.444099] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node\n'}
+[0.444352] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include\n'}
+[0.444506] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include/imu_complementary_filter\n'}
+[0.444641] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h\n'}
+[0.444724] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h\n'}
+[0.444816] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/launch\n'}
+[0.444945] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py\n'}
+[0.445066] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh\n'}
+[0.445147] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv\n'}
+[0.445228] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter\n'}
+[0.445307] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter\n'}
+[0.445388] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh\n'}
+[0.445467] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv\n'}
+[0.445548] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh\n'}
+[0.445625] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv\n'}
+[0.445703] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash\n'}
+[0.445776] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh\n'}
+[0.445952] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh\n'}
+[0.446509] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv\n'}
+[0.446607] (imu_complementary_filter) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv\n'}
+[0.446939] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter\n'}
+[0.447169] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake\n'}
+[0.447340] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake\n'}
+[0.447628] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.447857] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.448170] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.448328] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake\n'}
+[0.448488] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake\n'}
+[0.448704] (imu_complementary_filter) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/package.xml\n'}
+[0.448925] (imu_complementary_filter) CommandEnded: {'returncode': 0}
+[0.449369] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[0.469746] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.470041] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.473048] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.499627] (-) TimerEvent: {}
+[0.521820] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[0.599827] (-) TimerEvent: {}
+[0.624457] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[0.625664] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.625829] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.626359] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.630667] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.631347] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.654894] (imu_complementary_filter) JobEnded: {'identifier': 'imu_complementary_filter', 'rc': 0}
+[0.659236] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'install'}
+[0.659454] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/xiao_ying/build/pointcloud_to_laserscan'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[0.669643] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.669853] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node\n'}
+[0.669950] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node\n'}
+[0.670036] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/config\n'}
+[0.670157] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/config/mid_360.lua\n'}
+[0.670259] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch\n'}
+[0.670345] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py\n'}
+[0.670411] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/occupancy_grid.launch.py\n'}
+[0.670474] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py\n'}
+[0.670553] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include\n'}
+[0.670613] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan\n'}
+[0.670691] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h\n'}
+[0.670781] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp\n'}
+[0.670953] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp\n'}
+[0.671025] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh\n'}
+[0.671090] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv\n'}
+[0.671145] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so\n'}
+[0.671214] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so\n'}
+[0.671334] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher\n'}
+[0.671460] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch\n'}
+[0.671557] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py\n'}
+[0.671661] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/occupancy_grid.launch.py\n'}
+[0.671798] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py\n'}
+[0.671965] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan\n'}
+[0.672069] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan\n'}
+[0.672153] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh\n'}
+[0.672290] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[0.672400] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh\n'}
+[0.672874] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv\n'}
+[0.672961] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash\n'}
+[0.673047] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh\n'}
+[0.673170] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh\n'}
+[0.673261] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv\n'}
+[0.673345] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv\n'}
+[0.673433] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan\n'}
+[0.673525] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan\n'}
+[0.673596] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.673657] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.673714] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.673786] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake\n'}
+[0.673842] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake\n'}
+[0.673894] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml\n'}
+[0.676396] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[0.699976] (-) TimerEvent: {}
+[0.720113] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.758977] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[0.800091] (-) TimerEvent: {}
+[0.888020] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 0}
+[0.889824] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[0.889883] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[0.896069] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.896270] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[0.896426] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.896547] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.896653] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.896742] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[0.896856] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c\n'}
+[0.896978] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[0.897108] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[0.897199] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[0.897307] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[0.897395] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c\n'}
+[0.897509] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[0.897656] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[0.897756] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[0.897862] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.898056] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[0.898183] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[0.898278] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[0.898397] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.898524] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.898656] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.898785] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.898900] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.898990] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.899094] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.899182] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.899306] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.899448] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.899539] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c\n'}
+[0.899645] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c\n'}
+[0.899744] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[0.899862] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.899965] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.900093] (-) TimerEvent: {}
+[0.900689] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[0.901032] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[0.901248] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.901328] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.901470] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.901593] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[0.901685] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[0.901766] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[0.901820] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[0.901871] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[0.901923] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[0.902022] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[0.902073] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[0.902122] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.902172] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.902222] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.902284] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.902335] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps\n'}
+[0.902383] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.902432] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.902484] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.902540] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.902589] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.902637] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.902687] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.902736] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp\n'}
+[0.902785] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp\n'}
+[0.902832] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.902880] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.902928] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[0.902975] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[0.903024] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[0.903073] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info\n'}
+[0.903121] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.903195] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.903243] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.903292] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.903340] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2\n'}
+[0.903388] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.903438] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.903489] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[0.903555] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.903608] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg\n'}
+[0.903666] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[0.903716] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[0.903766] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[0.903815] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[0.903864] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[0.903914] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.903964] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[0.904013] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[0.904060] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.930579] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[0.930796] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[0.939145] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.939446] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.939540] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.939615] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[0.939740] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[0.939844] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[0.939929] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[0.939983] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[0.940033] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[0.940108] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[0.940211] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/config\n'}
+[0.940306] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[0.940408] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[0.940482] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[0.940561] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz\n'}
+[0.940633] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[0.940714] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2\n'}
+[0.940775] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py\n'}
+[0.940824] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py\n'}
+[0.940885] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py\n'}
+[0.940952] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py\n'}
+[0.941012] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py\n'}
+[0.941083] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[0.941145] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[0.941204] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[0.941277] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[0.941328] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[0.941400] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[0.941461] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[0.941533] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[0.941609] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[0.941658] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[0.941709] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[0.941759] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[0.941811] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[0.941862] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.941933] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.942134] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.942242] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.942328] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.942410] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[0.942488] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.942569] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[0.942645] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.942719] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.942794] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.942866] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.942940] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[0.943025] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.943104] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake\n'}
+[0.943176] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.943248] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[0.943320] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.943393] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.943462] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.943533] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.943608] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.943681] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.943754] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.943809] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[0.944021] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[0.944264] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[0.944711] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[1.000377] (-) TimerEvent: {}
+[1.101166] (-) TimerEvent: {}
+[1.189566] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[1.190411] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[1.201480] (-) TimerEvent: {}
+[1.280373] (livox_to_pointcloud2) JobStarted: {'identifier': 'livox_to_pointcloud2'}
+[1.304200] (-) TimerEvent: {}
+[1.368103] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[1.369899] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[1.370581] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/xiao_ying/build/fast_lio', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[1.373616] (livox_to_pointcloud2) JobProgress: {'identifier': 'livox_to_pointcloud2', 'progress': 'cmake'}
+[1.374069] (livox_to_pointcloud2) JobProgress: {'identifier': 'livox_to_pointcloud2', 'progress': 'build'}
+[1.374263] (livox_to_pointcloud2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[1.404415] (-) TimerEvent: {}
+[1.437229] (livox_to_pointcloud2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/livox_to_pointcloud2.dir/src/livox_to_pointcloud2_ros2.cpp.o\x1b[0m\n'}
+[1.442763] (fast_lio) StdoutLine: {'line': b'[  8%] Built target fast_lio__cpp\n'}
+[1.443165] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__rosidl_generator_c\n'}
+[1.464039] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_fast_lio\n'}
+[1.478265] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_c\n'}
+[1.478903] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[1.479088] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[1.484025] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[1.484325] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[1.484737] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[1.504524] (-) TimerEvent: {}
+[1.509798] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[1.535833] (fast_lio) StdoutLine: {'line': b'[ 65%] Built target fast_lio__py\n'}
+[1.536279] (fast_lio) StdoutLine: {'line': b'[ 77%] Built target fastlio_mapping\n'}
+[1.565291] (fast_lio) StdoutLine: {'line': b'[ 82%] Built target fast_lio__rosidl_generator_py\n'}
+[1.605905] (fast_lio) StdoutLine: {'line': b'[ 88%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[1.606795] (-) TimerEvent: {}
+[1.613655] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.624434] (fast_lio) StdoutLine: {'line': b'[100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[1.707062] (-) TimerEvent: {}
+[1.808011] (-) TimerEvent: {}
+[1.872630] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[1.873484] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[1.873662] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[1.873787] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[1.875725] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[1.876238] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[1.908217] (-) TimerEvent: {}
+[1.922634] (fast_lio) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[1.933253] (fast_lio) CommandEnded: {'returncode': 0}
+[2.007837] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[2.008871] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/xiao_ying/build/fast_lio'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[2.010233] (-) TimerEvent: {}
+[2.016921] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.017341] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[2.017511] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio\n'}
+[2.017626] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[2.017818] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[2.017996] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[2.018278] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c\n'}
+[2.018458] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[2.018683] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[2.018817] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[2.018958] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.019047] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[2.019165] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[2.019254] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[2.019351] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio\n'}
+[2.019592] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[2.019685] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[2.019770] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[2.019852] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.019939] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[2.020025] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio\n'}
+[2.020245] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[2.020400] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[2.020532] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[2.020829] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[2.021117] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[2.021253] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[2.021351] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio\n'}
+[2.021516] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[2.021643] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[2.021767] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps\n'}
+[2.021976] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.022137] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.022234] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.022325] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio\n'}
+[2.022415] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[2.022504] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[2.022595] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c\n'}
+[2.022691] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[2.022801] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.022893] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[2.022980] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[2.023068] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio\n'}
+[2.023157] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[2.023250] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[2.023347] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp\n'}
+[2.023441] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.023518] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[2.023616] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[2.023706] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[2.023798] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[2.023888] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info\n'}
+[2.023981] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.024073] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.024164] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.024254] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.024344] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio\n'}
+[2.024435] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.024526] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.024621] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.024710] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[2.024800] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[2.024907] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg\n'}
+[2.024997] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[2.025087] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[2.025175] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[2.025258] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.025342] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[2.025428] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.069657] (fast_lio) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[2.070057] (fast_lio) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[2.077219] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.077457] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.077597] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.077833] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[2.078049] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[2.078155] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[2.078283] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[2.078432] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config\n'}
+[2.078640] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[2.078822] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[2.078977] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[2.079126] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[2.079281] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[2.079397] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch\n'}
+[2.079487] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[2.079594] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_avia.launch\n'}
+[2.079699] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[2.079878] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_velodyne.launch\n'}
+[2.079998] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_horizon.launch\n'}
+[2.080135] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_ouster64.launch\n'}
+[2.080204] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/rviz\n'}
+[2.080260] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[2.080322] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[2.080483] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[2.080620] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[2.080750] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[2.080872] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[2.080998] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[2.081122] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[2.081259] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[2.081397] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[2.081507] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[2.081598] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/package.dsv\n'}
+[2.081692] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[2.081796] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[2.081883] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[2.081993] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.082070] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[2.082148] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[2.082228] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.082300] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[2.082373] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.082457] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[2.082532] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[2.082609] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[2.082681] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.082754] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[2.082825] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[2.082898] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[2.082969] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[2.083055] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[2.083123] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[2.083190] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.083260] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.083330] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.083399] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.083468] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.083537] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.083607] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[2.083675] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[2.083746] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/package.xml\n'}
+[2.085419] (fast_lio) CommandEnded: {'returncode': 0}
+[2.110411] (-) TimerEvent: {}
+[2.210892] (-) TimerEvent: {}
+[2.306167] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[2.310960] (-) TimerEvent: {}
+[2.411210] (-) TimerEvent: {}
+[2.511493] (-) TimerEvent: {}
+[2.611874] (-) TimerEvent: {}
+[2.712490] (-) TimerEvent: {}
+[2.812846] (-) TimerEvent: {}
+[2.913226] (-) TimerEvent: {}
+[3.013563] (-) TimerEvent: {}
+[3.114019] (-) TimerEvent: {}
+[3.214449] (-) TimerEvent: {}
+[3.314928] (-) TimerEvent: {}
+[3.415462] (-) TimerEvent: {}
+[3.515966] (-) TimerEvent: {}
+[3.616648] (-) TimerEvent: {}
+[3.717029] (-) TimerEvent: {}
+[3.817606] (-) TimerEvent: {}
+[3.918567] (-) TimerEvent: {}
+[4.019136] (-) TimerEvent: {}
+[4.119688] (-) TimerEvent: {}
+[4.220190] (-) TimerEvent: {}
+[4.320721] (-) TimerEvent: {}
+[4.421184] (-) TimerEvent: {}
+[4.521569] (-) TimerEvent: {}
+[4.621950] (-) TimerEvent: {}
+[4.722245] (-) TimerEvent: {}
+[4.822528] (-) TimerEvent: {}
+[4.922899] (-) TimerEvent: {}
+[5.023215] (-) TimerEvent: {}
+[5.123545] (-) TimerEvent: {}
+[5.223830] (-) TimerEvent: {}
+[5.324119] (-) TimerEvent: {}
+[5.424427] (-) TimerEvent: {}
+[5.524720] (-) TimerEvent: {}
+[5.625027] (-) TimerEvent: {}
+[5.725349] (-) TimerEvent: {}
+[5.825659] (-) TimerEvent: {}
+[5.925952] (-) TimerEvent: {}
+[6.026219] (-) TimerEvent: {}
+[6.126482] (-) TimerEvent: {}
+[6.226784] (-) TimerEvent: {}
+[6.327117] (-) TimerEvent: {}
+[6.427418] (-) TimerEvent: {}
+[6.527746] (-) TimerEvent: {}
+[6.628034] (-) TimerEvent: {}
+[6.728355] (-) TimerEvent: {}
+[6.828669] (-) TimerEvent: {}
+[6.928962] (-) TimerEvent: {}
+[7.029255] (-) TimerEvent: {}
+[7.129589] (-) TimerEvent: {}
+[7.229874] (-) TimerEvent: {}
+[7.330207] (-) TimerEvent: {}
+[7.430473] (-) TimerEvent: {}
+[7.530768] (-) TimerEvent: {}
+[7.631099] (-) TimerEvent: {}
+[7.731404] (-) TimerEvent: {}
+[7.831672] (-) TimerEvent: {}
+[7.932011] (-) TimerEvent: {}
+[8.032432] (-) TimerEvent: {}
+[8.133165] (-) TimerEvent: {}
+[8.233876] (-) TimerEvent: {}
+[8.334659] (-) TimerEvent: {}
+[8.435037] (-) TimerEvent: {}
+[8.535373] (-) TimerEvent: {}
+[8.635698] (-) TimerEvent: {}
+[8.736169] (-) TimerEvent: {}
+[8.836538] (-) TimerEvent: {}
+[8.936880] (-) TimerEvent: {}
+[9.037239] (-) TimerEvent: {}
+[9.137663] (-) TimerEvent: {}
+[9.238058] (-) TimerEvent: {}
+[9.338408] (-) TimerEvent: {}
+[9.438718] (-) TimerEvent: {}
+[9.539011] (-) TimerEvent: {}
+[9.639293] (-) TimerEvent: {}
+[9.739594] (-) TimerEvent: {}
+[9.839873] (-) TimerEvent: {}
+[9.940112] (-) TimerEvent: {}
+[10.040381] (-) TimerEvent: {}
+[10.140620] (-) TimerEvent: {}
+[10.240908] (-) TimerEvent: {}
+[10.341150] (-) TimerEvent: {}
+[10.441420] (-) TimerEvent: {}
+[10.541702] (-) TimerEvent: {}
+[10.641959] (-) TimerEvent: {}
+[10.742178] (-) TimerEvent: {}
+[10.842408] (-) TimerEvent: {}
+[10.942647] (-) TimerEvent: {}
+[11.042872] (-) TimerEvent: {}
+[11.143219] (-) TimerEvent: {}
+[11.243455] (-) TimerEvent: {}
+[11.343700] (-) TimerEvent: {}
+[11.443959] (-) TimerEvent: {}
+[11.544208] (-) TimerEvent: {}
+[11.644463] (-) TimerEvent: {}
+[11.744695] (-) TimerEvent: {}
+[11.844971] (-) TimerEvent: {}
+[11.945177] (-) TimerEvent: {}
+[12.045434] (-) TimerEvent: {}
+[12.145700] (-) TimerEvent: {}
+[12.246002] (-) TimerEvent: {}
+[12.346231] (-) TimerEvent: {}
+[12.446494] (-) TimerEvent: {}
+[12.546744] (-) TimerEvent: {}
+[12.646977] (-) TimerEvent: {}
+[12.747214] (-) TimerEvent: {}
+[12.847483] (-) TimerEvent: {}
+[12.947751] (-) TimerEvent: {}
+[13.048139] (-) TimerEvent: {}
+[13.148427] (-) TimerEvent: {}
+[13.248719] (-) TimerEvent: {}
+[13.349013] (-) TimerEvent: {}
+[13.449745] (-) TimerEvent: {}
+[13.550365] (-) TimerEvent: {}
+[13.650945] (-) TimerEvent: {}
+[13.751397] (-) TimerEvent: {}
+[13.851821] (-) TimerEvent: {}
+[13.952164] (-) TimerEvent: {}
+[14.052586] (-) TimerEvent: {}
+[14.153022] (-) TimerEvent: {}
+[14.253407] (-) TimerEvent: {}
+[14.353779] (-) TimerEvent: {}
+[14.454150] (-) TimerEvent: {}
+[14.554490] (-) TimerEvent: {}
+[14.654831] (-) TimerEvent: {}
+[14.755244] (-) TimerEvent: {}
+[14.855806] (-) TimerEvent: {}
+[14.956206] (-) TimerEvent: {}
+[15.056551] (-) TimerEvent: {}
+[15.156943] (-) TimerEvent: {}
+[15.257321] (-) TimerEvent: {}
+[15.357731] (-) TimerEvent: {}
+[15.458026] (-) TimerEvent: {}
+[15.558272] (-) TimerEvent: {}
+[15.658600] (-) TimerEvent: {}
+[15.759539] (-) TimerEvent: {}
+[15.859820] (-) TimerEvent: {}
+[15.960090] (-) TimerEvent: {}
+[16.060417] (-) TimerEvent: {}
+[16.160778] (-) TimerEvent: {}
+[16.261291] (-) TimerEvent: {}
+[16.361571] (-) TimerEvent: {}
+[16.461896] (-) TimerEvent: {}
+[16.562230] (-) TimerEvent: {}
+[16.662748] (-) TimerEvent: {}
+[16.763281] (-) TimerEvent: {}
+[16.863810] (-) TimerEvent: {}
+[16.964355] (-) TimerEvent: {}
+[17.064679] (-) TimerEvent: {}
+[17.165403] (-) TimerEvent: {}
+[17.265818] (-) TimerEvent: {}
+[17.366386] (-) TimerEvent: {}
+[17.467279] (-) TimerEvent: {}
+[17.568282] (-) TimerEvent: {}
+[17.669296] (-) TimerEvent: {}
+[17.769905] (-) TimerEvent: {}
+[17.870479] (-) TimerEvent: {}
+[17.971066] (-) TimerEvent: {}
+[18.071465] (-) TimerEvent: {}
+[18.172021] (-) TimerEvent: {}
+[18.272495] (-) TimerEvent: {}
+[18.373031] (-) TimerEvent: {}
+[18.395028] (livox_to_pointcloud2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_to_pointcloud2.so\x1b[0m\n'}
+[18.473205] (-) TimerEvent: {}
+[18.573738] (-) TimerEvent: {}
+[18.674289] (-) TimerEvent: {}
+[18.774921] (-) TimerEvent: {}
+[18.799496] (livox_to_pointcloud2) StdoutLine: {'line': b'[ 50%] Built target livox_to_pointcloud2\n'}
+[18.825882] (livox_to_pointcloud2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/livox_to_pointcloud2_node.dir/src/livox_to_pointcloud2_ros2_node.cpp.o\x1b[0m\n'}
+[18.874990] (-) TimerEvent: {}
+[18.975536] (-) TimerEvent: {}
+[19.076346] (-) TimerEvent: {}
+[19.176788] (-) TimerEvent: {}
+[19.277385] (-) TimerEvent: {}
+[19.377913] (-) TimerEvent: {}
+[19.478780] (-) TimerEvent: {}
+[19.579571] (-) TimerEvent: {}
+[19.680337] (-) TimerEvent: {}
+[19.781266] (-) TimerEvent: {}
+[19.881787] (-) TimerEvent: {}
+[19.982566] (-) TimerEvent: {}
+[20.083069] (-) TimerEvent: {}
+[20.183728] (-) TimerEvent: {}
+[20.284972] (-) TimerEvent: {}
+[20.385850] (-) TimerEvent: {}
+[20.486785] (-) TimerEvent: {}
+[20.587635] (-) TimerEvent: {}
+[20.688221] (-) TimerEvent: {}
+[20.789060] (-) TimerEvent: {}
+[20.889811] (-) TimerEvent: {}
+[20.990333] (-) TimerEvent: {}
+[21.090882] (-) TimerEvent: {}
+[21.191322] (-) TimerEvent: {}
+[21.291789] (-) TimerEvent: {}
+[21.392164] (-) TimerEvent: {}
+[21.492872] (-) TimerEvent: {}
+[21.593274] (-) TimerEvent: {}
+[21.693681] (-) TimerEvent: {}
+[21.794083] (-) TimerEvent: {}
+[21.894505] (-) TimerEvent: {}
+[21.994881] (-) TimerEvent: {}
+[22.095206] (-) TimerEvent: {}
+[22.195523] (-) TimerEvent: {}
+[22.295873] (-) TimerEvent: {}
+[22.396231] (-) TimerEvent: {}
+[22.496656] (-) TimerEvent: {}
+[22.597150] (-) TimerEvent: {}
+[22.697577] (-) TimerEvent: {}
+[22.798043] (-) TimerEvent: {}
+[22.898600] (-) TimerEvent: {}
+[22.999173] (-) TimerEvent: {}
+[23.099666] (-) TimerEvent: {}
+[23.200293] (-) TimerEvent: {}
+[23.300870] (-) TimerEvent: {}
+[23.401230] (-) TimerEvent: {}
+[23.501549] (-) TimerEvent: {}
+[23.601857] (-) TimerEvent: {}
+[23.702309] (-) TimerEvent: {}
+[23.802875] (-) TimerEvent: {}
+[23.903493] (-) TimerEvent: {}
+[24.004352] (-) TimerEvent: {}
+[24.105004] (-) TimerEvent: {}
+[24.205504] (-) TimerEvent: {}
+[24.306180] (-) TimerEvent: {}
+[24.406770] (-) TimerEvent: {}
+[24.507325] (-) TimerEvent: {}
+[24.607605] (-) TimerEvent: {}
+[24.635077] (livox_to_pointcloud2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable livox_to_pointcloud2_node\x1b[0m\n'}
+[24.707731] (-) TimerEvent: {}
+[24.752150] (livox_to_pointcloud2) StdoutLine: {'line': b'[100%] Built target livox_to_pointcloud2_node\n'}
+[24.761032] (livox_to_pointcloud2) CommandEnded: {'returncode': 0}
+[24.781404] (livox_to_pointcloud2) JobProgress: {'identifier': 'livox_to_pointcloud2', 'progress': 'install'}
+[24.781733] (livox_to_pointcloud2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2'], 'cwd': '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('OLDPWD', '/home/lx/ros2/ros/xiao_ying/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1714,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1714'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5fec13c5_9ea3_4165_a300_a232f1974763'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KZIZD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble')]), 'shell': False}
+[24.792459] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[24.792662] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include\n'}
+[24.792752] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2\n'}
+[24.792833] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_to_pointcloud2_ros2.hpp\n'}
+[24.792886] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_converter.hpp\n'}
+[24.792940] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.sh\n'}
+[24.793013] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.dsv\n'}
+[24.793062] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so\n'}
+[24.807124] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so" to ""\n'}
+[24.807322] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node\n'}
+[24.807788] (-) TimerEvent: {}
+[24.808243] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node" to ""\n'}
+[24.808349] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/package_run_dependencies/livox_to_pointcloud2\n'}
+[24.808440] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/parent_prefix_path/livox_to_pointcloud2\n'}
+[24.808546] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.sh\n'}
+[24.808629] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.dsv\n'}
+[24.808706] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.sh\n'}
+[24.808781] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.dsv\n'}
+[24.808854] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.bash\n'}
+[24.808921] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.sh\n'}
+[24.808978] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.zsh\n'}
+[24.809076] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.dsv\n'}
+[24.809189] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv\n'}
+[24.809244] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/packages/livox_to_pointcloud2\n'}
+[24.809315] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/rclcpp_components/livox_to_pointcloud2\n'}
+[24.809392] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.809469] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.809545] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.809620] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config.cmake\n'}
+[24.809696] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config-version.cmake\n'}
+[24.809773] (livox_to_pointcloud2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.xml\n'}
+[24.811245] (livox_to_pointcloud2) CommandEnded: {'returncode': 0}
+[24.907975] (-) TimerEvent: {}
+[24.960362] (livox_to_pointcloud2) JobEnded: {'identifier': 'livox_to_pointcloud2', 'rc': 0}
+[24.960853] (-) EventReactorShutdown: {}

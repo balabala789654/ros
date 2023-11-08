@@ -1,0 +1,68 @@
+[0.066s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/fast_lio
+[0.077s] [0mCurrent CPU archtecture: x86_64[0m
+[0.080s] [0mProcesser number:  12[0m
+[0.080s] [0mcore for MP: 3[0m
+[0.083s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.224s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.251s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.258s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.334s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.571s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.621s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.659s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.736s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.815s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.829s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.940s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.183s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.184s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.448s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.469s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.691s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.695s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.826s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.833s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.839s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.953s] -- Found Qhull version 8.0.2
+[2.062s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.193s] -- Found livox_ros2_driver: 0.0.1 (/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake)
+[2.367s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.375s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[2.376s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.376s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.376s]   command to set the policy and suppress this warning.
+[2.376s] 
+[2.376s]   CMake variable PCL_ROOT is set to:
+[2.376s] 
+[2.376s]     /usr
+[2.376s] 
+[2.376s]   For compatibility, CMake is ignoring the variable.
+[2.376s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.376s] [0m
+[2.381s] [0mEigen:/usr/local/include/eigen3[0m
+[2.381s] -- PCL: /usr/include/pcl-1.12
+[2.597s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.980s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.982s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.001s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.001s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.001s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.001s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.019s] -- Found PythonExtra: .so  
+[3.052s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.052s]   ament_target_dependencies() the passed package name 'livox_ros_driver2' was
+[3.052s]   not found before
+[3.052s] Call Stack (most recent call first):
+[3.052s]   CMakeLists.txt:116 (ament_target_dependencies)
+[3.052s] 
+[3.052s] [0m
+[3.052s] -- Configuring incomplete, errors occurred!
+[3.052s] See also "/home/lx/ros2/ros/mid-70_ws/build/fast_lio/CMakeFiles/CMakeOutput.log".
+[3.071s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/fast_lio

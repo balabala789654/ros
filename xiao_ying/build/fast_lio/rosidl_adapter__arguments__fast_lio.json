@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/home/lx/ros2/ros/xiao_ying/src/FAST_LIO:msg/Pose6D.msg"
+  ]
+}

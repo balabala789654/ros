@@ -1,0 +1,516 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000410] (pointcloud_to_laserscan) JobQueued: {'identifier': 'pointcloud_to_laserscan', 'dependencies': OrderedDict()}
+[0.000524] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2')])}
+[0.000544] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.056266] (pointcloud_to_laserscan) JobStarted: {'identifier': 'pointcloud_to_laserscan'}
+[0.100117] (-) TimerEvent: {}
+[0.116123] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.117487] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[0.117535] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1661,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39f0bf1_7348_420a_97a6_cfc170e1c128'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W6XBD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.120114] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'cmake'}
+[0.120549] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'build'}
+[0.120820] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1661,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39f0bf1_7348_420a_97a6_cfc170e1c128'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W6XBD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.163433] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.166150] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Built target livox_interfaces2__cpp\n'}
+[0.166705] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] Built target livox_ros_driver2_node\n'}
+[0.166905] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] Built target pointcloud_to_laserscan_node\n'}
+[0.167038] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 40%] Built target laserscan_to_pointcloud_node\n'}
+[0.175832] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 60%] Built target laserscan_to_pointcloud\n'}
+[0.178551] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_livox_ros_driver2\n'}
+[0.184917] (livox_ros_driver2) StdoutLine: {'line': b'[ 19%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.185888] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.186178] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.186292] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.189711] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.191935] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.200213] (-) TimerEvent: {}
+[0.204015] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[0.210496] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2\n'}
+[0.233276] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] Built target livox_ros_driver2\n'}
+[0.240307] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] Built target livox_interfaces2__py\n'}
+[0.261383] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[0.285244] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.285511] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.286921] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.300317] (-) TimerEvent: {}
+[0.400670] (-) TimerEvent: {}
+[0.448847] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[0.449713] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.450040] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.450273] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.454424] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.455011] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.480007] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.490340] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[0.500784] (-) TimerEvent: {}
+[0.571261] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[0.578633] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2'], 'cwd': '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1661,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39f0bf1_7348_420a_97a6_cfc170e1c128'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W6XBD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[0.585006] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.585297] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[0.585462] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.585548] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.585648] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.585887] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[0.586040] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c\n'}
+[0.586126] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[0.586260] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[0.586366] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[0.586447] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[0.586529] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c\n'}
+[0.586680] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[0.586847] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[0.586989] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[0.587093] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.587194] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[0.587305] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[0.587441] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[0.587523] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.587605] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.587712] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.587816] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[0.587937] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.588043] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.588127] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.588211] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.588294] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.588377] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.588461] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c\n'}
+[0.588544] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c\n'}
+[0.588649] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[0.588801] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.588881] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.588960] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[0.589041] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[0.589119] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.589199] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.589277] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.589356] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[0.589434] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[0.589520] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[0.589600] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[0.589689] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[0.589779] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[0.589861] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[0.589940] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[0.590020] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.590098] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.590177] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.590269] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.590348] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps\n'}
+[0.590427] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.590507] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.590586] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.590665] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[0.590743] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[0.590821] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[0.590899] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.590976] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp\n'}
+[0.591056] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp\n'}
+[0.591135] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.591213] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.591292] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[0.591378] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[0.591457] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[0.591535] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info\n'}
+[0.591613] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.591698] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.591779] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.591858] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.591936] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2\n'}
+[0.592014] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.592094] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.592173] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[0.592251] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.592331] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg\n'}
+[0.592421] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[0.592501] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[0.592580] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[0.592657] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[0.592734] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[0.592813] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.592899] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[0.592978] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[0.593055] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.600858] (-) TimerEvent: {}
+[0.615337] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[0.615552] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[0.619424] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.619636] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.619805] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.619987] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[0.620105] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[0.620217] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[0.620331] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[0.620434] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[0.620513] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[0.620619] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[0.620728] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/config\n'}
+[0.620906] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[0.621010] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[0.621092] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[0.621172] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz\n'}
+[0.621256] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[0.621411] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2\n'}
+[0.621492] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py\n'}
+[0.621610] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py\n'}
+[0.621723] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py\n'}
+[0.621863] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py\n'}
+[0.621981] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py\n'}
+[0.622091] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[0.622205] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[0.622305] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[0.622414] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[0.622526] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[0.622654] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[0.622769] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[0.622853] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[0.622938] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[0.623123] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[0.623224] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[0.623313] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[0.623404] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[0.623495] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.623596] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.623691] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.623789] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.623879] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.623968] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[0.624521] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.624692] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[0.624787] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.624873] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.624958] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.625054] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.625288] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[0.625963] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.626287] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake\n'}
+[0.626502] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.626724] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[0.627044] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.627239] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.627366] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.627567] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.627793] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.627924] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.628135] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.628292] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[0.628495] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[0.628642] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[0.628834] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[0.700945] (-) TimerEvent: {}
+[0.801329] (-) TimerEvent: {}
+[0.850149] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[0.850804] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.901410] (-) TimerEvent: {}
+[0.910160] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.910881] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.911201] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lx/ros2/ros/mid-360_ws/build/fast_lio', '--', '-j12', '-l12'], 'cwd': '/home/lx/ros2/ros/mid-360_ws/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1661,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39f0bf1_7348_420a_97a6_cfc170e1c128'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W6XBD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/mid-360_ws/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble')]), 'shell': False}
+[0.957206] (fast_lio) StdoutLine: {'line': b'[  2%] Built target fast_lio__cpp\n'}
+[0.959343] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__rosidl_generator_c\n'}
+[0.969857] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_fast_lio\n'}
+[0.980364] (fast_lio) StdoutLine: {'line': b'[ 20%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[0.981436] (fast_lio) StdoutLine: {'line': b'[ 28%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[0.982745] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_c\n'}
+[0.983441] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[0.983732] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[0.983986] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[1.001511] (-) TimerEvent: {}
+[1.002251] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[1.021216] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fastlio_mapping\n'}
+[1.021471] (fast_lio) StdoutLine: {'line': b'[ 77%] Built target fast_lio__py\n'}
+[1.046084] (fast_lio) StdoutLine: {'line': b'[ 82%] Built target fast_lio__rosidl_generator_py\n'}
+[1.068286] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[1.068579] (fast_lio) StdoutLine: {'line': b'[ 94%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.071903] (fast_lio) StdoutLine: {'line': b'[100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[1.101609] (-) TimerEvent: {}
+[1.202179] (-) TimerEvent: {}
+[1.205416] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[1.206155] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[1.206338] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[1.206463] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[1.208849] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[1.209502] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[1.274866] (fast_lio) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[1.284044] (fast_lio) CommandEnded: {'returncode': 0}
+[1.302269] (-) TimerEvent: {}
+[1.333008] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[1.333653] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/mid-360_ws/build/fast_lio'], 'cwd': '/home/lx/ros2/ros/mid-360_ws/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1661,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39f0bf1_7348_420a_97a6_cfc170e1c128'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W6XBD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/mid-360_ws/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble')]), 'shell': False}
+[1.342671] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.342948] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[1.343051] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.343172] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.343276] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.343363] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[1.343495] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c\n'}
+[1.343591] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[1.343674] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[1.343801] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[1.343990] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.344129] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[1.344226] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[1.344316] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[1.344399] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.344607] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.344689] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.344790] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.344872] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.344952] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[1.345034] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.345119] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.345297] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.345382] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[1.345463] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[1.345545] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[1.345628] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[1.345736] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.345855] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.345985] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.346098] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps\n'}
+[1.346181] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.346289] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.346395] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.346482] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.346569] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.346765] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.346912] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c\n'}
+[1.346999] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[1.347093] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.347178] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[1.347268] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[1.347354] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio\n'}
+[1.347446] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[1.347533] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[1.347617] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp\n'}
+[1.347699] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.347779] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[1.347860] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[1.347945] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[1.348029] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[1.348113] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info\n'}
+[1.348198] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.348282] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.348364] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.348446] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.348528] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio\n'}
+[1.348609] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.348692] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.348776] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.348860] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[1.348944] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[1.349057] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg\n'}
+[1.349143] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[1.349227] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[1.349309] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[1.349387] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.349469] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[1.349548] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.380977] (fast_lio) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[1.381241] (fast_lio) StdoutLine: {'line': b"Listing '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[1.387383] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.387617] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.387925] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.388042] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[1.388181] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[1.388279] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[1.388402] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[1.388597] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/config\n'}
+[1.388724] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[1.388875] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[1.389017] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[1.389117] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[1.389192] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[1.389306] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch\n'}
+[1.389439] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[1.389514] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch/mapping_avia.launch\n'}
+[1.389577] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[1.389633] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch/mapping_velodyne.launch\n'}
+[1.389690] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch/mapping_horizon.launch\n'}
+[1.389926] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/launch/mapping_ouster64.launch\n'}
+[1.389985] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/rviz\n'}
+[1.390245] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[1.390357] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[1.390592] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[1.390678] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[1.390742] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[1.390837] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[1.390926] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[1.391000] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[1.391087] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[1.391167] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[1.391247] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[1.391327] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.dsv\n'}
+[1.391532] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[1.391655] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[1.391780] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[1.391913] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.391978] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.392033] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[1.392084] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.392134] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.392189] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.392239] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.392290] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[1.392339] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[1.392387] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.392435] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.392582] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[1.392681] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.392732] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[1.392781] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[1.392830] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[1.392879] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.392928] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.392976] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.393025] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.393075] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.393123] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.393175] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[1.393226] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[1.393395] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.xml\n'}
+[1.394162] (fast_lio) CommandEnded: {'returncode': 0}
+[1.402723] (-) TimerEvent: {}
+[1.503025] (-) TimerEvent: {}
+[1.603363] (-) TimerEvent: {}
+[1.674261] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[1.703483] (-) TimerEvent: {}
+[1.803811] (-) TimerEvent: {}
+[1.904073] (-) TimerEvent: {}
+[2.004309] (-) TimerEvent: {}
+[2.104540] (-) TimerEvent: {}
+[2.204795] (-) TimerEvent: {}
+[2.305112] (-) TimerEvent: {}
+[2.405467] (-) TimerEvent: {}
+[2.505855] (-) TimerEvent: {}
+[2.606204] (-) TimerEvent: {}
+[2.706554] (-) TimerEvent: {}
+[2.807047] (-) TimerEvent: {}
+[2.907444] (-) TimerEvent: {}
+[3.007786] (-) TimerEvent: {}
+[3.108079] (-) TimerEvent: {}
+[3.208384] (-) TimerEvent: {}
+[3.308714] (-) TimerEvent: {}
+[3.409117] (-) TimerEvent: {}
+[3.509542] (-) TimerEvent: {}
+[3.609876] (-) TimerEvent: {}
+[3.710177] (-) TimerEvent: {}
+[3.810438] (-) TimerEvent: {}
+[3.910712] (-) TimerEvent: {}
+[4.011035] (-) TimerEvent: {}
+[4.111308] (-) TimerEvent: {}
+[4.211552] (-) TimerEvent: {}
+[4.311863] (-) TimerEvent: {}
+[4.412261] (-) TimerEvent: {}
+[4.512531] (-) TimerEvent: {}
+[4.612779] (-) TimerEvent: {}
+[4.713072] (-) TimerEvent: {}
+[4.813338] (-) TimerEvent: {}
+[4.913605] (-) TimerEvent: {}
+[5.013795] (-) TimerEvent: {}
+[5.114049] (-) TimerEvent: {}
+[5.214314] (-) TimerEvent: {}
+[5.314566] (-) TimerEvent: {}
+[5.414871] (-) TimerEvent: {}
+[5.515098] (-) TimerEvent: {}
+[5.615358] (-) TimerEvent: {}
+[5.715873] (-) TimerEvent: {}
+[5.816141] (-) TimerEvent: {}
+[5.916464] (-) TimerEvent: {}
+[6.016697] (-) TimerEvent: {}
+[6.116935] (-) TimerEvent: {}
+[6.217165] (-) TimerEvent: {}
+[6.317410] (-) TimerEvent: {}
+[6.417871] (-) TimerEvent: {}
+[6.518110] (-) TimerEvent: {}
+[6.618935] (-) TimerEvent: {}
+[6.719161] (-) TimerEvent: {}
+[6.819445] (-) TimerEvent: {}
+[6.919863] (-) TimerEvent: {}
+[7.020122] (-) TimerEvent: {}
+[7.120345] (-) TimerEvent: {}
+[7.220574] (-) TimerEvent: {}
+[7.320797] (-) TimerEvent: {}
+[7.421020] (-) TimerEvent: {}
+[7.521373] (-) TimerEvent: {}
+[7.621614] (-) TimerEvent: {}
+[7.722000] (-) TimerEvent: {}
+[7.822228] (-) TimerEvent: {}
+[7.922583] (-) TimerEvent: {}
+[8.022810] (-) TimerEvent: {}
+[8.123038] (-) TimerEvent: {}
+[8.223262] (-) TimerEvent: {}
+[8.323764] (-) TimerEvent: {}
+[8.424003] (-) TimerEvent: {}
+[8.524229] (-) TimerEvent: {}
+[8.624583] (-) TimerEvent: {}
+[8.724805] (-) TimerEvent: {}
+[8.825023] (-) TimerEvent: {}
+[8.925245] (-) TimerEvent: {}
+[9.025674] (-) TimerEvent: {}
+[9.125914] (-) TimerEvent: {}
+[9.226154] (-) TimerEvent: {}
+[9.326528] (-) TimerEvent: {}
+[9.426755] (-) TimerEvent: {}
+[9.526981] (-) TimerEvent: {}
+[9.627317] (-) TimerEvent: {}
+[9.727717] (-) TimerEvent: {}
+[9.827950] (-) TimerEvent: {}
+[9.928241] (-) TimerEvent: {}
+[10.028494] (-) TimerEvent: {}
+[10.128726] (-) TimerEvent: {}
+[10.128963] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_to_laserscan.so\x1b[0m\n'}
+[10.228817] (-) TimerEvent: {}
+[10.329067] (-) TimerEvent: {}
+[10.429413] (-) TimerEvent: {}
+[10.529844] (-) TimerEvent: {}
+[10.630274] (-) TimerEvent: {}
+[10.635061] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 80%] Built target pointcloud_to_laserscan\n'}
+[10.658119] (pointcloud_to_laserscan) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable dummy_pointcloud_publisher\x1b[0m\n'}
+[10.730354] (-) TimerEvent: {}
+[10.830623] (-) TimerEvent: {}
+[10.884481] (pointcloud_to_laserscan) StdoutLine: {'line': b'[100%] Built target dummy_pointcloud_publisher\n'}
+[10.893021] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[10.917114] (pointcloud_to_laserscan) JobProgress: {'identifier': 'pointcloud_to_laserscan', 'progress': 'install'}
+[10.917346] (pointcloud_to_laserscan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan'], 'cwd': '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lx'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lx'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lx-Dell-G15-5510:@/tmp/.ICE-unix/1661,unix/lx-Dell-G15-5510:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39f0bf1_7348_420a_97a6_cfc170e1c128'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W6XBD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/opt/ros/humble')]), 'shell': False}
+[10.924661] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.924803] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node\n'}
+[10.925064] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node\n'}
+[10.925224] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include\n'}
+[10.925310] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan\n'}
+[10.925365] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h\n'}
+[10.925442] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp\n'}
+[10.925506] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp\n'}
+[10.925555] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh\n'}
+[10.925603] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv\n'}
+[10.925699] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so\n'}
+[10.925934] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so\n'}
+[10.930703] (-) TimerEvent: {}
+[10.936899] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""\n'}
+[10.937056] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher\n'}
+[10.938643] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Set runtime path of "/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""\n'}
+[10.938728] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch\n'}
+[10.938888] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py\n'}
+[10.939061] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py\n'}
+[10.939143] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan\n'}
+[10.939218] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan\n'}
+[10.939285] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh\n'}
+[10.939351] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv\n'}
+[10.939402] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh\n'}
+[10.939451] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv\n'}
+[10.939499] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash\n'}
+[10.939580] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh\n'}
+[10.939644] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh\n'}
+[10.939720] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv\n'}
+[10.939771] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Installing: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv\n'}
+[10.939850] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan\n'}
+[10.939900] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan\n'}
+[10.939949] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.939997] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.940045] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.940092] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake\n'}
+[10.940139] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake\n'}
+[10.940186] (pointcloud_to_laserscan) StdoutLine: {'line': b'-- Up-to-date: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml\n'}
+[10.941476] (pointcloud_to_laserscan) CommandEnded: {'returncode': 0}
+[11.030771] (-) TimerEvent: {}
+[11.116914] (pointcloud_to_laserscan) JobEnded: {'identifier': 'pointcloud_to_laserscan', 'rc': 0}
+[11.117504] (-) EventReactorShutdown: {}

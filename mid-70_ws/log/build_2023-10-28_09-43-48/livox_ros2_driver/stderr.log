@@ -1,0 +1,220 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:25[m[K:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.h:85:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_ptr[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   85 |   std::[01;31m[Kshared_ptr[m[K<std::thread> t_poll_state_;
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.h:32:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+   31 | #include "user_uart.h"
+  +++ |+[32m[K#include <memory>[m[K
+   32 | 
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.h:89:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_ptr[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   89 |   std::[01;31m[Kshared_ptr[m[K<std::thread> t_poll_data_;
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.h:89:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+   89 |   [01;36m[Kstd[m[K::shared_ptr<std::thread> t_poll_data_;
+      |   [01;36m[K^~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:[m[K In member function ‘[01m[Kint32_t livox_ros::TimeSync::InitTimeSync(const livox_ros::TimeSyncConfig&)[m[K’:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:60:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+   60 |       [01;31m[Kprintf[m[K("Uart parameter error, please check the configuration file!\n");
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:32:1:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+   31 | #include <functional>
+  +++ |+[32m[K#include <cstdio>[m[K
+   32 | 
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+   64 |     [01;31m[Kprintf[m[K("Device type not supported, now only uart is supported!\n");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:64:5:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_poll_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kexit_poll_state_[m[K’?
+   71 |   [01;31m[Kt_poll_state_[m[K = std::make_shared<std::thread>(std::bind(&TimeSync::PollStateLoop, this));
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[Kexit_poll_state_[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:71:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   71 |   t_poll_state_ = std::[01;31m[Kmake_shared[m[K<std::thread>(std::bind(&TimeSync::PollStateLoop, this));
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:32:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+   31 | #include <functional>
+  +++ |+[32m[K#include <memory>[m[K
+   32 | 
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:71:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   71 |   t_poll_state_ = std::make_shared<std::thread[01;31m[K>[m[K(std::bind(&TimeSync::PollStateLoop, this));
+      |                                               [01;31m[K^[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_poll_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Kexit_poll_data_[m[K’?
+   72 |   [01;31m[Kt_poll_data_[m[K  = std::make_shared<std::thread>(std::bind(&TimeSync::PollDataLoop, this));
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[Kexit_poll_data_[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:72:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   72 |   t_poll_data_  = std::[01;31m[Kmake_shared[m[K<std::thread>(std::bind(&TimeSync::PollDataLoop, this));
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:72:24:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:72:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   72 |   t_poll_data_  = std::make_shared<std::thread[01;31m[K>[m[K(std::bind(&TimeSync::PollDataLoop, this));
+      |                                               [01;31m[K^[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:[m[K In member function ‘[01m[Kvoid livox_ros::TimeSync::StopTimesync()[m[K’:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:93:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_poll_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kexit_poll_state_[m[K’?
+   93 |   if ([01;31m[Kt_poll_state_[m[K) {
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Kexit_poll_state_[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:98:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_poll_state_[m[K’ was not declared in this scope; did you mean ‘[01m[Kexit_poll_state_[m[K’?
+   98 |   if ([01;31m[Kt_poll_state_[m[K) {
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Kexit_poll_state_[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt_poll_data_[m[K’ was not declared in this scope; did you mean ‘[01m[Kexit_poll_data_[m[K’?
+   99 |     [01;31m[Kt_poll_data_[m[K->join();
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[Kexit_poll_data_[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:[m[K In member function ‘[01m[Kvoid livox_ros::TimeSync::FsmCheckDevState()[m[K’:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:188:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kprintf[m[K’ was not declared in this scope
+  188 |       [01;31m[Kprintf[m[K("Uart is disconnected, close it\n");
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/timesync.cpp:188:7:[m[K [01;36m[Knote: [m[K‘[01m[Kprintf[m[K’ is defined in header ‘[01m[K<cstdio>[m[K’; did you forget to ‘[01m[K#include <cstdio>[m[K’?
+gmake[2]: *** [CMakeFiles/livox_ros2_driver.dir/build.make:188：CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp: In instantiation of ‘[01m[Kclass rclcpp::Publisher<pcl::PointCloud<pcl::PointXYZI> >[m[K’:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:319:32:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: given message type is not compatible with ROS and cannot be used with a Publisher
+   81 |     rclcpp::is_ros_compatible_type<MessageT>::[01;31m[Kvalue[m[K,
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::is_ros_compatible_type<pcl::PointCloud<pcl::PointXYZI> >::value[m[K’ evaluates to false
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:[m[K In member function ‘[01m[Kuint32_t livox_ros::Lddc::PublishPointcloudData(livox_ros::LidarDataQueue*, uint32_t, uint8_t)[m[K’:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:323:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<pcl::PointCloud<pcl::PointXYZI> >::publish(livox_ros::PointCloud&)[m[K’
+  323 |     [01;31m[Kpublisher->publish(cloud)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>][m[K’
+  251 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:323:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<pcl::PointCloud<pcl::PointXYZI> > >[m[K’
+  323 |     [01;36m[Kpublisher->publish(cloud)[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>][m[K’
+  292 |   [01;36m[Kpublish[m[K(const T & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/11/string:40[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:27[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+/usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, pcl::PointCloud<pcl::PointXYZI> >::value), void> rclcpp::Publisher<pcl::PointCloud<pcl::PointXYZI> >::publish<T>(const T&) [with T = pcl::PointCloud<pcl::PointXYZI>][m[K’
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:323:23:[m[K   required from here
+[01m[K/usr/include/c++/11/type_traits:2579:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+ 2579 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+      |           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>][m[K’
+  322 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:323:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<pcl::PointCloud<pcl::PointXYZI> > >[m[K’
+  323 |     [01;36m[Kpublisher->publish(cloud)[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>][m[K’
+  364 |   [01;36m[Kpublish[m[K(const T & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K’
+  383 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klivox_ros::PointCloud[m[K’ {aka ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+  383 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>][m[K’
+  389 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klivox_ros::PointCloud[m[K’ {aka ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  389 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = pcl::PointCloud<pcl::PointXYZI>; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = pcl::PointCloud<pcl::PointXYZI>][m[K’
+  403 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Klivox_ros::PointCloud[m[K’ {aka ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’} to ‘[01m[Krclcpp::LoanedMessage<pcl::PointCloud<pcl::PointXYZI>, std::allocator<void> >&&[m[K’
+  403 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.h:32[m[K,
+                 from [01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:25[m[K:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<rclcpp::PublisherBase> livox_ros::Lddc::CreatePublisher(uint8_t, std::string&, uint32_t)[m[K’:
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:589:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  589 |           [01;35m[K"%s publish use livox custom format"[m[K, topic_name);
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver/lddc.cpp:589:13:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  589 |           "[01;36m[K%s[m[K publish use livox custom format", topic_name);
+      |            [01;36m[K~^[m[K
+      |             [01;36m[K|[m[K
+      |             [01;36m[Kchar*[m[K
+gmake[2]: *** [CMakeFiles/livox_ros2_driver.dir/build.make:160：CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/livox_ros2_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

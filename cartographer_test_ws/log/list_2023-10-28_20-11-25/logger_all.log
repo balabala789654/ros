@@ -1,0 +1,56 @@
+[1.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/lx/ros2/ros/cartographer_test_ws']
+[1.001s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/lx/ros2/ros/cartographer_test_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff16efe7550>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7ff16ef48c10>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7ff16ef48c10>>)
+[1.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.052s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lx/ros2/ros/cartographer_test_ws'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'colcon_pkg'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extensions ['colcon_meta']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'colcon_meta'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extensions ['ros']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'ros'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extensions ['cmake', 'python']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'cmake'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'python'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extensions ['python_setup_py']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws) by extension 'python_setup_py'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/build) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/build) ignored
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/install) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/install) ignored
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/log) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/log) ignored
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'ignore_ament_install'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extensions ['colcon_meta']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extensions ['ros']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'ros'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extensions ['cmake', 'python']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'cmake'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'python'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extensions ['python_setup_py']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src) by extension 'python_setup_py'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extension 'ignore_ament_install'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extensions ['colcon_pkg']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extension 'colcon_pkg'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extensions ['colcon_meta']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extension 'colcon_meta'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extensions ['ros']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros) by extension 'ros'
+[1.071s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lx/ros2/ros/cartographer_test_ws/src/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

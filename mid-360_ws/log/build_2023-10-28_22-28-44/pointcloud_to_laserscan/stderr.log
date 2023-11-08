@@ -1,0 +1,10 @@
+/usr/bin/ld: 找不到 -ltf2_sensor_msgs: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/laserscan_to_pointcloud.dir/build.make:207：liblaserscan_to_pointcloud.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:145：CMakeFiles/laserscan_to_pointcloud.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: 找不到 -ltf2_sensor_msgs: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan.dir/build.make:207：libpointcloud_to_laserscan.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:197：CMakeFiles/pointcloud_to_laserscan.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

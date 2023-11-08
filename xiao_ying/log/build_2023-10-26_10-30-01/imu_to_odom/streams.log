@@ -1,6 +1,0 @@
-[0.056s] Invoking command in '/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom -- -j12 -l12
-[0.060s] [0mCMake Error: The current CMakeCache.txt directory /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom/CMakeCache.txt is different than the directory /home/lx/ros2/xiao_ying/build/imu_to_odom where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.067s] [0mCMake Error: The source directory "/home/lx/ros2/xiao_ying/src/imu_to_odom" does not exist.
-[0.067s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.068s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
-[0.070s] Invoked command in '/home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/文档/GitHub/ros/xiao_ying/build/imu_to_odom -- -j12 -l12

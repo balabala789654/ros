@@ -1,0 +1,52 @@
+[0.068s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/fast_lio -- -j12 -l12
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_generator_c[0m
+[0.127s] [  2%] Built target fast_lio__cpp
+[0.130s] [ 11%] Built target fast_lio__rosidl_generator_c
+[0.140s] [ 11%] Built target ament_cmake_python_symlink_fast_lio
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_cpp[0m
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_cpp[0m
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_cpp[0m
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c[0m
+[0.189s] [ 28%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.189s] [ 28%] Built target fast_lio__rosidl_typesupport_cpp
+[0.191s] [ 37%] Built target fast_lio__rosidl_typesupport_c
+[0.193s] [ 45%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.195s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.195s] [ 62%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[0.217s] [ 62%] Built target fast_lio
+[0.223s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.226s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[0.237s] [ 71%] Built target fast_lio__py
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_generator_py[0m
+[0.255s] [ 77%] Built target fast_lio__rosidl_generator_py
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c__pyext[0m
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c__pyext[0m
+[0.283s] [ 82%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.288s] [ 88%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.290s] [ 94%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.446s] running egg_info
+[0.449s] writing fast_lio.egg-info/PKG-INFO
+[0.450s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.450s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.451s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.452s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.477s] [ 94%] Built target ament_cmake_python_build_fast_lio_egg
+[1.597s] In file included from [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:1[m[K:
+[1.598s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:5:10:[m[K [01;31m[Kfatal error: [m[Klivox_ros2_driver/msg/custom_msg.hpp: 没有那个文件或目录
+[1.598s]     5 | #include [01;31m[K<livox_ros2_driver/msg/custom_msg.hpp>[m[K
+[1.598s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.598s] compilation terminated.
+[1.611s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:104：CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o] 错误 1
+[1.611s] gmake[2]: *** 正在等待未完成的任务....
+[2.051s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:62:10:[m[K [01;31m[Kfatal error: [m[Klivox_ros2_driver/msg/custom_msg.hpp: 没有那个文件或目录
+[2.051s]    62 | #include [01;31m[K<livox_ros2_driver/msg/custom_msg.hpp>[m[K
+[2.051s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.051s] compilation terminated.
+[2.064s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76：CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] 错误 1
+[2.064s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/fastlio_mapping.dir/all] 错误 2
+[2.065s] gmake: *** [Makefile:146：all] 错误 2
+[2.067s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/fast_lio -- -j12 -l12

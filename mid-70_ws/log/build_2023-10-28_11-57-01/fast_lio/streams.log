@@ -1,0 +1,229 @@
+[0.121s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver:/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/fast_lio -- -j12 -l12
+[0.141s] [0mCurrent CPU archtecture: x86_64[0m
+[0.143s] [0mProcesser number:  12[0m
+[0.144s] [0mcore for MP: 3[0m
+[0.147s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.147s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.276s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.308s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.310s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.318s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.432s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.680s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.730s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.766s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.838s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.916s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.930s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.055s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.304s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.305s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.578s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.603s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.861s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.867s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.983s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.987s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.992s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.096s] -- Found Qhull version 8.0.2
+[2.215s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.343s] -- Found livox_interfaces: 0.0.1 (/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake)
+[2.387s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.395s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[2.395s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.395s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.395s]   command to set the policy and suppress this warning.
+[2.395s] 
+[2.395s]   CMake variable PCL_ROOT is set to:
+[2.395s] 
+[2.395s]     /usr
+[2.395s] 
+[2.395s]   For compatibility, CMake is ignoring the variable.
+[2.395s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.395s] [0m
+[2.400s] -- PCL: /usr/include/pcl-1.12
+[2.400s] [0mEigen:/usr/local/include/eigen3[0m
+[2.589s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.930s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.949s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.949s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.949s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.949s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.030s] -- Configuring done
+[3.089s] -- Generating done
+[3.094s] -- Build files have been written to: /home/lx/ros2/ros/mid-70_ws/build/fast_lio
+[3.133s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_generator_c[0m
+[3.141s] [  2%] Built target fast_lio__cpp
+[3.141s] [ 11%] Built target fast_lio__rosidl_generator_c
+[3.150s] [ 11%] Built target ament_cmake_python_symlink_fast_lio
+[3.150s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c[0m
+[3.150s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_cpp[0m
+[3.150s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_cpp[0m
+[3.153s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c[0m
+[3.153s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_cpp[0m
+[3.161s] [ 20%] Built target fast_lio__rosidl_typesupport_introspection_c
+[3.161s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c[0m
+[3.163s] [ 37%] Built target fast_lio__rosidl_typesupport_cpp
+[3.163s] [ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[3.165s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[3.166s] [ 54%] Built target fast_lio__rosidl_typesupport_c
+[3.173s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[3.176s] [35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[3.191s] [ 62%] Built target fast_lio
+[3.208s] [ 65%] Built target fast_lio__py
+[3.210s] [ 71%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[3.210s] [ 71%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[3.215s] [ 74%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[3.219s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_generator_py[0m
+[3.231s] [ 80%] Built target fast_lio__rosidl_generator_py
+[3.244s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_c__pyext[0m
+[3.245s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_introspection_c__pyext[0m
+[3.245s] [35m[1mConsolidate compiler generated dependencies of target fast_lio__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.260s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[3.260s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[3.260s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[3.394s] running egg_info
+[3.395s] writing fast_lio.egg-info/PKG-INFO
+[3.395s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[3.395s] writing top-level names to fast_lio.egg-info/top_level.txt
+[3.396s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.397s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.420s] [ 97%] Built target ament_cmake_python_build_fast_lio_egg
+[7.650s] In file included from [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:1[m[K:
+[7.650s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ does not name a type
+[7.650s]   158 |   void avia_handler(const [01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg::UniquePtr &msg);
+[7.650s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.650s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[7.650s]   158 |   void avia_handler(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr &msg);
+[7.650s]       |                                                 [01;31m[K^~[m[K
+[7.651s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[7.651s]   158 |   void avia_handler[34m[K([m[Kconst livox_ros_driver2::msg[01;31m[K:[m[K[32m[K:[m[KCustomMsg::UniquePtr &msg);
+[7.651s]       |                    [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+[7.651s]       |                                                 [32m[K)[m[K
+[7.651s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.651s]   158 |   void avia_handler(const livox_ros_driver2::[01;31m[Kmsg[m[K::CustomMsg::UniquePtr &msg);
+[7.651s]       |                                              [01;31m[K^~~[m[K
+[7.651s]       |                                                 [32m[K;[m[K
+[7.653s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:51:[m[K [01;31m[Kerror: [m[K‘[01m[KCustomMsg[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[7.653s]   158 |   void avia_handler(const livox_ros_driver2::msg::[01;31m[KCustomMsg[m[K::UniquePtr &msg);
+[7.653s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[7.688s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:47:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ does not name a type
+[7.688s]    47 | void Preprocess::process(const [01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg::UniquePtr &msg, PointCloudXYZI::Ptr& pcl_out)
+[7.688s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.688s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:47:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[7.688s]    47 | void Preprocess::process(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr &msg, PointCloudXYZI::Ptr& pcl_out)
+[7.688s]       |                                                      [01;31m[K^~[m[K
+[7.688s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:47:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[7.688s]    47 | void Preprocess::process[34m[K([m[Kconst livox_ros_driver2::msg[01;31m[K:[m[K[32m[K:[m[KCustomMsg::UniquePtr &msg, PointCloudXYZI::Ptr& pcl_out)
+[7.688s]       |                         [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+[7.688s]       |                                                      [32m[K)[m[K
+[7.688s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:47:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[7.689s]    47 | void Preprocess::process(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr &msg, PointCloudXYZI::Ptr& pcl_out)
+[7.689s]       |                                                      [01;31m[K^~[m[K
+[7.700s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:95:37:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ does not name a type
+[7.700s]    95 | void Preprocess::avia_handler(const [01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg::UniquePtr &msg)
+[7.700s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.700s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:95:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[7.700s]    95 | void Preprocess::avia_handler(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr &msg)
+[7.700s]       |                                                           [01;31m[K^~[m[K
+[7.700s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:95:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[7.701s]    95 | void Preprocess::avia_handler[34m[K([m[Kconst livox_ros_driver2::msg[01;31m[K:[m[K[32m[K:[m[KCustomMsg::UniquePtr &msg)
+[7.701s]       |                              [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+[7.701s]       |                                                           [32m[K)[m[K
+[7.701s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.cpp:95:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[7.701s]    95 | void Preprocess::avia_handler(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr &msg)
+[7.701s]       |                                                           [01;31m[K^~[m[K
+[8.646s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:104：CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o] 错误 1
+[8.646s] gmake[2]: *** 正在等待未完成的任务....
+[8.700s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.700s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.700s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.700s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[8.701s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[8.701s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[8.701s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+[8.701s]                  from [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[8.701s]                  from [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[8.701s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.701s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.701s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.743s] In file included from [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:63[m[K:
+[9.743s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ does not name a type
+[9.743s]   158 |   void avia_handler(const [01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg::UniquePtr &msg);
+[9.743s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.743s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[9.744s]   158 |   void avia_handler(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr &msg);
+[9.744s]       |                                                 [01;31m[K^~[m[K
+[9.744s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[9.744s]   158 |   void avia_handler[34m[K([m[Kconst livox_ros_driver2::msg[01;31m[K:[m[K[32m[K:[m[KCustomMsg::UniquePtr &msg);
+[9.744s]       |                    [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+[9.744s]       |                                                 [32m[K)[m[K
+[9.744s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.744s]   158 |   void avia_handler(const livox_ros_driver2::[01;31m[Kmsg[m[K::CustomMsg::UniquePtr &msg);
+[9.744s]       |                                              [01;31m[K^~~[m[K
+[9.744s]       |                                                 [32m[K;[m[K
+[9.746s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/preprocess.h:158:51:[m[K [01;31m[Kerror: [m[K‘[01m[KCustomMsg[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[9.746s]   158 |   void avia_handler(const livox_ros_driver2::msg::[01;31m[KCustomMsg[m[K::UniquePtr &msg);
+[9.746s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[9.815s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:311:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ does not name a type
+[9.815s]   311 | void livox_pcl_cbk(const [01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg::UniquePtr msg)
+[9.815s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.816s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:311:48:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[9.816s]   311 | void livox_pcl_cbk(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr msg)
+[9.816s]       |                                                [01;31m[K^~[m[K
+[9.816s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:311:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[9.816s]   311 | void livox_pcl_cbk[34m[K([m[Kconst livox_ros_driver2::msg[01;31m[K:[m[K[32m[K:[m[KCustomMsg::UniquePtr msg)
+[9.816s]       |                   [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+[9.816s]       |                                                [32m[K)[m[K
+[9.816s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:311:48:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[9.816s]   311 | void livox_pcl_cbk(const livox_ros_driver2::msg[01;31m[K::[m[KCustomMsg::UniquePtr msg)
+[9.816s]       |                                                [01;31m[K^~[m[K
+[9.976s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ was not declared in this scope
+[9.976s]  1139 |     rclcpp::Subscription<[01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg>::SharedPtr sub_pcl_livox_;
+[9.976s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.976s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.976s]  1139 |     rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg[01;31m[K>[m[K::SharedPtr sub_pcl_livox_;
+[9.976s]       |                                                           [01;31m[K^[m[K
+[9.976s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[9.976s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[9.976s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[9.976s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.976s]  1139 |     rclcpp::Subscription<livox_ros_driver2::msg::CustomMsg>::[01;31m[KSharedPtr[m[K sub_pcl_livox_;
+[9.976s]       |                                                              [01;31m[K^~~~~~~~~[m[K
+[9.976s]       |                                                                       [32m[K;[m[K
+[9.984s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:1139:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_pcl_livox_[m[K’ does not name a type
+[9.984s]  1139 | cpp::Subscription<livox_ros_driver2::msg::CustomMsg>::SharedPtr [01;31m[Ksub_pcl_livox_[m[K;
+[9.984s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.985s] 
+[10.025s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:[m[K In constructor ‘[01m[KLaserMappingNode::LaserMappingNode(const rclcpp::NodeOptions&)[m[K’:
+[10.025s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:922:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_pcl_livox_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksub_pcl_pc_[m[K’?
+[10.025s]   922 |             [01;31m[Ksub_pcl_livox_[m[K = this->create_subscription<livox_ros_driver2::msg::CustomMsg>(lid_topic, 20, livox_pcl_cbk);
+[10.025s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.025s]       |             [32m[Ksub_pcl_pc_[m[K
+[10.047s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:922:56:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_ros_driver2[m[K’ was not declared in this scope
+[10.047s]   922 |             sub_pcl_livox_ = this->create_subscription<[01;31m[Klivox_ros_driver2[m[K::msg::CustomMsg>(lid_topic, 20, livox_pcl_cbk);
+[10.047s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.047s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:922:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[10.047s]   922 |             sub_pcl_livox_ = this->[01;31m[Kcreate_subscription<livox_ros_driver2::msg::CustomMsg>[m[K(lid_topic, 20, livox_pcl_cbk);
+[10.048s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.064s] [01m[K/home/lx/ros2/ros/mid-70_ws/src/FAST_LIO/src/laserMapping.cpp:922:106:[m[K [01;31m[Kerror: [m[K‘[01m[Klivox_pcl_cbk[m[K’ was not declared in this scope
+[10.064s]   922 | _subscription<livox_ros_driver2::msg::CustomMsg>(lid_topic, 20, [01;31m[Klivox_pcl_cbk[m[K);
+[10.064s]       |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[10.064s] 
+[36.167s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76：CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] 错误 1
+[36.168s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/fastlio_mapping.dir/all] 错误 2
+[36.168s] gmake: *** [Makefile:146：all] 错误 2
+[36.171s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver:/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/fast_lio -- -j12 -l12

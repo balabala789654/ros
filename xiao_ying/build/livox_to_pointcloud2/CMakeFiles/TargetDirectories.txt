@@ -1,0 +1,11 @@
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/uninstall.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/livox_to_pointcloud2_uninstall.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/livox_to_pointcloud2.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/livox_to_pointcloud2_node.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/test.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/edit_cache.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/rebuild_cache.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/list_install_components.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/install.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/install/local.dir
+/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2/CMakeFiles/install/strip.dir

@@ -1,0 +1,44 @@
+[  5%] Built target livox_interfaces2__cpp
+[ 12%] Built target livox_interfaces2__rosidl_generator_c
+[ 12%] Built target livox_ros_driver2_node
+[ 12%] Built target ament_cmake_python_copy_livox_ros_driver2
+[ 28%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 28%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 50%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 54%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 54%] Built target livox_interfaces2
+[ 82%] Built target livox_ros_driver2
+[ 84%] Built target livox_interfaces2__py
+[ 89%] Built target livox_interfaces2__rosidl_generator_py
+[ 92%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 98%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[100%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+Traceback (most recent call last):
+  File "/home/lx/ros2/ros/xiao_ying/build/livox_ros_driver2/ament_cmake_python/livox_ros_driver2/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3292, in _initialize_master_working_set
+    tuple(
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3293, in <genexpr>
+    dist.activate(replace=False)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2798, in activate
+    declare_namespace(pkg)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2296, in declare_namespace
+    _handle_ns(packageName, path_item)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2208, in _handle_ns
+    loader = importer.find_spec(packageName).loader
+  File "<frozen importlib._bootstrap_external>", line 1544, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_livox_ros_driver2_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_livox_ros_driver2_egg] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/ament_cmake_python_build_livox_ros_driver2_egg.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

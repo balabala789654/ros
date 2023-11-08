@@ -1,0 +1,11 @@
+failed to create symbolic link '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces/ament_cmake_python/livox_interfaces/livox_interfaces' because existing path cannot be removed: Is a directory
+[  2%] Built target livox_interfaces__cpp
+[ 12%] Built target livox_interfaces__rosidl_generator_c
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_livox_interfaces.dir/build.make:70：CMakeFiles/ament_cmake_python_symlink_livox_interfaces] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:421：CMakeFiles/ament_cmake_python_symlink_livox_interfaces.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 33%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 33%] Built target livox_interfaces__rosidl_typesupport_cpp
+gmake: *** [Makefile:146：all] 错误 2

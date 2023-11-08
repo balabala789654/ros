@@ -1,0 +1,357 @@
+[1.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd30a613cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd30b437130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd30b437130>>)
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.120s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lx/ros2/ros/mid-360_ws'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[1.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extensions ['colcon_meta']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extension 'colcon_meta'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extensions ['ros']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_to_odom) by extension 'ros'
+[1.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_to_odom' with type 'ros.ament_cmake' and name 'imu_to_odom'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[1.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_meta'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ros']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ros'
+[1.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.245s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/lx/ros2/ros/mid-360_ws/install
+[1.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'cmake_target' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'imu_to_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.374s] DEBUG:colcon.colcon_core.verb:Building package 'imu_to_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros2/ros/mid-360_ws/build/imu_to_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom', 'merge_install': False, 'path': '/home/lx/ros2/ros/mid-360_ws/src/imu_to_odom', 'symlink_install': False, 'test_result_base': None}
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.387s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.387s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/lx/ros2/ros/mid-360_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.400s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/lx/ros2/ros/mid-360_ws/src/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.412s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lx/ros2/ros/mid-360_ws/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lx/ros2/ros/mid-360_ws/install/fast_lio', 'merge_install': False, 'path': '/home/lx/ros2/ros/mid-360_ws/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[1.425s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros2/ros/mid-360_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[1.439s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros2/ros/mid-360_ws/src/livox_ros_driver2'
+[1.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.492s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros2/ros/mid-360_ws/src/imu_to_odom' with build type 'ament_cmake'
+[1.492s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros2/ros/mid-360_ws/src/imu_to_odom'
+[1.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros2/ros/mid-360_ws/src/pointcloud_to_laserscan' with build type 'ament_cmake'
+[1.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros2/ros/mid-360_ws/src/pointcloud_to_laserscan'
+[1.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2 -- -j12 -l12
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/imu_to_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/imu_to_odom -- -j12 -l12
+[1.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan -- -j12 -l12
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/imu_to_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/imu_to_odom -- -j12 -l12
+[1.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/imu_to_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/imu_to_odom
+[1.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_to_odom)
+[1.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/imu_to_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/imu_to_odom
+[1.737s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom' for CMake module files
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom' for CMake config files
+[1.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_to_odom', 'cmake_prefix_path')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/hook/cmake_prefix_path.ps1'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/hook/cmake_prefix_path.dsv'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/hook/cmake_prefix_path.sh'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/lib'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/bin'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/lib/pkgconfig/imu_to_odom.pc'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/lib/python3.10/site-packages'
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/bin'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.sh'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.bash'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.zsh'
+[1.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/colcon-core/packages/imu_to_odom)
+[1.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan -- -j12 -l12
+[1.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_to_odom)
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom' for CMake module files
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom' for CMake config files
+[1.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_to_odom', 'cmake_prefix_path')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/hook/cmake_prefix_path.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/hook/cmake_prefix_path.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/hook/cmake_prefix_path.sh'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/lib'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/bin'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/lib/pkgconfig/imu_to_odom.pc'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/lib/python3.10/site-packages'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/bin'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.dsv'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.sh'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.bash'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/imu_to_odom/package.zsh'
+[1.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom/share/colcon-core/packages/imu_to_odom)
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan
+[1.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan' for CMake module files
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan' for CMake config files
+[1.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib'
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/bin'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/bin'
+[1.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[1.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[1.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2 -- -j12 -l12
+[1.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan' for CMake module files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan' for CMake config files
+[1.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib'
+[1.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/bin'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/bin'
+[2.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[2.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[2.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2
+[2.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[2.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/livox_ros_driver2
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2' for CMake module files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2' for CMake config files
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib'
+[2.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[2.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/bin'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/bin'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[2.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2' for CMake module files
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2' for CMake config files
+[2.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib'
+[2.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/bin'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/bin'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[2.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[2.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lx/ros2/ros/mid-360_ws/src/FAST_LIO' with build type 'ament_cmake'
+[2.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lx/ros2/ros/mid-360_ws/src/FAST_LIO'
+[2.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/fast_lio -- -j12 -l12
+[2.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/fast_lio -- -j12 -l12
+[2.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/fast_lio
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[2.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2:/home/lx/ros2/ros/mid-360_ws/install/imu_to_odom:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan:/home/lx/ros2/ros/mid-360_ws/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/lib:/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/fast_lio
+[2.734s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio' for CMake module files
+[2.735s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio' for CMake config files
+[2.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib'
+[2.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[2.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/bin'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[2.770s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/python3.10/site-packages'
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/bin'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.ps1'
+[2.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.dsv'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.sh'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.bash'
+[2.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.zsh'
+[2.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[2.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio' for CMake module files
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio' for CMake config files
+[2.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[2.899s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib'
+[2.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/bin'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/lib/python3.10/site-packages'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/bin'
+[2.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.ps1'
+[2.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.dsv'
+[2.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.sh'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.bash'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/fast_lio/package.zsh'
+[2.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lx/ros2/ros/mid-360_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[2.935s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.936s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.952s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.960s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.973s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros2/ros/mid-360_ws/install/local_setup.ps1'
+[2.974s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lx/ros2/ros/mid-360_ws/install/_local_setup_util_ps1.py'
+[2.975s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros2/ros/mid-360_ws/install/setup.ps1'
+[2.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros2/ros/mid-360_ws/install/local_setup.sh'
+[2.989s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lx/ros2/ros/mid-360_ws/install/_local_setup_util_sh.py'
+[2.989s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros2/ros/mid-360_ws/install/setup.sh'
+[3.002s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros2/ros/mid-360_ws/install/local_setup.bash'
+[3.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros2/ros/mid-360_ws/install/setup.bash'
+[3.017s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lx/ros2/ros/mid-360_ws/install/local_setup.zsh'
+[3.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lx/ros2/ros/mid-360_ws/install/setup.zsh'

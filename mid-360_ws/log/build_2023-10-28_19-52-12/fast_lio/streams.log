@@ -1,0 +1,186 @@
+[0.056s] Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-360_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-360_ws/install/fast_lio
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.272s] [0mCurrent CPU archtecture: x86_64[0m
+[0.276s] [0mProcesser number:  12[0m
+[0.276s] [0mcore for MP: 3[0m
+[0.537s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.539s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.670s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.736s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.763s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.767s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.774s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.857s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.859s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.929s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.948s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.991s] -- Looking for pthread.h
+[1.042s] -- Looking for pthread.h - found
+[1.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.095s] -- Found Threads: TRUE  
+[1.240s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.301s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.339s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.425s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.521s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.544s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.670s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.933s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.934s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.935s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.224s] -- Checking for module 'eigen3'
+[2.232s] --   Found eigen3, version 3.4.0
+[2.251s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.251s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.278s] -- Checking for module 'flann'
+[2.289s] --   Found flann, version 1.9.1
+[2.318s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.318s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.994s] -- Checking for module 'libusb-1.0'
+[3.003s] --   Found libusb-1.0, version 1.0.25
+[3.025s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.026s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.064s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.181s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.185s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.189s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.292s] -- Found Qhull version 8.0.2
+[3.398s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.500s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.500s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.501s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.502s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.503s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.503s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.504s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.504s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.505s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.505s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.506s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.507s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.508s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.508s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.509s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.510s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.511s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.512s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.512s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.513s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.514s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.514s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.515s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.516s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.517s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.533s] -- Found livox_ros_driver2: 1.0.0 (/home/lx/ros2/ros/mid-360_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[3.703s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.710s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[3.710s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.710s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.710s]   command to set the policy and suppress this warning.
+[3.710s] 
+[3.711s]   CMake variable PCL_ROOT is set to:
+[3.711s] 
+[3.711s]     /usr
+[3.711s] 
+[3.711s]   For compatibility, CMake is ignoring the variable.
+[3.711s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.711s] [0m
+[3.715s] -- PCL: /usr/include/pcl-1.12
+[3.715s] [0mEigen:/usr/local/include/eigen3[0m
+[3.893s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.246s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.247s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.266s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.266s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.266s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.266s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.285s] -- Found PythonExtra: .so  
+[4.378s] -- Configuring done
+[4.430s] -- Generating done
+[4.434s] -- Build files have been written to: /home/lx/ros2/ros/mid-360_ws/build/fast_lio
+[4.451s] Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-360_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-360_ws/install/fast_lio
+[4.452s] Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/fast_lio -- -j12 -l12
+[4.484s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.491s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.497s] [  5%] Built target ament_cmake_python_copy_fast_lio
+[4.687s] running egg_info
+[4.688s] creating fast_lio.egg-info
+[4.688s] writing fast_lio.egg-info/PKG-INFO
+[4.688s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[4.688s] writing top-level names to fast_lio.egg-info/top_level.txt
+[4.688s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[4.689s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[4.690s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[4.709s] [  5%] Built target ament_cmake_python_build_fast_lio_egg
+[4.743s] [  5%] Built target fast_lio__cpp
+[4.744s] [  8%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[4.750s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.750s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.750s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.834s] [ 20%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[4.859s] [ 20%] Built target fast_lio__rosidl_generator_c
+[4.866s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.866s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.867s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.985s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[5.004s] [ 34%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[5.005s] [ 37%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[5.101s] [ 40%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[5.126s] [ 42%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[5.126s] [ 45%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[5.158s] [ 45%] Built target fast_lio__rosidl_typesupport_c
+[5.168s] [ 48%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[5.207s] [ 51%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[5.221s] [ 54%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[5.241s] [ 54%] Built target fast_lio__rosidl_typesupport_cpp
+[5.245s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_c
+[5.257s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[5.258s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[5.261s] [ 62%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[5.334s] [ 65%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.343s] [ 68%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[5.379s] [ 68%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[5.410s] [ 68%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[5.428s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[5.434s] [01m[K/home/lx/ros2/ros/mid-360_ws/src/FAST_LIO/src/laserMapping.cpp:44:10:[m[K [01;31m[Kfatal error: [m[Kso3_math.h: 没有那个文件或目录
+[5.434s]    44 | #include [01;31m[K<so3_math.h>[m[K
+[5.434s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[5.434s] compilation terminated.
+[5.436s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76：CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] 错误 1
+[5.436s] gmake[2]: *** 正在等待未完成的任务....
+[5.500s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[5.515s] [ 71%] Built target fast_lio
+[5.530s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.900s] [ 74%] Built target fast_lio__py
+[5.916s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[6.036s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[6.064s] [ 80%] Built target fast_lio__rosidl_generator_py
+[6.079s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.079s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.079s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[6.163s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.167s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.173s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.188s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[6.195s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[6.198s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[11.492s] gmake[1]: *** [CMakeFiles/Makefile2:593：CMakeFiles/fastlio_mapping.dir/all] 错误 2
+[11.492s] gmake: *** [Makefile:146：all] 错误 2
+[11.494s] Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/fast_lio -- -j12 -l12

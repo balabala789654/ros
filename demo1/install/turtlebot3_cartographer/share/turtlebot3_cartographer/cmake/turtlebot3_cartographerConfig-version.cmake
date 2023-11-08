@@ -1,1 +1,0 @@
-/home/lx/ros2/demo1/build/turtlebot3_cartographer/ament_cmake_core/turtlebot3_cartographerConfig-version.cmake

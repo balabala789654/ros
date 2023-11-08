@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/humble/include/**",
-        "/home/lx/文档/GitHub/ros/xiao_ying/src/imu_to_odom/include/**",
+        "/home/lx/ros2/ros/xiao_ying/src/imu_to_odom/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

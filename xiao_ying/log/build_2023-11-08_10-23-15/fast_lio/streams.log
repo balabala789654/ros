@@ -1,0 +1,163 @@
+[0.055s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/fast_lio': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/fast_lio -- -j12 -l12
+[0.094s] [  2%] Built target fast_lio__cpp
+[0.094s] [ 11%] Built target fast_lio__rosidl_generator_c
+[0.103s] [ 11%] Built target ament_cmake_python_copy_fast_lio
+[0.111s] [ 20%] Built target fast_lio__rosidl_typesupport_c
+[0.113s] [ 37%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.113s] [ 37%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.115s] [ 51%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.115s] [ 54%] Built target fast_lio__rosidl_typesupport_cpp
+[0.122s] [ 62%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[0.137s] [ 62%] Built target fast_lio
+[0.153s] [ 65%] Built target fast_lio__py
+[0.162s] [ 68%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[0.170s] [ 74%] Built target fast_lio__rosidl_generator_py
+[0.189s] [ 80%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.191s] [ 85%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.196s] [ 91%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.313s] running egg_info
+[0.313s] writing fast_lio.egg-info/PKG-INFO
+[0.313s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.313s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.315s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.316s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.352s] [ 91%] Built target ament_cmake_python_build_fast_lio_egg
+[6.627s] [ 94%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[7.552s] [100%] Built target fastlio_mapping
+[7.562s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/fast_lio -- -j12 -l12
+[7.604s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/fast_lio': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/fast_lio
+[7.610s] -- Install configuration: "Release"
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/library_path.sh
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[7.611s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio
+[7.612s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[7.613s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info
+[7.614s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[7.614s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[7.614s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.614s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.614s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[7.615s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.638s] Listing '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[7.638s] Listing '/home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[7.641s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.642s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.642s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.642s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[7.643s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[7.643s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[7.643s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/fast_lio/fastlio_mapping
+[7.646s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""
+[7.646s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/avia.yaml
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/horizon.yaml
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/mid360.yaml
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_avia.launch
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_velodyne.launch
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_horizon.launch
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/launch/mapping_ouster64.launch
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/rviz
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[7.647s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/path.sh
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/environment/path.dsv
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.bash
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.sh
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.zsh
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/local_setup.dsv
+[7.648s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/package.dsv
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[7.648s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[7.649s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.650s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.650s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.650s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[7.650s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[7.650s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/fast_lio/share/fast_lio/package.xml
+[7.651s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/fast_lio

@@ -1,0 +1,4 @@
+Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/fast_lio
+Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/fast_lio
+Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/fast_lio -- -j12 -l12
+Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/fast_lio -- -j12 -l12

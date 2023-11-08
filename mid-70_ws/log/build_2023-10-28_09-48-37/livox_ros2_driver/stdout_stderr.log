@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target livox_ros2_driver_node[0m
+[35m[1mConsolidate compiler generated dependencies of target livox_ros2_driver[0m
+[ 12%] Built target livox_ros2_driver_node
+[ 18%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lidar.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/livox_ros2_driver.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library liblivox_ros2_driver.so[0m
+/usr/bin/ld: /usr/local/lib/liblivox_sdk_static.a(device_discovery.cpp.o): relocation R_X86_64_TPOFF32 against symbol `_ZGVZN6spdlog7details2os9thread_idEvE3tid' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: failed to set dynamic section sizes: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/livox_ros2_driver.dir/build.make:508：liblivox_ros2_driver.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/livox_ros2_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

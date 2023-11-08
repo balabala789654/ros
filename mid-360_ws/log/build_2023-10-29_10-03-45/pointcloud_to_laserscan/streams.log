@@ -1,0 +1,82 @@
+[0.045s] Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-360_ws/src/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan
+[0.074s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.181s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.272s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.275s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.365s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.367s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.129s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.143s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.143s] -- Configured cppcheck include dirs: /home/lx/ros2/ros/mid-360_ws/src/pointcloud_to_laserscan/include
+[1.143s] -- Configured cppcheck exclude dirs and/or files: 
+[1.145s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.145s] -- Configured cpplint exclude dirs and/or files: 
+[1.145s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.146s] -- Added test 'lint_cmake' to check CMake code style
+[1.146s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.148s] -- Added test 'uncrustify' to check C / C++ code style
+[1.148s] -- Configured uncrustify additional arguments: 
+[1.149s] -- Added test 'xmllint' to check XML markup files
+[1.152s] -- Configuring done
+[1.181s] -- Generating done
+[1.183s] -- Build files have been written to: /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan
+[1.189s] Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-360_ws/src/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan
+[1.190s] Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan -- -j12 -l12
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud_node[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan_node[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud[0m
+[1.243s] [ 10%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[1.243s] [ 20%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[1.250s] [ 30%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[1.374s] [ 50%] Built target pointcloud_to_laserscan_node
+[1.374s] [ 50%] Built target laserscan_to_pointcloud_node
+[10.010s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[10.400s] [ 60%] Built target laserscan_to_pointcloud
+[10.408s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[10.421s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[19.327s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[19.731s] [ 80%] Built target pointcloud_to_laserscan
+[19.738s] [35m[1mConsolidate compiler generated dependencies of target dummy_pointcloud_publisher[0m
+[19.750s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[23.015s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[23.182s] [100%] Built target dummy_pointcloud_publisher
+[23.191s] Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan -- -j12 -l12
+[23.218s] Invoking command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan
+[23.222s] -- Install configuration: ""
+[23.223s] -- Execute custom install script
+[23.223s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[23.229s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[23.235s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[23.240s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[23.246s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[23.251s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[23.257s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[23.263s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[23.268s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[23.274s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[23.280s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[23.286s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[23.291s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[23.297s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[23.303s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[23.308s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[23.314s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[23.319s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[23.324s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[23.330s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[23.336s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[23.342s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[23.347s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[23.353s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[23.359s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[23.364s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.370s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.375s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[23.381s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[23.387s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[23.393s] -- Symlinking: /home/lx/ros2/ros/mid-360_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[23.400s] Invoked command in '/home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-360_ws/build/pointcloud_to_laserscan

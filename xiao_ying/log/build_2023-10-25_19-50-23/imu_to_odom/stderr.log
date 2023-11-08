@@ -1,7 +1,0 @@
-[01m[K/home/lx/ros2/xiao_ying/src/imu_to_odom/src/imu_to_odom.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kimu_to_odom/imu_to_odom.hpp: 没有那个文件或目录
-    1 | #include [01;31m[K<imu_to_odom/imu_to_odom.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/imu_to_odom.dir/build.make:76：CMakeFiles/imu_to_odom.dir/src/imu_to_odom.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/imu_to_odom.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,8 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+/usr/bin/ld: /usr/local/lib/liblivox_sdk_static.a(device_discovery.cpp.o): relocation R_X86_64_TPOFF32 against symbol `_ZGVZN6spdlog7details2os9thread_idEvE3tid' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: failed to set dynamic section sizes: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/livox_ros2_driver.dir/build.make:508：liblivox_ros2_driver.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/livox_ros2_driver.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

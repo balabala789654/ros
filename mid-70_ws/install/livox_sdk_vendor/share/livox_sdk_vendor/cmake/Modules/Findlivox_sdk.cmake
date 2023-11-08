@@ -1,0 +1,1 @@
+/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
