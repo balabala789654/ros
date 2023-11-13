@@ -1,0 +1,42 @@
+[0.233s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter -- -j12 -l12
+[0.321s] [ 20%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o[0m
+[19.240s] [ 40%] [32m[1mLinking CXX shared library libcomplementary_filter.so[0m
+[19.412s] [ 60%] Built target complementary_filter
+[19.430s] [ 80%] [32m[1mLinking CXX executable complementary_filter_node[0m
+[19.537s] [100%] Built target complementary_filter_node
+[19.545s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter -- -j12 -l12
+[19.567s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter
+[19.573s] -- Install configuration: ""
+[19.573s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib/libcomplementary_filter.so
+[19.575s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib/libcomplementary_filter.so" to ""
+[19.575s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node
+[19.575s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib/imu_complementary_filter/complementary_filter_node" to ""
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include/imu_complementary_filter
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter.h
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/include/imu_complementary_filter/complementary_filter_ros.h
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/launch
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/launch/complementary_filter.launch.py
+[19.575s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.sh
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/library_path.dsv
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.sh
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/ament_prefix_path.dsv
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.sh
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/environment/path.dsv
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.bash
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.sh
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.zsh
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/local_setup.dsv
+[19.576s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/ament_index/resource_index/packages/imu_complementary_filter
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
+[19.576s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake
+[19.577s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.577s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[19.577s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake
+[19.577s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+[19.577s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+[19.577s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/share/imu_complementary_filter/package.xml
+[19.578s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/imu_complementary_filter

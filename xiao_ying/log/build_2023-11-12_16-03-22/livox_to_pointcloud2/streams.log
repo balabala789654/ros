@@ -1,0 +1,34 @@
+[0.109s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2 -- -j12 -l12
+[0.150s] [ 50%] Built target livox_to_pointcloud2
+[0.172s] [100%] Built target livox_to_pointcloud2_node
+[0.180s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2 -- -j12 -l12
+[0.197s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2
+[0.203s] -- Install configuration: "RelWithDebInfo"
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_to_pointcloud2_ros2.hpp
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_converter.hpp
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.sh
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.dsv
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/package_run_dependencies/livox_to_pointcloud2
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/parent_prefix_path/livox_to_pointcloud2
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.sh
+[0.203s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.dsv
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.sh
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.dsv
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.bash
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.sh
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.zsh
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.dsv
+[0.204s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/packages/livox_to_pointcloud2
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/rclcpp_components/livox_to_pointcloud2
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config.cmake
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config-version.cmake
+[0.204s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.xml
+[0.205s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2

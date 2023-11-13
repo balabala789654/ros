@@ -1,0 +1,2 @@
+Invoking command in '/home/lx/ros2/ros/ws_fast/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/ws_fast/src/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/ws_fast/install/fdilink_ahrs
+Invoked command in '/home/lx/ros2/ros/ws_fast/build/fdilink_ahrs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/ws_fast/src/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/ws_fast/install/fdilink_ahrs

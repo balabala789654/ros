@@ -1,0 +1,74 @@
+[0.076s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lx/ros2/ros/xiao_ying/src/livox_to_pointcloud2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.355s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.718s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.724s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.733s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.837s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.932s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.975s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.039s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.052s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.235s] -- Found Threads: TRUE  
+[1.983s] -- Configuring done
+[2.007s] -- Generating done
+[2.007s] -- Build files have been written to: /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2
+[2.021s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lx/ros2/ros/xiao_ying/src/livox_to_pointcloud2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2
+[2.022s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2 -- -j12 -l12
+[2.081s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_to_pointcloud2.dir/src/livox_to_pointcloud2_ros2.cpp.o[0m
+[19.232s] [ 50%] [32m[1mLinking CXX shared library liblivox_to_pointcloud2.so[0m
+[19.445s] [ 50%] Built target livox_to_pointcloud2
+[19.462s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_to_pointcloud2_node.dir/src/livox_to_pointcloud2_ros2_node.cpp.o[0m
+[22.824s] [100%] [32m[1mLinking CXX executable livox_to_pointcloud2_node[0m
+[22.927s] [100%] Built target livox_to_pointcloud2_node
+[22.936s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2 -- -j12 -l12
+[22.956s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2
+[22.962s] -- Install configuration: "RelWithDebInfo"
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_to_pointcloud2_ros2.hpp
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_converter.hpp
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.sh
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.dsv
+[22.962s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so
+[22.975s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/liblivox_to_pointcloud2.so" to ""
+[22.975s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node
+[22.976s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib/livox_to_pointcloud2/livox_to_pointcloud2_node" to ""
+[22.976s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/package_run_dependencies/livox_to_pointcloud2
+[22.976s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/parent_prefix_path/livox_to_pointcloud2
+[22.976s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.sh
+[22.976s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/ament_prefix_path.dsv
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.sh
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/path.dsv
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.bash
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.sh
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.zsh
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/local_setup.dsv
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.dsv
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/packages/livox_to_pointcloud2
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/ament_index/resource_index/rclcpp_components/livox_to_pointcloud2
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/ament_cmake_export_libraries-extras.cmake
+[22.977s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config.cmake
+[22.978s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/cmake/livox_to_pointcloud2Config-version.cmake
+[22.978s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/package.xml
+[22.979s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2

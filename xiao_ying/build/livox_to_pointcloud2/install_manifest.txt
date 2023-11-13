@@ -1,3 +1,4 @@
+/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2//launch/livox_to_pointcloud2.launch.py
 /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_to_pointcloud2_ros2.hpp
 /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/include/livox_to_pointcloud2/livox_converter.hpp
 /home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/share/livox_to_pointcloud2/environment/library_path.sh

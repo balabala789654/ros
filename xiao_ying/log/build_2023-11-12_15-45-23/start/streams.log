@@ -1,0 +1,22 @@
+[0.125s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/start -- -j12 -l12
+[0.163s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/start -- -j12 -l12
+[0.203s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/start
+[0.211s] -- Install configuration: ""
+[0.211s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start//launch
+[0.211s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start//launch/start.launch.py
+[0.211s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/ament_index/resource_index/package_run_dependencies/start
+[0.211s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/ament_index/resource_index/parent_prefix_path/start
+[0.211s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/ament_prefix_path.sh
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/ament_prefix_path.dsv
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/path.sh
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/path.dsv
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.bash
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.sh
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.zsh
+[0.212s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.dsv
+[0.212s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/start/share/start/package.dsv
+[0.213s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/ament_index/resource_index/packages/start
+[0.213s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/cmake/startConfig.cmake
+[0.213s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/cmake/startConfig-version.cmake
+[0.214s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/package.xml
+[0.214s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/start

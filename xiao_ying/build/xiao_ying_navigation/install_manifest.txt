@@ -1,3 +1,8 @@
+/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/xiao_ying_navigation/launch/navigation.launch.py
+/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/xiao_ying_navigation/map/map.pgm
+/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/xiao_ying_navigation/map/map.yaml
+/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/xiao_ying_navigation/param/xiao_ying.yaml
+/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/xiao_ying_navigation/rviz/show.rviz
 /home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/ament_index/resource_index/package_run_dependencies/xiao_ying_navigation
 /home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/ament_index/resource_index/parent_prefix_path/xiao_ying_navigation
 /home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation/share/xiao_ying_navigation/environment/ament_prefix_path.sh

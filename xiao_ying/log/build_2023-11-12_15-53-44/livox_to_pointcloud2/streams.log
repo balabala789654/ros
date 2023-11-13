@@ -1,0 +1,27 @@
+[0.182s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': /usr/bin/cmake /home/lx/ros2/ros/xiao_ying/src/livox_to_pointcloud2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2
+[0.224s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.462s] -- Configuring done
+[0.463s] -- Generating done
+[0.463s] [33mCMake Warning:
+[0.463s]   Manually-specified variables were not used by the project:
+[0.463s] 
+[0.463s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.463s]     HUMBLE_ROS
+[0.463s]     ROS_EDITION
+[0.463s] 
+[0.464s] [0m
+[0.464s] -- Build files have been written to: /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2
+[0.466s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': /usr/bin/cmake /home/lx/ros2/ros/xiao_ying/src/livox_to_pointcloud2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2
+[0.468s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2': /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2 -- -j12 -l12
+[0.505s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2' returned '0': /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/livox_to_pointcloud2 -- -j12 -l12

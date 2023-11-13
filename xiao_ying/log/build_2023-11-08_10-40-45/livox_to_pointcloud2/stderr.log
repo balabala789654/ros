@@ -1,7 +1,0 @@
-[01m[K/home/lx/ros2/ros/xiao_ying/src/livox_to_pointcloud2/src/livox_to_pointcloud2_ros2.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Klivox_interfaces/msg/custom_msg.hpp: 没有那个文件或目录
-    9 | #include [01;31m[K<livox_interfaces/msg/custom_msg.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/livox_to_pointcloud2.dir/build.make:76：CMakeFiles/livox_to_pointcloud2.dir/src/livox_to_pointcloud2_ros2.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/livox_to_pointcloud2.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

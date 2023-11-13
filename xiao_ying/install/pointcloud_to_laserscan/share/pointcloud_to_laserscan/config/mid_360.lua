@@ -20,9 +20,9 @@ include "trajectory_builder.lua"
 options = {
   map_builder = MAP_BUILDER,
   trajectory_builder = TRAJECTORY_BUILDER,
-  map_frame = "camera_init",
-  tracking_frame = "body",
-  published_frame = "body",
+  map_frame = "map",
+  tracking_frame = "base_link",
+  published_frame = "base_link",
   odom_frame = "odom",
   provide_odom_frame = true,
   publish_frame_projected_to_2d = true,

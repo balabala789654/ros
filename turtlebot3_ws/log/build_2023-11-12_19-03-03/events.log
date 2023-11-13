@@ -1,0 +1,27 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.000462] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.000480] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.000496] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.000510] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.000525] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.000546] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_node', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_node')])}
+[0.000639] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_cartographer', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_example', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_example'), ('turtlebot3_navigation2', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_navigation2'), ('turtlebot3_node', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/lx/ros2/ros/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.000675] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.048419] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.094524] (turtlebot3_cartographer) JobStarted: {'identifier': 'turtlebot3_cartographer'}
+[0.099672] (-) TimerEvent: {}
+[0.141025] (turtlebot3_example) JobStarted: {'identifier': 'turtlebot3_example'}
+[0.199755] (-) TimerEvent: {}
+[0.201245] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.233968] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 0}
+[0.234976] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.294970] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 'SIGINT'}
+[0.295711] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 'SIGINT'}
+[0.295878] (turtlebot3_cartographer) JobEnded: {'identifier': 'turtlebot3_cartographer', 'rc': 'SIGINT'}
+[0.296032] (turtlebot3_example) JobEnded: {'identifier': 'turtlebot3_example', 'rc': 'SIGINT'}
+[0.296182] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 'SIGINT'}
+[0.299856] (-) TimerEvent: {}
+[0.306367] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[0.306429] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[0.306448] (-) EventReactorShutdown: {}

@@ -47,12 +47,12 @@ def generate_launch_description():
             arguments=[
                 '--x', '0', '--y', '0', '--z', '0',
                 '--qx', '0', '--qy', '0', '--qz', '0', '--qw', '1',
-                '--frame-id', 'body', '--child-frame-id', 'livox_frame'
+                '--frame-id', 'base_link', '--child-frame-id', 'livox_frame'
             ]
         ),
         Node(
             package='pointcloud_to_laserscan', executable='pointcloud_to_laserscan_node',
-            remappings=[('cloud_in', '/livox/points'),
+            remappings=[('cloud_in', '/segmentation/obstacle'),
                         ('scan', '/scan')],
             parameters=[{
                 'target_frame_': 'livox_frame',
@@ -69,21 +69,5 @@ def generate_launch_description():
                 'inf_epsilon': 1.0
             }],
             name='pointcloud_to_laserscan'
-        ),
-        cartographer_node,
-        DeclareLaunchArgument(
-            'resolution',
-            default_value=resolution,
-            description='Resolution of a grid cell in the published occupancy grid'),
-
-        DeclareLaunchArgument(
-            'publish_period_sec',
-            default_value=publish_period_sec,
-            description='OccupancyGrid publishing period'),
-            
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/occupancy_grid.launch.py']),
-            launch_arguments={'use_sim_time': use_sim_time, 'resolution': resolution,
-                              'publish_period_sec': publish_period_sec}.items(),
-        )        
+        )
     ])

@@ -1,0 +1,35 @@
+[0.044s] Invoking command in '/home/lx/ros2/ros/ws_fast/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/ws_fast/src/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/ws_fast/install/fdilink_ahrs
+[0.053s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.157s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.180s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.182s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.186s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.482s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.482s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.588s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[0.594s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.878s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[0.878s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[0.878s]   asked CMake to find a package configuration file provided by "serial", but
+[0.878s]   CMake did not find one.
+[0.878s] 
+[0.878s]   Could not find a package configuration file provided by "serial" with any
+[0.878s]   of the following names:
+[0.878s] 
+[0.878s]     serialConfig.cmake
+[0.878s]     serial-config.cmake
+[0.878s] 
+[0.878s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[0.878s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[0.878s]   provides a separate development package or SDK, be sure it has been
+[0.878s]   installed.
+[0.878s] 
+[0.878s] [0m
+[0.878s] -- Configuring incomplete, errors occurred!
+[0.879s] See also "/home/lx/ros2/ros/ws_fast/build/fdilink_ahrs/CMakeFiles/CMakeOutput.log".
+[0.883s] Invoked command in '/home/lx/ros2/ros/ws_fast/build/fdilink_ahrs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/ws_fast/src/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/ws_fast/install/fdilink_ahrs

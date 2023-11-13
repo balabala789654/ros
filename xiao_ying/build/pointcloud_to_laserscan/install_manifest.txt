@@ -4,6 +4,7 @@
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/occupancy_grid.launch.py
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_lasser_cartographer.launch.py
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
@@ -15,6 +16,7 @@
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/occupancy_grid.launch.py
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_lasser_cartographer.launch.py
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
 /home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh

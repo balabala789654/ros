@@ -37,6 +37,9 @@ AMENT_TEST_RESULTS_DIR:PATH=/home/lx/ros2/ros/xiao_ying/build/livox_to_pointclou
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
+//No help, variable specified on the command line.
+CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -246,6 +249,9 @@ FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
 
+//No help, variable specified on the command line.
+HUMBLE_ROS:UNINITIALIZED=humble
+
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
@@ -260,6 +266,9 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//No help, variable specified on the command line.
+ROS_EDITION:UNINITIALIZED=ROS2
 
 //Name of the computer/site where compile is being run
 SITE:STRING=lx-Dell-G15-5510

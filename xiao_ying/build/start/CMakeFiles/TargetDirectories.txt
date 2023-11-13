@@ -1,0 +1,9 @@
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/uninstall.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/start_uninstall.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/test.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/edit_cache.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/rebuild_cache.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/list_install_components.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/install.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/install/local.dir
+/home/lx/ros2/ros/xiao_ying/build/start/CMakeFiles/install/strip.dir

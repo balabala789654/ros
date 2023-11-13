@@ -1,0 +1,4 @@
+Invoking command in '/home/lx/ros2/ros/xiao_ying/build/start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/start -- -j12 -l12
+Invoked command in '/home/lx/ros2/ros/xiao_ying/build/start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/start -- -j12 -l12
+Invoking command in '/home/lx/ros2/ros/xiao_ying/build/start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/start
+Invoked command in '/home/lx/ros2/ros/xiao_ying/build/start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/start

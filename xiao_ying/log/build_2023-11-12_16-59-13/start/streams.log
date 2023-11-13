@@ -1,0 +1,22 @@
+[0.088s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/start': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/start -- -j12 -l12
+[0.151s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/start' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/start -- -j12 -l12
+[0.217s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/start': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/start
+[0.234s] -- Install configuration: ""
+[0.234s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start//launch
+[0.234s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/start/share/start//launch/start.launch.py
+[0.234s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/ament_index/resource_index/package_run_dependencies/start
+[0.234s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/ament_index/resource_index/parent_prefix_path/start
+[0.234s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/path.sh
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/environment/path.dsv
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.bash
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.sh
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.zsh
+[0.235s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/local_setup.dsv
+[0.236s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/start/share/start/package.dsv
+[0.236s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/ament_index/resource_index/packages/start
+[0.236s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/cmake/startConfig.cmake
+[0.236s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/cmake/startConfig-version.cmake
+[0.236s] -- Up-to-date: /home/lx/ros2/ros/xiao_ying/install/start/share/start/package.xml
+[0.238s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/start' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/start

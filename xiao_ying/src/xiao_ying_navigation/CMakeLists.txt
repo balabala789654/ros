@@ -23,7 +23,7 @@ if(BUILD_TESTING)
 endif()
 
 
-install(DIRECTORY launch map param
+install(DIRECTORY launch map param rviz 
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()

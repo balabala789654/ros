@@ -1,0 +1,115 @@
+[0.061s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lx/ros2/ros/xiao_ying/src/linefit_ground_segmentation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.386s] -- Detecting CXX compile features
+[0.387s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.562s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.788s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.792s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.800s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.903s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.906s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.003s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.047s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Looking for pthread.h
+[1.191s] -- Looking for pthread.h - found
+[1.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.253s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.254s] -- Found Threads: TRUE  
+[2.346s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.348s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.348s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.380s] -- Checking for module 'eigen3'
+[2.392s] --   Found eigen3, version 3.4.0
+[2.421s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.421s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.457s] -- Checking for module 'flann'
+[2.469s] --   Found flann, version 1.9.1
+[2.504s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.504s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.424s] -- Checking for module 'libusb-1.0'
+[3.441s] --   Found libusb-1.0, version 1.0.25
+[3.475s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.476s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.530s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.658s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.664s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.670s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.792s] -- Found Qhull version 8.0.2
+[3.914s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.037s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.038s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.039s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.041s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.042s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.043s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.043s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.044s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.045s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.046s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.047s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.048s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.049s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.050s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.051s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.052s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.053s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.054s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.055s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.057s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.057s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.058s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.058s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.059s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.060s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.351s] -- Configuring done
+[4.415s] -- Generating done
+[4.420s] -- Build files have been written to: /home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros
+[4.441s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lx/ros2/ros/xiao_ying/src/linefit_ground_segmentation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros
+[4.443s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros -- -j12 -l12
+[4.484s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o[0m
+[4.484s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o[0m
+[16.541s] [ 75%] [32m[1mLinking CXX executable ground_segmentation_test_node[0m
+[17.384s] [ 75%] Built target ground_segmentation_test_node
+[24.627s] [100%] [32m[1mLinking CXX executable ground_segmentation_node[0m
+[25.258s] [100%] Built target ground_segmentation_node
+[25.268s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros -- -j12 -l12
+[25.292s] Invoking command in '/home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros
+[25.298s] -- Install configuration: ""
+[25.298s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node
+[25.299s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node" to ""
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node
+[25.300s] -- Set runtime path of "/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node" to ""
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/test.launch.py
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation.launch.py
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation_params.yaml
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.sh
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.dsv
+[25.300s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.sh
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.dsv
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.bash
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.sh
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.zsh
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.dsv
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig.cmake
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig-version.cmake
+[25.301s] -- Installing: /home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.xml
+[25.303s] Invoked command in '/home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros' returned '0': CMAKE_PREFIX_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation:/home/lx/ros2/ros/xiao_ying/install/xiao_ying_navigation:/home/lx/ros2/ros/xiao_ying/install/start:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2:/home/lx/ros2/ros/xiao_ying/install/fast_lio:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2:/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation_ros:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/xiao_ying/install/linefit_ground_segmentation/lib:/home/lx/ros2/ros/xiao_ying/install/pointcloud_to_laserscan/lib:/home/lx/ros2/ros/xiao_ying/install/livox_to_pointcloud2/lib:/home/lx/ros2/ros/xiao_ying/install/fast_lio/lib:/home/lx/ros2/ros/xiao_ying/install/livox_ros_driver2/lib:/home/lx/ros2/ros/xiao_ying/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lx/ros2/ros/xiao_ying/build/linefit_ground_segmentation_ros

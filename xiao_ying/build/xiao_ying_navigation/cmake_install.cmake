@@ -43,6 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xiao_ying_navigation" TYPE DIRECTORY FILES
+    "/home/lx/ros2/ros/xiao_ying/src/xiao_ying_navigation/launch"
+    "/home/lx/ros2/ros/xiao_ying/src/xiao_ying_navigation/map"
+    "/home/lx/ros2/ros/xiao_ying/src/xiao_ying_navigation/param"
+    "/home/lx/ros2/ros/xiao_ying/src/xiao_ying_navigation/rviz"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/lx/ros2/ros/xiao_ying/build/xiao_ying_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xiao_ying_navigation")
 endif()
 
