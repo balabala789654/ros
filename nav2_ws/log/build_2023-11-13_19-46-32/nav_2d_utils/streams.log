@@ -1,0 +1,120 @@
+[0.244s] Invoking command in '/home/lx/ros2/ros/nav2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils
+[0.293s] -- The C compiler identification is GNU 11.4.0
+[0.338s] -- The CXX compiler identification is GNU 11.4.0
+[0.344s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.400s] -- Detecting C compile features
+[0.401s] -- Detecting C compile features - done
+[0.403s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.622s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.700s] -- Found nav2_common: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.702s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.733s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.737s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.744s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.876s] -- Found nav_2d_msgs: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[0.943s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.045s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.127s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.130s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.224s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.260s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.311s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.319s] -- Looking for pthread.h
+[1.376s] -- Looking for pthread.h - found
+[1.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.432s] -- Found Threads: TRUE  
+[1.549s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[1.563s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.574s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.575s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.575s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.894s] -- Found nav2_msgs: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.050s] -- Found nav2_util: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.255s] -- Setting build type to Release as none was specified.
+[3.319s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.395s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.405s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.406s] -- Configured cppcheck include dirs: /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+[3.406s] -- Configured cppcheck exclude dirs and/or files: 
+[3.407s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.407s] -- Configured cpplint exclude dirs and/or files: 
+[3.408s] -- Added test 'lint_cmake' to check CMake code style
+[3.409s] -- Added test 'uncrustify' to check C / C++ code style
+[3.409s] -- Configured uncrustify additional arguments: 
+[3.409s] -- Added test 'xmllint' to check XML markup files
+[3.411s] -- Configuring done
+[3.513s] -- Generating done
+[3.516s] -- Build files have been written to: /home/lx/ros2/ros/nav2_ws/build/nav_2d_utils
+[3.531s] Invoked command in '/home/lx/ros2/ros/nav2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils
+[3.533s] Invoking command in '/home/lx/ros2/ros/nav2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/nav2_ws/build/nav_2d_utils -- -j12 -l12
+[3.590s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.591s] [ 12%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[3.595s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.595s] [ 25%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[4.657s] [ 31%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[4.859s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.900s] [ 37%] Built target gtest_main
+[8.794s] [ 43%] [32m[1mLinking CXX shared library libconversions.so[0m
+[8.974s] [ 43%] Built target path_ops
+[9.221s] [ 43%] Built target conversions
+[9.256s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_help.dir/src/tf_help.cpp.o[0m
+[14.197s] [ 56%] [32m[1mLinking CXX shared library libtf_help.so[0m
+[14.773s] [ 56%] Built target tf_help
+[15.463s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.512s] [ 62%] Built target gtest
+[15.560s] [ 68%] [32mBuilding CXX object test/CMakeFiles/2d_utils_tests.dir/2d_utils_test.cpp.o[0m
+[15.601s] [ 75%] [32mBuilding CXX object test/CMakeFiles/path_ops_tests.dir/path_ops_test.cpp.o[0m
+[15.629s] [ 81%] [32mBuilding CXX object test/CMakeFiles/tf_help_tests.dir/tf_help_test.cpp.o[0m
+[18.142s] [ 87%] [32m[1mLinking CXX executable path_ops_tests[0m
+[19.121s] [ 87%] Built target path_ops_tests
+[23.068s] [ 93%] [32m[1mLinking CXX executable tf_help_tests[0m
+[23.324s] [100%] [32m[1mLinking CXX executable 2d_utils_tests[0m
+[23.579s] [100%] Built target tf_help_tests
+[23.755s] [100%] Built target 2d_utils_tests
+[23.771s] Invoked command in '/home/lx/ros2/ros/nav2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/nav2_ws/build/nav_2d_utils -- -j12 -l12
+[23.816s] Invoking command in '/home/lx/ros2/ros/nav2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/nav2_ws/build/nav_2d_utils
+[23.832s] -- Install configuration: "Release"
+[23.832s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib/libconversions.so
+[23.832s] -- Set runtime path of "/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib/libconversions.so" to ""
+[23.832s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib/libpath_ops.so
+[23.833s] -- Set runtime path of "/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib/libpath_ops.so" to ""
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib/libtf_help.so
+[23.833s] -- Set runtime path of "/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib/libtf_help.so" to ""
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include/
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include//nav_2d_utils
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[23.833s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[23.834s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[23.835s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[23.835s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[23.835s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[23.835s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.835s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[23.836s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.836s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[23.837s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[23.837s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[23.852s] Invoked command in '/home/lx/ros2/ros/nav2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/nav2_ws/build/nav_2d_utils

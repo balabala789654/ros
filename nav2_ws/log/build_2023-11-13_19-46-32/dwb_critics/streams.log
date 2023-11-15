@@ -1,0 +1,133 @@
+[0.291s] Invoking command in '/home/lx/ros2/ros/nav2_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core/lib:/home/lx/ros2/ros/nav2_ws/install/costmap_queue/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/nav2_ws/install/dwb_critics
+[3.658s] -- The C compiler identification is GNU 11.4.0
+[3.658s] -- The CXX compiler identification is GNU 11.4.0
+[3.658s] -- Detecting C compiler ABI info
+[3.659s] -- Detecting C compiler ABI info - done
+[3.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.659s] -- Detecting C compile features
+[3.659s] -- Detecting C compile features - done
+[3.659s] -- Detecting CXX compiler ABI info
+[3.659s] -- Detecting CXX compiler ABI info - done
+[3.659s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.659s] -- Detecting CXX compile features
+[3.659s] -- Detecting CXX compile features - done
+[3.659s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.659s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.659s] -- Found nav2_common: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[3.660s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[3.660s] -- Found nav2_costmap_2d: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[3.660s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.660s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.660s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.660s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.660s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.660s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.660s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.660s] -- Looking for pthread.h
+[3.661s] -- Looking for pthread.h - found
+[3.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.661s] -- Found Threads: TRUE  
+[3.661s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.661s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.600s] -- Found costmap_queue: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/costmap_queue/share/costmap_queue/cmake)
+[4.601s] -- Found dwb_core: 1.1.12 (/home/lx/ros2/ros/nav2_ws/install/dwb_core/share/dwb_core/cmake)
+[9.783s] -- Setting build type to Release as none was specified.
+[25.774s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[26.107s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[26.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[26.168s] -- Configured cppcheck include dirs: /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_critics/include
+[26.168s] -- Configured cppcheck exclude dirs and/or files: 
+[26.171s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[26.171s] -- Configured cpplint exclude dirs and/or files: 
+[26.173s] -- Added test 'lint_cmake' to check CMake code style
+[26.188s] -- Added test 'uncrustify' to check C / C++ code style
+[26.188s] -- Configured uncrustify additional arguments: 
+[26.189s] -- Added test 'xmllint' to check XML markup files
+[26.194s] -- Configuring done
+[26.900s] -- Generating done
+[26.908s] -- Build files have been written to: /home/lx/ros2/ros/nav2_ws/build/dwb_critics
+[26.980s] Invoked command in '/home/lx/ros2/ros/nav2_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core/lib:/home/lx/ros2/ros/nav2_ws/install/costmap_queue/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/nav2_ws/install/dwb_critics
+[26.989s] Invoking command in '/home/lx/ros2/ros/nav2_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core/lib:/home/lx/ros2/ros/nav2_ws/install/costmap_queue/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/nav2_ws/build/dwb_critics -- -j12 -l12
+[48.359s] [  3%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/alignment_util.cpp.o[0m
+[48.359s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/prefer_forward.cpp.o[0m
+[48.359s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/rotate_to_goal.cpp.o[0m
+[48.359s] [ 14%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/twirling.cpp.o[0m
+[53.786s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/oscillation.cpp.o[0m
+[61.635s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/obstacle_footprint.cpp.o[0m
+[69.375s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/base_obstacle.cpp.o[0m
+[76.837s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_align.cpp.o[0m
+[87.397s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_align.cpp.o[0m
+[96.435s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_dist.cpp.o[0m
+[102.608s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_dist.cpp.o[0m
+[107.730s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/map_grid.cpp.o[0m
+[114.989s] [ 48%] [32m[1mLinking CXX shared library libdwb_critics.so[0m
+[115.468s] [ 48%] Built target dwb_critics
+[115.501s] [ 55%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[115.501s] [ 55%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[117.107s] [ 59%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[117.153s] [ 59%] Built target gtest_main
+[129.362s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[129.534s] [ 62%] Built target gtest
+[129.634s] [ 66%] [32mBuilding CXX object test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o[0m
+[142.257s] [ 70%] [32m[1mLinking CXX executable prefer_forward_tests[0m
+[142.581s] [ 70%] Built target prefer_forward_tests
+[142.602s] [ 74%] [32mBuilding CXX object test/CMakeFiles/twirling_tests.dir/twirling_test.cpp.o[0m
+[149.772s] [ 77%] [32m[1mLinking CXX executable twirling_tests[0m
+[150.178s] [ 77%] Built target twirling_tests
+[150.200s] [ 81%] [32mBuilding CXX object test/CMakeFiles/alignment_util_tests.dir/alignment_util_test.cpp.o[0m
+[154.784s] [ 85%] [32m[1mLinking CXX executable alignment_util_tests[0m
+[155.226s] [ 85%] Built target alignment_util_tests
+[155.340s] [ 88%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[155.378s] [ 92%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[169.368s] [ 96%] [32m[1mLinking CXX executable base_obstacle_tests[0m
+[169.952s] [ 96%] Built target base_obstacle_tests
+[170.479s] [100%] [32m[1mLinking CXX executable obstacle_footprint_tests[0m
+[171.052s] [100%] Built target obstacle_footprint_tests
+[171.069s] Invoked command in '/home/lx/ros2/ros/nav2_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core/lib:/home/lx/ros2/ros/nav2_ws/install/costmap_queue/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/nav2_ws/build/dwb_critics -- -j12 -l12
+[171.200s] Invoking command in '/home/lx/ros2/ros/nav2_ws/build/dwb_critics': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core/lib:/home/lx/ros2/ros/nav2_ws/install/costmap_queue/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/nav2_ws/build/dwb_critics
+[171.210s] -- Install configuration: "Release"
+[171.210s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/lib/libdwb_critics.so
+[171.211s] -- Set runtime path of "/home/lx/ros2/ros/nav2_ws/install/dwb_critics/lib/libdwb_critics.so" to ""
+[171.211s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include/
+[171.211s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics
+[171.211s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/path_dist.hpp
+[171.211s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/goal_align.hpp
+[171.212s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/obstacle_footprint.hpp
+[171.212s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/rotate_to_goal.hpp
+[171.212s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/goal_dist.hpp
+[171.212s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/base_obstacle.hpp
+[171.212s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/alignment_util.hpp
+[171.212s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/oscillation.hpp
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/path_align.hpp
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/line_iterator.hpp
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/twirling.hpp
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/prefer_forward.hpp
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/include//dwb_critics/map_grid.hpp
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/environment/library_path.sh
+[171.213s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/environment/library_path.dsv
+[171.214s] -- Up-to-date: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/default_critics.xml
+[171.214s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/ament_index/resource_index/package_run_dependencies/dwb_critics
+[171.214s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/ament_index/resource_index/parent_prefix_path/dwb_critics
+[171.214s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.sh
+[171.214s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.dsv
+[171.215s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/environment/path.sh
+[171.215s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/environment/path.dsv
+[171.215s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.bash
+[171.215s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.sh
+[171.216s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.zsh
+[171.216s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/local_setup.dsv
+[171.216s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/package.dsv
+[171.217s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/ament_index/resource_index/packages/dwb_critics
+[171.217s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_critics
+[171.218s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+[171.218s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_libraries-extras.cmake
+[171.218s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+[171.219s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig.cmake
+[171.219s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig-version.cmake
+[171.219s] -- Installing: /home/lx/ros2/ros/nav2_ws/install/dwb_critics/share/dwb_critics/package.xml
+[171.223s] Invoked command in '/home/lx/ros2/ros/nav2_ws/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core:/home/lx/ros2/ros/nav2_ws/install/nav2_core:/home/lx/ros2/ros/nav2_ws/install/costmap_queue:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils:/home/lx/ros2/ros/nav2_ws/install/nav2_util:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs:/home/lx/ros2/ros/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/nav2_ws/install/dwb_core/lib:/home/lx/ros2/ros/nav2_ws/install/costmap_queue/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_costmap_2d/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_utils/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_util/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_voxel_grid/lib:/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/lib:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lx/ros2/ros/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/nav2_ws/build/dwb_critics

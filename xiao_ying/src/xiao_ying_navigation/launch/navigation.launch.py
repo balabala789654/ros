@@ -14,7 +14,7 @@ def generate_launch_description():
     nav2_bringup_dir = get_package_share_directory('nav2_bringup')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
-    map_dir = LaunchConfiguration('map',default=os.path.join(xiao_ying_navigation,'map','fishbot_map.yaml'))
+    map_dir = LaunchConfiguration('map',default=os.path.join(xiao_ying_navigation,'map','map.yaml'))
     param_dir = LaunchConfiguration('params_file', default=os.path.join(xiao_ying_navigation, 'param', 'xiao_ying.yaml'))
     rviz_nav2_launch_file_dir = os.path.join(nav2_bringup_dir, 'rviz', 'nav2_default_view.rviz')
 

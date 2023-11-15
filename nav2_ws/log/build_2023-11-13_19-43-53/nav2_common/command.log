@@ -1,0 +1,6 @@
+Invoking command in '/home/lx/ros2/ros/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/nav2_ws/install/nav2_common
+Invoked command in '/home/lx/ros2/ros/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/nav2_ws/install/nav2_common
+Invoking command in '/home/lx/ros2/ros/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/nav2_ws/build/nav2_common -- -j12 -l12
+Invoked command in '/home/lx/ros2/ros/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/nav2_ws/build/nav2_common -- -j12 -l12
+Invoking command in '/home/lx/ros2/ros/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/nav2_ws/build/nav2_common
+Invoked command in '/home/lx/ros2/ros/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/nav2_ws/build/nav2_common
