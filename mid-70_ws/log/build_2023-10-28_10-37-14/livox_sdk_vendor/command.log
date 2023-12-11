@@ -1,6 +1,0 @@
-Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_sdk_vendor -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor
-Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_sdk_vendor -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor
-Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor -- -j12 -l12
-Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor -- -j12 -l12
-Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor
-Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-70_ws/build/livox_sdk_vendor

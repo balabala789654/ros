@@ -1,0 +1,172 @@
+[0.089s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_interfaces -- -j12 -l12
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_generator_c[0m
+[0.127s] [  2%] Built target livox_interfaces__cpp
+[0.130s] [ 12%] Built target livox_interfaces__rosidl_generator_c
+[0.135s] [ 12%] Built target ament_cmake_python_copy_livox_interfaces
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_cpp[0m
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_c[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_introspection_c[0m
+[0.148s] [ 23%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.148s] [ 33%] Built target livox_interfaces__rosidl_typesupport_introspection_cpp
+[0.149s] [ 43%] Built target livox_interfaces__rosidl_typesupport_cpp
+[0.151s] [ 53%] Built target livox_interfaces__rosidl_typesupport_c
+[0.151s] [ 64%] Built target livox_interfaces__rosidl_typesupport_introspection_c
+[0.152s] [ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c
+[0.166s] [ 74%] Built target livox_interfaces
+[0.181s] [ 76%] Built target livox_interfaces__py
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_generator_py[0m
+[0.201s] [ 84%] Built target livox_interfaces__rosidl_generator_py
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_c__pyext[0m
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.218s] [100%] Built target livox_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.218s] [100%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.219s] [100%] Built target livox_interfaces__rosidl_typesupport_c__pyext
+[0.348s] running egg_info
+[0.348s] writing livox_interfaces.egg-info/PKG-INFO
+[0.348s] writing dependency_links to livox_interfaces.egg-info/dependency_links.txt
+[0.348s] writing top-level names to livox_interfaces.egg-info/top_level.txt
+[0.350s] reading manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[0.351s] writing manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[0.368s] [100%] Built target ament_cmake_python_build_livox_interfaces_egg
+[0.376s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_interfaces -- -j12 -l12
+[0.419s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-70_ws/build/livox_interfaces
+[0.425s] -- Install configuration: ""
+[0.425s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces
+[0.425s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__struct.h
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__functions.c
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__struct.h
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.h
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.h
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__functions.h
+[0.426s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__functions.c
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__functions.h
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_msg.h
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_point.h
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/library_path.sh
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/library_path.dsv
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[0.427s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__builder.hpp
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__traits.hpp
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__struct.hpp
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__struct.hpp
+[0.428s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__traits.hpp
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__builder.hpp
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_msg.hpp
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_point.hpp
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/dds_fastrtps
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces
+[0.429s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.c
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.c
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg
+[0.430s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.cpp
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.cpp
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.sh
+[0.431s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.dsv
+[0.432s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info
+[0.432s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[0.432s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[0.432s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.432s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.432s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces
+[0.432s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point.py
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point_s.c
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg_s.c
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg.py
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/__init__.py
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/liblivox_interfaces__rosidl_generator_py.so
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.433s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/__init__.py
+[0.459s] Listing '/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces'...
+[0.459s] Listing '/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg'...
+[0.462s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.462s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.462s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_py.so
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.idl
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.idl
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.msg
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.msg
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/ament_index/resource_index/package_run_dependencies/livox_interfaces
+[0.463s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/ament_index/resource_index/parent_prefix_path/livox_interfaces
+[0.463s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.sh
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.dsv
+[0.464s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/path.sh
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/environment/path.dsv
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/local_setup.bash
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/local_setup.sh
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/local_setup.zsh
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/local_setup.dsv
+[0.464s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/package.dsv
+[0.464s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/ament_index/resource_index/packages/livox_interfaces
+[0.465s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cExport.cmake
+[0.465s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.465s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.465s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.465s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cppExport.cmake
+[0.466s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.466s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.466s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.466s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.466s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_pyExport.cmake
+[0.467s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig-version.cmake
+[0.468s] -- Up-to-date: /home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/share/livox_interfaces/package.xml
+[0.470s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lx/ros2/ros/mid-70_ws/build/livox_interfaces

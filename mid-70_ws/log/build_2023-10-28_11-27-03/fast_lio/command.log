@@ -1,1 +1,0 @@
-Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/fast_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/FAST_LIO -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/fast_lio

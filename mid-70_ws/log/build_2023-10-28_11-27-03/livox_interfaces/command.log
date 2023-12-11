@@ -1,2 +1,0 @@
-Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_interfaces -- -j12 -l12
-Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_interfaces -- -j12 -l12

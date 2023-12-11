@@ -1,0 +1,216 @@
+[0.047s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.249s] -- livox_ros2_driver version: 0.0.1
+[0.250s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.527s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.693s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.714s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.759s] -- Looking for pthread.h
+[0.809s] -- Looking for pthread.h - found
+[0.809s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.861s] -- Found Threads: TRUE  
+[1.356s] -- Checking for module 'eigen3'
+[1.364s] --   Found eigen3, version 3.4.0
+[1.383s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.383s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.398s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.410s] -- Checking for module 'flann'
+[1.418s] --   Found flann, version 1.9.1
+[1.442s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.442s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.471s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.475s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.575s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.575s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.577s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.583s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.596s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.604s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.661s] -- Found X11: /usr/include   
+[1.661s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.712s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.712s] -- Looking for gethostbyname
+[1.760s] -- Looking for gethostbyname - found
+[1.760s] -- Looking for connect
+[1.808s] -- Looking for connect - found
+[1.808s] -- Looking for remove
+[1.856s] -- Looking for remove - found
+[1.856s] -- Looking for shmat
+[1.903s] -- Looking for shmat - found
+[1.903s] -- Looking for IceConnectionNumber in ICE
+[1.952s] -- Looking for IceConnectionNumber in ICE - found
+[2.003s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.005s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.006s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.007s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.018s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.022s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.024s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.028s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.082s] -- Checking for module 'libusb-1.0'
+[2.090s] --   Found libusb-1.0, version 1.0.25
+[2.112s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.113s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.113s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.148s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.148s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.149s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.262s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.267s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.271s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.380s] -- Found Qhull version 8.0.2
+[2.490s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.598s] -- looking for PCL_COMMON
+[2.599s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.599s] -- looking for PCL_KDTREE
+[2.599s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.599s] -- looking for PCL_OCTREE
+[2.600s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.600s] -- looking for PCL_SEARCH
+[2.601s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.601s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.601s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.602s] -- looking for PCL_FILTERS
+[2.602s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.602s] -- looking for PCL_2D
+[2.602s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.603s] -- looking for PCL_GEOMETRY
+[2.603s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.603s] -- looking for PCL_IO
+[2.603s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.604s] -- looking for PCL_FEATURES
+[2.604s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.605s] -- looking for PCL_ML
+[2.605s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.605s] -- looking for PCL_SEGMENTATION
+[2.606s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.606s] -- looking for PCL_VISUALIZATION
+[2.607s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.607s] -- looking for PCL_SURFACE
+[2.607s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.608s] -- looking for PCL_REGISTRATION
+[2.608s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.609s] -- looking for PCL_KEYPOINTS
+[2.609s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.609s] -- looking for PCL_TRACKING
+[2.610s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.610s] -- looking for PCL_RECOGNITION
+[2.611s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.611s] -- looking for PCL_STEREO
+[2.611s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.612s] -- looking for PCL_APPS
+[2.612s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.613s] -- looking for PCL_IN_HAND_SCANNER
+[2.613s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.613s] -- looking for PCL_MODELER
+[2.613s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.613s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.614s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.614s] -- looking for PCL_OUTOFCORE
+[2.614s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.614s] -- looking for PCL_PEOPLE
+[2.615s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.616s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.617s] -- Found livox_sdk: /usr/local/include  
+[2.621s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.621s] -- Checking for module 'apr-1'
+[2.630s] --   Found apr-1, version 1.7.0
+[2.652s] [0m/usr/include/apr-1.0[0m
+[2.652s] [0mapr-1[0m
+[2.716s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.732s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.738s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.738s] -- Configured cppcheck include dirs: /home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/common;/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/common/rapidjson;/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/comon/rapdidxml;/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/common/comm;/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync;/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/timesync/user_uart;/home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver
+[2.738s] -- Configured cppcheck exclude dirs and/or files: 
+[2.741s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.741s] -- Configured cpplint exclude dirs and/or files: 
+[2.741s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.742s] -- Added test 'lint_cmake' to check CMake code style
+[2.743s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.745s] -- Added test 'uncrustify' to check C / C++ code style
+[2.746s] -- Configured uncrustify additional arguments: 
+[2.746s] -- Added test 'xmllint' to check XML markup files
+[2.748s] -- Configuring done
+[2.776s] -- Generating done
+[2.778s] -- Build files have been written to: /home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver
+[2.792s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lx/ros2/ros/mid-70_ws/src/livox_ros2_driver/livox_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver
+[2.793s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver -- -j12 -l12
+[2.834s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/ldq.cpp.o[0m
+[2.834s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver_node.dir/rclcpp_components/node_main_livox_ros2_driver_node.cpp.o[0m
+[2.834s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lvx_file.cpp.o[0m
+[2.834s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lvx.cpp.o[0m
+[2.835s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds.cpp.o[0m
+[2.835s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lidar.cpp.o[0m
+[2.835s] [ 62%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_hub.cpp.o[0m
+[2.835s] [ 62%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/livox_ros2_driver.cpp.o[0m
+[2.835s] [ 62%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/comm_protocol.cpp.o[0m
+[2.835s] [ 62%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/user_uart/user_uart.cpp.o[0m
+[2.835s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o[0m
+[2.836s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o[0m
+[2.894s] [ 81%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/sdk_protocol.cpp.o[0m
+[2.927s] [ 87%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/gps_protocol.cpp.o[0m
+[5.836s] [ 93%] [32m[1mLinking CXX executable livox_ros2_driver_node[0m
+[5.945s] [ 93%] Built target livox_ros2_driver_node
+[9.622s] [100%] [32m[1mLinking CXX shared library liblivox_ros2_driver.so[0m
+[10.399s] [100%] Built target livox_ros2_driver
+[10.406s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver -- -j12 -l12
+[10.441s] Invoking command in '/home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver
+[10.447s] -- Install configuration: ""
+[10.447s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node
+[10.447s] -- Set runtime path of "/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node" to ""
+[10.448s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh
+[10.448s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv
+[10.448s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/lib/liblivox_ros2_driver.so
+[10.452s] -- Set runtime path of "/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/lib/liblivox_ros2_driver.so" to ""
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/config
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
+[10.453s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv
+[10.454s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake
+[10.455s] -- Installing: /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.xml
+[10.457s] Invoked command in '/home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_sdk_vendor:/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lx/ros2/ros/mid-70_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lx/ros2/ros/mid-70_ws/build/livox_ros2_driver

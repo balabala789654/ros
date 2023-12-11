@@ -1,1 +1,0 @@
-/home/lx/ros2/ros/mid-70_ws/build/fast_lio/rosidl_generator_c/fast_lio/msg/pose6_d.h

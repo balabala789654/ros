@@ -13,7 +13,6 @@
 /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
 /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
 /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
-/home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_composition_launch.py
 /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
 /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
 /home/lx/ros2/ros/mid-70_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh

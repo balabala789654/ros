@@ -1,4 +1,0 @@
-[0m** WARNING ** io features related to pcap will be disabled[0m
-gmake[2]: *** 没有规则可制作目标“/usr/local/lib/liblivox_sdk_static.a”，由“liblivox_ros2_driver.so” 需求。 停止。
-gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/livox_ros2_driver.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2
